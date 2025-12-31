@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="058f7a53-b23d-3d19-084e-aa7d66c45d25"/>
+            <attribute id="Name" type="LSString" value="Flash_Kunai"/>
+            <attribute id="UUID" type="LSString" value="98f0aa9d-87d5-73d8-568f-d1444002f63b"/>
+            <attribute id="UpdatedDependencies" type="bool" value="true"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>
