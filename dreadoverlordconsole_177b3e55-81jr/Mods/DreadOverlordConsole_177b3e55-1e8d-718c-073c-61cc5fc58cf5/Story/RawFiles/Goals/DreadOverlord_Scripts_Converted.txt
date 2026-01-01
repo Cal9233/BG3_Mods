@@ -1,0 +1,3955 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+//REGION    -  Database for one-time rewards - no longer used because of inconsistency
+
+DB_OneTimeRewards_DreadOverlord(1,(ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000000_8bd8168b-29ff-4ac0-b537-821a3ae4db39);
+DB_OneTimeRewards_DreadOverlord(2,BOOK_DreadOverlord_Blueprints_ArmorOfSoul_2b861b56-801b-4443-9f2e-028a377f8f18);
+DB_OneTimeRewards_DreadOverlord(3,BOOK_DreadOverlord_Blueprints_FungalInfestation_0e5cca03-2c39-4f39-a913-ac9c7c2100a2);
+DB_OneTimeRewards_DreadOverlord(4,OBJ_THR_CauldronBoilingWater_DreadOverlord_5701c813-45b5-4d03-adae-f51d9376de60);
+DB_OneTimeRewards_DreadOverlord(5,WPN_Scythe_Wrath_DreadOverlord_fe3b59d2-220c-4dba-98f5-7bdbb1cc6ce2);
+
+//REGION    -   Database for all template versions of the Libor Mortis
+
+DB_DreadOverlord_LiborMortis_UUID(BOOK_DreadOverlord_LiborMortis_Starter_000000_8bd8168b-29ff-4ac0-b537-821a3ae4db39);
+DB_DreadOverlord_LiborMortis_UUID(BOOK_DreadOverlord_LiborMortis_Starter_000001_e77ee07b-088a-4846-b19b-e5fbf74f41e1);
+DB_DreadOverlord_LiborMortis_UUID(BOOK_DreadOverlord_LiborMortis_Starter_000002_2ca411a4-e82f-4ade-901b-ac49e930fa5b);
+DB_DreadOverlord_LiborMortis_UUID(BOOK_DreadOverlord_LiborMortis_Starter_000003_7cc4b8ea-f7e9-44c2-9175-4437879ec482);
+
+//REGION    -   Database for Totems of the Necromancer queststeps in Act 1
+
+DB_DreadOverlord_LiborMortis_FoundAnyTotemAct1("STEP_DreadOverlord_Totem1_Found");
+DB_DreadOverlord_LiborMortis_FoundAnyTotemAct1("STEP_DreadOverlord_Totem2_Found");
+DB_DreadOverlord_LiborMortis_FoundAnyTotemAct1("STEP_DreadOverlord_Totem3_Found");
+DB_DreadOverlord_LiborMortis_FoundAnyTotemAct1("STEP_DreadOverlord_Totem4_Found");
+
+//REGION    -  Database for Totems of the Necromancer UIDs in Act 2
+
+DB_DreadOverlord_LiborMortis_FoundAllTotemAct2(DREADOVERLORD_BoneSculpture_5_982938b1-1857-4e83-ae2c-6bd1cafa3868);
+DB_DreadOverlord_LiborMortis_FoundAllTotemAct2(DREADOVERLORD_BoneSculpture_6_4081ed40-7f2e-4a62-84c2-9f8621ea33d4);
+DB_DreadOverlord_LiborMortis_FoundAllTotemAct2(DREADOVERLORD_BoneSculpture_7_806cc73b-ba0c-4fd4-bedb-c88d1b183b55);
+
+//REGION    -   List of Gloomsworn statuses
+
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_VFX");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_1");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_2");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_3");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_4");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_5");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_6");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_7");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_8");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_9");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_10");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_11");
+DB_DreadOverlord_Gloomsworn_Statuses("DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_12");
+
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1");
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2");
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3");
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4");
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5");
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6");
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7");
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8");
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9");
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10");
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11");
+DB_DreadOverlord_Gloomsworn_Statuses_Owner("DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12");
+
+//REGION    -   Gloomsworm DBs
+
+DB_DreadOverlord_SoloLevel_Stored_Slot_1(NULL_00000000-0000-0000-0000-000000000000);
+DB_DreadOverlord_SoloLevel_Stored_Slot_2(NULL_00000000-0000-0000-0000-000000000000);
+DB_DreadOverlord_SoloLevel_Stored_Slot_3(NULL_00000000-0000-0000-0000-000000000000);
+DB_DreadOverlord_SoloLevel_Stored_Slot_4(NULL_00000000-0000-0000-0000-000000000000);
+DB_DreadOverlord_SoloLevel_Stored_Slot_5(NULL_00000000-0000-0000-0000-000000000000);
+DB_DreadOverlord_SoloLevel_Stored_Slot_6(NULL_00000000-0000-0000-0000-000000000000);
+DB_DreadOverlord_SoloLevel_Stored_Slot_7(NULL_00000000-0000-0000-0000-000000000000);
+DB_DreadOverlord_SoloLevel_Stored_Slot_8(NULL_00000000-0000-0000-0000-000000000000);
+DB_DreadOverlord_SoloLevel_Stored_Slot_9(NULL_00000000-0000-0000-0000-000000000000);
+DB_DreadOverlord_SoloLevel_Stored_Slot_10(NULL_00000000-0000-0000-0000-000000000000);
+DB_DreadOverlord_SoloLevel_Stored_Slot_11(NULL_00000000-0000-0000-0000-000000000000);
+DB_DreadOverlord_SoloLevel_Stored_Slot_12(NULL_00000000-0000-0000-0000-000000000000);
+
+DB_DreadOverlord_SoloLevel_Shadow(NULL_00000000-0000-0000-0000-000000000000,NULL_00000000-0000-0000-0000-000000000000,NULL_00000000-0000-0000-0000-000000000000);
+
+
+//REGION    -   List of levels
+
+DB_DreadOverlord_GameplayLevels("TUT_Avernus_C");
+DB_DreadOverlord_GameplayLevels("WLD_Main_A");
+DB_DreadOverlord_GameplayLevels("CRE_Main_A");
+DB_DreadOverlord_GameplayLevels("SCL_Main_A");
+DB_DreadOverlord_GameplayLevels("INT_Main_A");
+DB_DreadOverlord_GameplayLevels("BGO_Main_A");
+DB_DreadOverlord_GameplayLevels("CTY_Main_A");
+DB_DreadOverlord_GameplayLevels("IRN_Main_A");
+DB_DreadOverlord_GameplayLevels("END_Main");
+
+KBSECTION
+
+//REGION    -   PROFANE BLESSINGS
+
+//SUBREGION -   Profane Blessing for Corrupted Armor - Reaper's Embrace
+
+IF
+StatusApplied((CHARACTER)_Character,"DREADOVERLORD_PROFANEBLESSING_ARMOR",_,_)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_PROFANEBLESSING_ARMOR_CHECK",0)
+AND
+NOT DB_PROFANEBLESSING_ARMOR(_Character)
+THEN
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_PB_Armor", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_PB_Armor")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+OpenMessageBox(_Character, "MB_DreadOverlord_CorruptedArmor");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_CorruptedArmor")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_ARMOR_CHECK",-1.0);
+AddExplorationExperience(_Character, 300);
+QuestUpdate(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_Armor");
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+DB_PROFANEBLESSING_ARMOR(_Character);
+
+//NOTE  -   Quest journal update upon pickup of Reaper's Embrace
+
+IF
+TemplateAddedTo((ITEMROOT)MOO_Ketheric_Armor_adae74e9-c103-4ddc-b7d2-1fa24b527f83, (ITEM)_Item, (CHARACTER)_Character, _)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_ArmorPU", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_ArmorPU");
+
+//SUBREGION -   Profane Blessing for Corrupted Grimoire
+
+IF
+FlagSet((FLAG)FOR_DangerousBook_Event_GrantForbiddenKnowledge_a2a4d0f3-8859-4ce1-b694-cf0eebbb9d22, _Character, _)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+NOT DB_PROFANEBLESSING_BOOKMINOR(_Character)
+THEN
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_PB_GrimoireMinor", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_PB_GrimoireMinor")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+OpenMessageBox(_Character, "MB_DreadOverlord_CorruptedGrimoire");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_CorruptedGrimoire")
+THEN
+AddExplorationExperience(_Character, 150);
+QuestUpdate(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_GrimoireMinor");
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+PROC_BookOrders_CovenantsOfTheProfane_CursedTomeMinor();
+DB_PROFANEBLESSING_BOOKMINOR(_Character);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_CURSEDTOME_MINOR",-1.0);
+
+//SUBREGION -   Necromancy of Thay interactions with Covenants of the Profane
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_CursedTomeMinor()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_ThayBookReadMinor");
+
+IF
+AddedTo((ITEM)S_FOR_DangerousBook_Tome_73ea8888-ed82-4ca5-b9f9-0c9119873507, (CHARACTER)_Character, _)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+THEN
+PROC_DreadOverlord_Thayan_Tome_Pickup();
+
+PROC
+PROC_DreadOverlord_Thayan_Tome_Pickup()
+AND
+DB_Players((CHARACTER)_Character)
+AND 
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_ThayBookPickedUp");
+
+//NOTE  -   Quest journal update for Covenants of the Profane upon pickup of Necromancy of Thay for the first time
+
+PROC
+PROC_DreadOverlord_Thayan_Tome_Pickup()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_GrimoireMinorPU", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_GrimoireMinorPU");
+
+//SUBREGION -   Profane Blessing for completed Corrupted Grimoire - Necromancy of Thay
+
+IF
+FlagSet((FLAG)LOW_SorcerousSundries_Event_CursedTomeEffect_Necromancy_f1ff24df-f882-40d0-b8c5-6d0c88178cd3,_Character,_)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+NOT DB_PROFANEBLESSING_BOOKMAJOR(_Character)
+THEN
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_PB_GrimoireComplete", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_PB_GrimoireComplete")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+OpenMessageBox(_Character, "MB_DreadOverlord_CorruptedGrimoire_Complete");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_CorruptedGrimoire_Complete")
+THEN
+AddExplorationExperience(_Character, 600);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+QuestUpdate(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_GrimoireComplete");
+DB_PROFANEBLESSING_BOOKMAJOR(_Character);
+RemoveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_CURSEDTOME_MINOR");
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_CURSEDTOME",-1.0);
+
+//NOTE  -   Quest journal update upon pickup of the Tharchiate Codex
+
+IF
+AddedTo((ITEM)S_UNI_TharchiateCypher_0addb171-6e14-4b4c-8d97-c9af9ba1dcb8, (CHARACTER)_Character,_)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_GrimoireCompletePU", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_GrimoireCompletePU");
+
+//NOTE  -   This clears the Tharchiate curse I was using to trigger the blessing - oops
+
+IF
+StatusApplied((CHARACTER)_Character,"CURSEDTOME_THARCHIATE_CODEX",_,_)
+AND
+DB_Players(_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+THEN
+RemoveStatus((CHARACTER)_Character, "CURSEDTOME_THARCHIATE_CODEX");
+
+//SUBREGION -   Profane Blessing for Corrupted Necromancy - Staff of Cherished Necromancy
+
+IF
+StatusApplied((CHARACTER)_Character,"DREADOVERLORD_PROFANEBLESSING_CORRUPTEDSTAFF",_,_)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_PROFANEBLESSING_CORRUPTEDSTAFF_CHECK",0)
+AND
+NOT DB_PROFANEBLESSING_STAFF(_Character)
+THEN
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_PB_Staff", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_PB_Staff")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+OpenMessageBox(_Character, "MB_DreadOverlord_CorruptedNecromancy");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_CorruptedNecromancy")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_CORRUPTEDSTAFF_CHECK",-1.0);
+AddExplorationExperience(_Character, 600);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+QuestUpdate(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_Staff");
+DB_PROFANEBLESSING_STAFF(_Character);
+
+//NOTE  -   Quest journal update upon pickup of Staff of Cherished Necromancy
+
+IF
+TemplateAddedTo((ITEMROOT)MAG_GreaterNecromancy_Staff_ecb02247-a407-445e-8046-856133d198bf, (ITEM)_Item, (CHARACTER)_Character,_)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_StaffPU", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_StaffPU");
+
+//SUBREGION -   Profane Blessing for Cursed Wedding - Connor Vinderblad
+
+IF
+StatusApplied((CHARACTER)_Character,"DREADOVERLORD_PROFANEBLESSING_CURSEDWEDDING",_,_)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_PROFANEBLESSING_CURSEDWEDDING_CHECK",0)
+AND
+NOT DB_PROFANEBLESSING_WEDDING(_Character)
+THEN
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_PB_Wedding", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_PB_Wedding")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+OpenMessageBox(_Character, "MB_DreadOverlord_CursedWedding");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_CursedWedding")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_CURSEDWEDDING_CHECK",-1.0);
+AddExplorationExperience(_Character, 150);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+QuestUpdate(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_Wedding");
+DB_PROFANEBLESSING_WEDDING(_Character);
+
+//NOTE  -   Quest journal update upon pickup of Second Divorce wand
+
+IF
+AddedTo((ITEM)S_HAG_Wand_SummonHusband_70bc9907-91c1-4e69-ad50-53e402eca22f, (CHARACTER)_Character,_)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_WeddingPU", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_ProfaneBlessings", "STEP_DreadOverlord_PB_WeddingPU");
+
+//NOTE  -  Unique spell add for Dread Overlords re: Summon Undead Husband
+
+IF
+TemplateAddedTo((ITEMROOT)UNI_HAG_Wand_SummonHusband_b1b872db-43f0-45f7-b34f-d814ef9cb64c,_,_Character,_)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+THEN
+AddSpell(_Character,"Target_HAG_Hagspawn_SummonHusband",1,1);
+
+//NOTE  -   Removes spell from character when Second Marriage wand is not in inventory
+
+IF
+TemplateRemovedFrom(UNI_HAG_Wand_SummonHusband_b1b872db-43f0-45f7-b34f-d814ef9cb64c,_,_Character)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+THEN
+RemoveSpell(_Character,"Target_HAG_Hagspawn_SummonHusband",1);
+
+//NOTE  -   Adds spell to player when Second Marriage wand is in inventory after respec to DO
+
+IF
+TagSet((CHARACTER)_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+TemplateIsInInventory((ITEMROOT)UNI_HAG_Wand_SummonHusband_b1b872db-43f0-45f7-b34f-d814ef9cb64c,_Character, 1)
+THEN
+AddSpell(_Character,"Target_HAG_Hagspawn_SummonHusband",1,1);
+
+//NOTE  -   Removes spell from player when Second Marriage wand is in inventory after respec from DO
+
+IF
+TagCleared((CHARACTER)_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 0)
+AND
+TemplateIsInInventory((ITEMROOT)UNI_HAG_Wand_SummonHusband_b1b872db-43f0-45f7-b34f-d814ef9cb64c,_Character, 1)
+THEN
+RemoveSpell(_Character,"Target_HAG_Hagspawn_SummonHusband",1);
+
+//SUBREGION -   Profane Blessing for Prelude to the Deathsong - Ebonblade
+
+IF
+StatusApplied((CHARACTER)_Character,"DREADOVERLORD_PROFANEBLESSING_DEATHSONGSWORD",_,_)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_PROFANEBLESSING_DEATHSONGSWORD_CHECK",0)
+AND
+NOT DB_PROFANEBLESSING_PRELUDE(_Character)
+THEN
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_PreludeTimer", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_PreludeTimer")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+OpenMessageBox(_Character, "MB_DreadOverlord_PreludeToDeathSong");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_PreludeToDeathSong")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_DEATHSONGSWORD_CHECK",-1.0);
+AddExplorationExperience(_Character, 150);
+DB_PROFANEBLESSING_PRELUDE(_Character);
+
+//REGION    -   TOTEMS OF THE NECROMANCER
+
+//SUBREGION -   Bone Sculpture 1 - Citadel Arcana / Jergal's Crypt
+IF
+GameBookInterfaceClosed(DREADOVERLORD_BoneSculpture_1_a9584c7e-d1a8-4095-a4af-91f0aa9545b8, _Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_1_CHECK",0)
+THEN
+UseSpell((CHARACTER)_Character, "DreadOverlord_Target_FakePraying", (ITEM)DREADOVERLORD_BoneSculpture_1_a9584c7e-d1a8-4095-a4af-91f0aa9545b8, NULL_00000000-0000-0000-0000-000000000000, 1);
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Bonesculpture1_Timer", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Bonesculpture1_Timer")
+AND
+CreateAtObject((ITEMROOT)DreadOverlord_BoneSculpture_New_a0895d66-5c12-44a9-b7cc-af18f9f77851,(ITEM)DREADOVERLORD_BoneSculpture_1_a9584c7e-d1a8-4095-a4af-91f0aa9545b8,0,1,"",1,_BoneSculpture_1)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641, (ITEM)DREADOVERLORD_BoneSculpture_1_a9584c7e-d1a8-4095-a4af-91f0aa9545b8, 0, 1, "", 1, _BoneZone)
+THEN
+ApplyStatus((ITEM)_BoneZone, "DREADOVERLORD_TOTEM_BONEZONE", -1.0);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+OpenMessageBox(_Character, "MB_DreadOverlord_BoneSculpture_1");
+RequestDelete((ITEM)DREADOVERLORD_BoneSculpture_1_a9584c7e-d1a8-4095-a4af-91f0aa9545b8);
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_BoneSculpture_1")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_1_CHECK",-1.0);
+AddExplorationExperience(_Character, 30);
+QuestUpdate(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem1_Found");
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+PROC_BookOrders_CovenantsOfTheProfane_1();
+
+//NOTE  -   Updates Covenants of the Profane quest
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_1()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct1", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct1");
+
+//SUBREGION -   Bone Sculpture 2 - Armor of Souls / Grym Forge
+
+IF
+GameBookInterfaceClosed(DREADOVERLORD_BoneSculpture_2_70ef8379-4214-4c44-9414-d2d74dec5d03, _Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_2_CHECK",0)
+THEN
+UseSpell((CHARACTER)_Character, "DreadOverlord_Target_FakePraying", (ITEM)DREADOVERLORD_BoneSculpture_2_70ef8379-4214-4c44-9414-d2d74dec5d03, NULL_00000000-0000-0000-0000-000000000000, 1);
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Bonesculpture2_Timer", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Bonesculpture2_Timer")
+AND
+CreateAtObject((ITEMROOT)DreadOverlord_BoneSculpture_New_a0895d66-5c12-44a9-b7cc-af18f9f77851,(ITEM)DREADOVERLORD_BoneSculpture_2_70ef8379-4214-4c44-9414-d2d74dec5d03,0,1,"",1,_BoneSculpture_2)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641,(ITEM)DREADOVERLORD_BoneSculpture_2_70ef8379-4214-4c44-9414-d2d74dec5d03, 0, 1, "", 1, _BoneZone)
+THEN
+ApplyStatus((ITEM)_BoneZone, "DREADOVERLORD_TOTEM_BONEZONE", -1.0);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+OpenMessageBox(_Character, "MB_DreadOverlord_BoneSculpture_2");
+RequestDelete((ITEM)DREADOVERLORD_BoneSculpture_2_70ef8379-4214-4c44-9414-d2d74dec5d03);
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_BoneSculpture_2")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_2_CHECK",-1.0);
+AddExplorationExperience(_Character, 300);
+QuestUpdate(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem2_Found");
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+PROC_BookOrders_CovenantsOfTheProfane_2();
+
+//NOTE  -   Updates Covenants of the Profane quest
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_2()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct1", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct1");
+
+//SUBREGION -   Bone Sculpture 3 - Thayan Alchemy / Apothecary Cellar
+
+IF
+GameBookInterfaceClosed(DREADOVERLORD_BoneSculpture_3_21a9724b-0d79-43b1-a63e-8d935aef1372, _Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_3_CHECK",0)
+THEN
+UseSpell((CHARACTER)_Character, "DreadOverlord_Target_FakePraying", (ITEM)DREADOVERLORD_BoneSculpture_3_21a9724b-0d79-43b1-a63e-8d935aef1372, NULL_00000000-0000-0000-0000-000000000000, 1);
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Bonesculpture3_Timer", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Bonesculpture3_Timer")
+AND
+CreateAtObject((ITEMROOT)DreadOverlord_BoneSculpture_New_a0895d66-5c12-44a9-b7cc-af18f9f77851,(ITEM)DREADOVERLORD_BoneSculpture_3_21a9724b-0d79-43b1-a63e-8d935aef1372,0,1,"",1,_BoneSculpture_3)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641,(ITEM)DREADOVERLORD_BoneSculpture_3_21a9724b-0d79-43b1-a63e-8d935aef1372, 0, 1, "", 1, _BoneZone)
+THEN
+ApplyStatus((ITEM)_BoneZone, "DREADOVERLORD_TOTEM_BONEZONE", -1.0);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+OpenMessageBox(_Character, "MB_DreadOverlord_BoneSculpture_3");
+RequestDelete((ITEM)DREADOVERLORD_BoneSculpture_3_21a9724b-0d79-43b1-a63e-8d935aef1372);
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_BoneSculpture_3")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_3_CHECK",-1.0);
+AddExplorationExperience(_Character, 100);
+QuestUpdate(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem3_Found");
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+PROC_BookOrders_CovenantsOfTheProfane_3();
+
+//NOTE  -   Updates Covenants of the Profane quest
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_3()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct1", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct1");
+
+//SUBREGION -   Bone Sculpture 4 - Mycelium Instructions / Myconid Village
+
+IF
+GameBookInterfaceClosed(DREADOVERLORD_BoneSculpture_4_008069b2-3b9c-4569-b4ca-687cfbd5d088, _Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_4_CHECK",0)
+THEN
+UseSpell((CHARACTER)_Character, "DreadOverlord_Target_FakePraying", (ITEM)DREADOVERLORD_BoneSculpture_4_008069b2-3b9c-4569-b4ca-687cfbd5d088, NULL_00000000-0000-0000-0000-000000000000, 1);
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Bonesculpture4_Timer", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Bonesculpture4_Timer")
+AND
+CreateAtObject((ITEMROOT)DreadOverlord_BoneSculpture_New_a0895d66-5c12-44a9-b7cc-af18f9f77851,(ITEM)DREADOVERLORD_BoneSculpture_4_008069b2-3b9c-4569-b4ca-687cfbd5d088,0,1,"",1,_BoneSculpture_4)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641,(ITEM)DREADOVERLORD_BoneSculpture_4_008069b2-3b9c-4569-b4ca-687cfbd5d088, 0, 1, "", 1, _BoneZone)
+THEN
+ApplyStatus((ITEM)_BoneZone, "DREADOVERLORD_TOTEM_BONEZONE", -1.0);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+OpenMessageBox(_Character, "MB_DreadOverlord_BoneSculpture_4");
+RequestDelete((ITEM)DREADOVERLORD_BoneSculpture_4_008069b2-3b9c-4569-b4ca-687cfbd5d088);
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_BoneSculpture_4")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_4_CHECK",-1.0);
+AddExplorationExperience(_Character, 130);
+QuestUpdate(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem4_Found");
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+PROC_BookOrders_CovenantsOfTheProfane_4();
+
+//NOTE  -   Updates Covenants of the Profane quest
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_4()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct1", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct1");
+
+//NOTE - Grants Summon Nere spell to hotbar if in inventory
+
+IF
+TemplateAddedTo((ITEMROOT)UNI_UND_MyconidRevenge_NereHead_Shroomed_DreadOverlord_19636bed-e365-4dc9-a312-283bc3e7c521,_,_Character,_)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+THEN
+AddSpell(_Character,"Target_DreadOverlord_FungalInfestation",1,1);
+
+//NOTE - Remove Summon Nere spell if not in inventory
+
+IF
+TemplateRemovedFrom(UNI_UND_MyconidRevenge_NereHead_Shroomed_DreadOverlord_19636bed-e365-4dc9-a312-283bc3e7c521,_,_Character)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+THEN
+RemoveSpell(_Character,"Target_DreadOverlord_FungalInfestation",1);
+
+//NOTE - Grants Summon Nere spell to hotbar if in inventory and respec to DO
+
+IF
+TagSet((CHARACTER)_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+TemplateIsInInventory((ITEMROOT)UNI_UND_MyconidRevenge_NereHead_Shroomed_DreadOverlord_19636bed-e365-4dc9-a312-283bc3e7c521,_Character, 1)
+THEN
+AddSpell(_Character,"Target_DreadOverlord_FungalInfestation",1,1);
+
+//NOTE - Removes Summon Nere spell if in inventory and respec from DO
+
+IF
+TagCleared((CHARACTER)_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 0)
+AND
+TemplateIsInInventory((ITEMROOT)UNI_UND_MyconidRevenge_NereHead_Shroomed_DreadOverlord_19636bed-e365-4dc9-a312-283bc3e7c521,_Character, 1)
+THEN
+RemoveSpell(_Character,"Target_DreadOverlord_FungalInfestation",1);
+
+//SUBREGION -   Bone Sculpture 5 - Covenant of Corpses / Balthazar's Room
+
+IF
+GameBookInterfaceClosed(DREADOVERLORD_BoneSculpture_5_982938b1-1857-4e83-ae2c-6bd1cafa3868, _Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_5_CHECK",0)
+THEN
+UseSpell((CHARACTER)_Character, "DreadOverlord_Target_FakePraying", (ITEM)DREADOVERLORD_BoneSculpture_5_982938b1-1857-4e83-ae2c-6bd1cafa3868, NULL_00000000-0000-0000-0000-000000000000, 1);
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Bonesculpture5_Timer", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Bonesculpture5_Timer")
+AND
+CreateAtObject((ITEMROOT)DreadOverlord_BoneSculpture_New_a0895d66-5c12-44a9-b7cc-af18f9f77851,(ITEM)DREADOVERLORD_BoneSculpture_5_982938b1-1857-4e83-ae2c-6bd1cafa3868,0,1,"",1,_BoneSculpture_5)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641, (ITEM)DREADOVERLORD_BoneSculpture_5_982938b1-1857-4e83-ae2c-6bd1cafa3868, 0, 1, "", 1, _BoneZone)
+THEN
+ApplyStatus((ITEM)_BoneZone, "DREADOVERLORD_TOTEM_BONEZONE", -1.0);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+OpenMessageBox(_Character, "MB_DreadOverlord_BoneSculpture_5");
+RequestDelete((ITEM)DREADOVERLORD_BoneSculpture_5_982938b1-1857-4e83-ae2c-6bd1cafa3868);
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_BoneSculpture_5")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_5_CHECK",-1.0);
+AddExplorationExperience(_Character, 200);
+QuestUpdate(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem5_Found");
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+PROC_BookOrders_CovenantsOfTheProfane_5();
+
+//NOTE  -   Updates Covenants of the Profane quest
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_5()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_Found5");
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_5()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct2", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct2");
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_5()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_6_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_7_CHECK",1)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAllTotemAct2");
+
+//SUBREGION -   Bone Sculpture 6 - Covenant of Bones / Thorm Mausoleum
+
+IF
+GameBookInterfaceClosed(DREADOVERLORD_BoneSculpture_6_4081ed40-7f2e-4a62-84c2-9f8621ea33d4, _Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_6_CHECK",0)
+THEN
+UseSpell((CHARACTER)_Character, "DreadOverlord_Target_FakePraying", (ITEM)DREADOVERLORD_BoneSculpture_6_4081ed40-7f2e-4a62-84c2-9f8621ea33d4, NULL_00000000-0000-0000-0000-000000000000, 1);
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Bonesculpture6_Timer", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Bonesculpture6_Timer")
+AND
+CreateAtObject((ITEMROOT)DreadOverlord_BoneSculpture_New_a0895d66-5c12-44a9-b7cc-af18f9f77851,(ITEM)DREADOVERLORD_BoneSculpture_6_4081ed40-7f2e-4a62-84c2-9f8621ea33d4,0,1,"",1,_BoneSculpture_6)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641,(ITEM)DREADOVERLORD_BoneSculpture_6_4081ed40-7f2e-4a62-84c2-9f8621ea33d4, 0, 1, "", 1, _BoneZone)
+THEN
+ApplyStatus((ITEM)_BoneZone, "DREADOVERLORD_TOTEM_BONEZONE", -1.0);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+OpenMessageBox(_Character, "MB_DreadOverlord_BoneSculpture_6");
+RequestDelete((ITEM)DREADOVERLORD_BoneSculpture_6_4081ed40-7f2e-4a62-84c2-9f8621ea33d4);
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_BoneSculpture_6")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_6_CHECK",-1.0);
+AddExplorationExperience(_Character, 200);
+QuestUpdate(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem6_Found");
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+PROC_BookOrders_CovenantsOfTheProfane_6();
+
+//NOTE  -   Updates Covenants of the Profane quest
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_6()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_Found6");
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_6()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct2", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct2");
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_6()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_5_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_7_CHECK",1)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAllTotemAct2");
+
+//SUBREGION -   Bone Sculpture 7 - Covenant of Spirits / Reithwin Square
+
+IF
+GameBookInterfaceClosed(DREADOVERLORD_BoneSculpture_7_806cc73b-ba0c-4fd4-bedb-c88d1b183b55, _Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_7_CHECK",0)
+THEN
+UseSpell((CHARACTER)_Character, "DreadOverlord_Target_FakePraying", (ITEM)DREADOVERLORD_BoneSculpture_7_806cc73b-ba0c-4fd4-bedb-c88d1b183b55, NULL_00000000-0000-0000-0000-000000000000, 1);
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Bonesculpture7_Timer", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Bonesculpture7_Timer")
+AND
+CreateAtObject((ITEMROOT)DreadOverlord_BoneSculpture_New_a0895d66-5c12-44a9-b7cc-af18f9f77851,(ITEM)DREADOVERLORD_BoneSculpture_7_806cc73b-ba0c-4fd4-bedb-c88d1b183b55,0,1,"",1,_BoneSculpture_7)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641,(ITEM)DREADOVERLORD_BoneSculpture_7_806cc73b-ba0c-4fd4-bedb-c88d1b183b55, 0, 1, "", 1, _BoneZone)
+THEN
+ApplyStatus((ITEM)_BoneZone, "DREADOVERLORD_TOTEM_BONEZONE", -1.0);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+OpenMessageBox(_Character, "MB_DreadOverlord_BoneSculpture_7");
+RequestDelete((ITEM)DREADOVERLORD_BoneSculpture_7_806cc73b-ba0c-4fd4-bedb-c88d1b183b55);
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_BoneSculpture_7")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_7_CHECK",-1.0);
+AddExplorationExperience(_Character, 200);
+QuestUpdate(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem7_Found");
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+PROC_BookOrders_CovenantsOfTheProfane_7();
+
+//NOTE  -   Updates Covenants of the Profane quest
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_7()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_Found7");
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_7()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct2", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAnyTotemAct2");
+
+PROC
+PROC_BookOrders_CovenantsOfTheProfane_7()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_5_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_6_CHECK",1)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAllTotemAct2");
+
+//SUBREGION -   Bone Sculpture 8, Arcon's Cauldron of Immolation / Auntie Ethel in Lower City
+
+IF
+GameBookInterfaceClosed(DREADOVERLORD_BoneSculpture_8_6ce18dc8-e1df-45c6-b513-de9f9d3a953b, _Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_8_CHECK",0)
+THEN
+UseSpell((CHARACTER)_Character, "DreadOverlord_Target_FakePraying", (ITEM)DREADOVERLORD_BoneSculpture_8_6ce18dc8-e1df-45c6-b513-de9f9d3a953b, NULL_00000000-0000-0000-0000-000000000000, 1);
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Bonesculpture8_Timer", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Bonesculpture8_Timer")
+AND
+CreateAtObject((ITEMROOT)DreadOverlord_BoneSculpture_New_a0895d66-5c12-44a9-b7cc-af18f9f77851,(ITEM)DREADOVERLORD_BoneSculpture_8_6ce18dc8-e1df-45c6-b513-de9f9d3a953b,0,1,"",1,_BoneSculpture_8)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641,(ITEM)DREADOVERLORD_BoneSculpture_8_6ce18dc8-e1df-45c6-b513-de9f9d3a953b, 0, 1, "", 1, _BoneZone)
+THEN
+ApplyStatus((ITEM)_BoneZone, "DREADOVERLORD_TOTEM_BONEZONE", -1.0);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_8_CHECK",-1.0);
+OpenMessageBox(_Character, "MB_DreadOverlord_BoneSculpture_8");
+RequestDelete((ITEM)DREADOVERLORD_BoneSculpture_8_6ce18dc8-e1df-45c6-b513-de9f9d3a953b);
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_BoneSculpture_8")
+THEN
+AddExplorationExperience(_Character, 600);
+QuestUpdate(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem8_Found");
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+PROC_DreadOverlord_TotemsOfTheNecromancer_Complete_8();
+
+//SUBREGION -   Bone Sculpture 9 - Might of the Lich King / Philgrave's Mansion
+
+IF
+GameBookInterfaceClosed(DREADOVERLORD_BoneSculpture_9_6b0a7416-7c77-4161-871e-2d9052311888, _Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_9_CHECK",0)
+THEN
+UseSpell((CHARACTER)_Character, "DreadOverlord_Target_FakePraying", (ITEM)DREADOVERLORD_BoneSculpture_9_6b0a7416-7c77-4161-871e-2d9052311888, NULL_00000000-0000-0000-0000-000000000000, 1);
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Bonesculpture9_Timer", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Bonesculpture9_Timer")
+AND
+CreateAtObject((ITEMROOT)DreadOverlord_BoneSculpture_New_a0895d66-5c12-44a9-b7cc-af18f9f77851,(ITEM)DREADOVERLORD_BoneSculpture_9_6b0a7416-7c77-4161-871e-2d9052311888,0,1,"",1,_BoneSculpture_9)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641,(ITEM)DREADOVERLORD_BoneSculpture_9_6b0a7416-7c77-4161-871e-2d9052311888, 0, 1, "", 1, _BoneZone)
+THEN
+ApplyStatus((ITEM)_BoneZone, "DREADOVERLORD_TOTEM_BONEZONE", -1.0);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_9_CHECK",-1.0);
+OpenMessageBox(_Character, "MB_DreadOverlord_BoneSculpture_9");
+RequestDelete((ITEM)DREADOVERLORD_BoneSculpture_9_6b0a7416-7c77-4161-871e-2d9052311888);
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_BoneSculpture_9")
+THEN
+AddExplorationExperience(_Character, 600);
+QuestUpdate(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem9_Found");
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Stop_d01cfa3a-6bcf-4074-b1de-ebc90dc1b90b);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+PROC_DreadOverlord_TotemsOfTheNecromancer_Complete_9();
+
+
+//SUBREGION - Totems of the Necromancer - Focus of the Lich King / Complete Quest
+
+PROC
+PROC_DreadOverlord_TotemsOfTheNecromancer_Complete_8()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_1_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_2_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_3_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_4_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_5_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_6_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_7_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_9_CHECK",1)
+THEN
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_TotemsOfTheNecromancer_Complete", 10000);
+
+PROC
+PROC_DreadOverlord_TotemsOfTheNecromancer_Complete_9()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_1_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_2_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_3_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_4_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_5_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_6_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_7_CHECK",1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_8_CHECK",1)
+THEN
+ObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_TotemsOfTheNecromancer_Complete", 10000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_TotemsOfTheNecromancer_Complete")
+THEN
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_LighteningStartDragon_c2891b95-4a19-452d-8750-f8aa81d282f4);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_AtmosIn_f38eff32-2ade-401c-ad7d-152d789c8b39);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_HarshWindLoop_Start_ae49a12e-c4f1-4119-b8eb-1112ad6f7780);
+PlaySoundResource((CHARACTER)_Character, Tut_DragonFire_Distant_aca9b9e3-1ae7-e955-eafa-4ca0b2783507);
+PROC_ShakeCameraForTime((CHARACTER)_Character, 6000, VFX_Script_Underdark_Earthquake_01_18bc69d9-c8f9-938d-7335-4d50f6782707, 1);
+OpenMessageBox(_Character, "MB_DreadOverlord_TotemsOfTheNecromancer_Complete");
+
+//NOTE  -   Focus of the Lich King reward
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_TotemsOfTheNecromancer_Complete")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURECOMPLETE_CHECK",-1.0);
+AddExplorationExperience(_Character, 3000);
+QuestUpdate(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_AllTotems_Found");
+QuestClose("QUEST_DreadOverlord_TotemsOfTheNecromancer");
+SetTag((CHARACTER)_Character,(TAG)WARLOCK_DREAD_OVERLORD_CHOSEN_2a6b9833-a9e6-456a-b64c-fd4c72a41bb9);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_AtmosOut_38ef49a2-9179-4fb8-a036-e46a818598cf);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_HarshWindLoop_Stop_87a7e5cb-84e2-43a9-93a3-3c291bcc43b6);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+PROC_ShakeCameraForTime((CHARACTER)_Character, 3000, VFX_Script_Underdark_Earthquake_01_18bc69d9-c8f9-938d-7335-4d50f6782707, 1);
+
+//REGION    -   REINFORCEMENTS FROM THE DREAD CITADEL
+
+//SUBREGION -   Starts notification and deletes that stupid fucking gate that blocks reinforcements --- triggers both when spell is already learned and if they haven't learned it -- adds it to their hotbar
+
+IF
+DialogEnded((DIALOGRESOURCE)END_GatherYourAllies_GatheredAllies_52f087e3-36b0-8372-d473-837bb6a78079, _)
+AND
+DB_Avatars((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasSpell(_Character, "Target_AspectOfTheDreadOverlord", 1)
+THEN
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Aspect_EndGame_Message", 5000);
+RequestDelete((ITEM)_S_END_CourtyardGate_9bae7b0f-9d57-4f7d-b105-4818b0fc552e);
+
+IF
+DialogEnded((DIALOGRESOURCE)END_GatherYourAllies_GatheredAllies_52f087e3-36b0-8372-d473-837bb6a78079, _)
+AND
+DB_Avatars((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasSpell(_Character, "Target_AspectOfTheDreadOverlord", 0)
+THEN
+AddSpell(_Character,"Target_AspectOfTheDreadOverlord",1,1);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Aspect_EndGame_Message", 5000);
+RequestDelete((ITEM)_S_END_CourtyardGate_9bae7b0f-9d57-4f7d-b105-4818b0fc552e);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Aspect_EndGame_Message")
+AND
+DB_Avatars((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_WhisperLoop_Start_49dd0cc5-3ee1-4395-be4a-28cd3aa19f3b);
+OpenMessageBox(_Character, "MB_DreadOverlord_EndGame_Reinforcements");
+
+//NOTE  -   Quest update for notification purposes only and adds passive to make Aspect summoning icon glow
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_EndGame_Reinforcements")
+AND
+DB_Avatars((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+THEN
+QuestUpdate((CHARACTER)_Character,"END_DreadOverlord_FinalBattle","STEP_END_DreadOverlord_FinalBattle");
+AddPassive((CHARACTER)_Character, "DreadOverlord_ENDGAME_AspectOfTheDreadOverlord");
+
+//REGION    -   PROFANE INTERVENTION: ASPECT OF THE DREAD OVERLORD
+
+//SUBREGION -   Staggered SFX and camera shakes
+
+IF
+UsingSpell((CHARACTER)_Character,"Target_AspectOfTheDreadOverlord",_,_,_)
+AND
+DB_Players(_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_LighteningStartDragon_c2891b95-4a19-452d-8750-f8aa81d282f4);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_AtmosIn_f38eff32-2ade-401c-ad7d-152d789c8b39);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_HarshWindLoop_Start_ae49a12e-c4f1-4119-b8eb-1112ad6f7780);
+PROC_ShakeCameraForTime((CHARACTER)_Character, 6000, VFX_Script_Underdark_Earthquake_01_18bc69d9-c8f9-938d-7335-4d50f6782707, 1);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Aspect_Summon", 2000);
+DB_DreadOverlord_Cultist((CHARACTER)_Character);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Aspect_Summon")
+AND
+DB_Players(_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, Tut_DragonFire_Distant_aca9b9e3-1ae7-e955-eafa-4ca0b2783507);
+PlaySoundResource((CHARACTER)_Character, END_BrainBattle_Intro_DragonRoar_A_d061b7d3-4b93-4c70-9d41-5cc67ff9a6e7);
+PlaySoundResource((CHARACTER)_Character, END_BrainBattle_Intro_DragonRoar_B_0779e606-e6f9-4c9f-a1f3-75d3699b1a5c);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Aspect_Lightning", 10000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Aspect_Lightning")
+AND
+DB_Players(_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, LOW_SharGrotto_ConfrontViconia_OM_Shadowheart_AOM_OOM_Lightning_0a50d68c-3ea5-4b1f-a6ec-2c43a74983d1);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_LighteningStrikes_981c4c4e-1c5a-4bec-97a3-5fd4c6a1199f);
+PROC_DreadOverlord_EndGame_Bonus();
+
+//NOTE  -   Registers aspect's UID to DB on summon and removes it from DB on unsummon
+
+IF
+StatusApplied((CHARACTER)_Aspect, "ASPECTOFTHEDREADOVERLORD_AURA", _,_)
+AND
+DB_PlayerSummons(_Aspect)
+THEN
+DB_DreadOverlord_AspectRegister(_Aspect);
+
+IF
+StatusRemoved((CHARACTER)_Aspect, "ASPECTOFTHEDREADOVERLORD_AURA", _,_)
+AND
+DB_PlayerSummons(_Aspect)
+AND
+DB_DreadOverlord_AspectRegister(_Aspect)
+THEN
+NOT DB_DreadOverlord_AspectRegister(_Aspect);
+
+//SUBREGION -   Turn start for aspect, adds SFX for player
+
+IF
+TurnStarted((CHARACTER)_Aspect)
+AND
+DB_DreadOverlord_AspectRegister(_Aspect)
+THEN
+RealtimeObjectTimerLaunch((CHARACTER)_Aspect, "DreadOverlord_Aspect_Lightning_AspectTurn", 10000);
+
+//NOTE  -   UNUSED
+
+PROC
+PROC_DreadOverlord_FlightState()
+AND
+DB_DreadOverlord_AspectRegister(_Aspect)
+AND
+HasActiveStatus((CHARACTER)_Aspect,"ASPECTOFTHEDREADOVERLORD_FLIGHTSTATE",0)
+THEN
+UseSpell((CHARACTER)_Aspect, "Target_DreadOverlord_AspectOfTheDreadOverlord_TurnStarted", (CHARACTER)_Aspect, NULL_00000000-0000-0000-0000-000000000000, 1);
+
+IF
+UsingSpell((CHARACTER)_Aspect,"Target_DreadOverlord_AspectOfTheDreadOverlord_EnterFlightState",_,_,_)
+AND
+DB_DreadOverlord_AspectRegister(_Aspect)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641, (CHARACTER)_Aspect, 1, 0, "", 1, (ITEM)_AspectVortex)
+THEN
+ApplyStatus((ITEM)_AspectVortex, "DREADOVERLORD_ASPECTVORTEX", -1.0);
+DB_DreadOverlord_AspectVortex((ITEM)_AspectVortex);
+
+//NOTE  -   Turn continues
+
+IF
+ObjectTimerFinished((CHARACTER)_Aspect, "DreadOverlord_Aspect_Lightning_AspectTurn")
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_LighteningStartDragon_c2891b95-4a19-452d-8750-f8aa81d282f4);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_LighteningE_0c5a3e08-6eff-485e-8f06-aff347bb89c4);
+RealtimeObjectTimerLaunch((CHARACTER)_Aspect, "DreadOverlord_Aspect_Lightning_AspectTurn_1", 7500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Aspect, "DreadOverlord_Aspect_Lightning_AspectTurn_1")
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_LighteningD_16aca8ed-84a6-49c2-8da8-103dc129608e);
+PlaySoundResource((CHARACTER)_Character, LOW_SharGrotto_ConfrontViconia_OM_Shadowheart_AOM_OOM_Lightning_0a50d68c-3ea5-4b1f-a6ec-2c43a74983d1);
+
+//SUBREGION -   End turn for aspect, adds SFX for player
+
+IF
+TurnEnded((CHARACTER)_Aspect)
+AND
+DB_PlayerSummons(_Aspect)
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+AND
+HasActiveStatus((CHARACTER)_Aspect,"ASPECTOFTHEDREADOVERLORD_AURA",1)
+THEN
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_LighteningC_168b443c-deea-4271-981b-7367df340c59);
+PlaySoundResource((CHARACTER)_Character, END_BrainBattle_CombatOver_DragonVoxE_c166b608-ea6e-4bdf-be7c-0915e3553479);
+PlaySoundResource((CHARACTER)_Character, END_BrainBattle_Intro_DragonRoar_B_0779e606-e6f9-4c9f-a1f3-75d3699b1a5c);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+
+//SUBREGION -   Applies buff to aspect upon summoning if at endgame / Flight and increased size
+
+IF
+StatusApplied((CHARACTER)_Aspect, "ASPECTOFTHEDREADOVERLORD_AURA", _,_)
+AND
+DB_DreadOverlord_EndGame_Check("YES")
+AND
+NOT DB_DreadOverlord_EndGame_Used("YES")
+THEN
+ApplyStatus((CHARACTER)_Aspect, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_ENDGAME_BUFF", -1.0);
+
+//SUBREGION -   Endgame bonus for player, closes all open quests, and grants Bone Storm ability when summoning aspect
+
+IF
+LevelGameplayStarted("END_Main", _)
+AND
+DB_Players(_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_ENDGAME_BUFF", -1.0);
+QuestClose("QUEST_DreadOverlord_TotemsOfTheNecromancer");
+QuestClose("QUEST_DreadOverlord_ProfaneBlessings");
+QuestClose("QUEST_DreadOverlord_MarchingOrders");
+DB_DreadOverlord_EndGame_Check("YES");
+
+//SUBREGION -   Reinforcements created and applies anubis behavior to force follow player upon summoning
+
+PROC
+PROC_DreadOverlord_EndGame_Bonus()
+AND
+DB_DreadOverlord_EndGame_Check("YES")
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+AND
+DB_DreadOverlord_AspectRegister(_Aspect)
+AND
+NOT DB_DreadOverlord_EndGame_Used("YES")
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Skeletal_Giant_49375457-1cd9-4b8e-bd2a-7a2cc8c8d480, (CHARACTER)_Character, (ITEM)FUR_GEN_House_SofaBench_Rich_A_000_e8562483-150d-416b-a3bd-a1a83b667165, 1, 0, "", (CHARACTER)_CitadelReinforcement_1)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Skeletal_Giant_49375457-1cd9-4b8e-bd2a-7a2cc8c8d480, (CHARACTER)_Character, (ITEM)TOOL_Ladder_Wood_7n5H_A_000_123ae196-dd9c-4061-8505-2f2dd8a3cc40, 1, 0, "", (CHARACTER)_CitadelReinforcement_13)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Skeletal_Warlock_ca227f36-0a94-4b51-b93b-b3cfaa65e19c, (CHARACTER)_Character, (ITEM)FUR_GEN_House_SofaBench_Rich_A_000_e8562483-150d-416b-a3bd-a1a83b667165, 1, 0, "", (CHARACTER)_CitadelReinforcement_14)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Skeletal_Warlock_ca227f36-0a94-4b51-b93b-b3cfaa65e19c, (CHARACTER)_Character, (ITEM)TOOL_Ladder_Wood_7n5H_A_000_123ae196-dd9c-4061-8505-2f2dd8a3cc40, 1, 0, "", (CHARACTER)_CitadelReinforcement_2)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Skeletal_Warlock_ca227f36-0a94-4b51-b93b-b3cfaa65e19c, (CHARACTER)_Character, (ITEM)TOOL_Ladder_Wood_7n5H_A_000_123ae196-dd9c-4061-8505-2f2dd8a3cc40, 1, 0, "", (CHARACTER)_CitadelReinforcement_3)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)Undead_Skeleton_Ranger_AnimateDead_6c06cda2-6e13-4663-a6f6-c4bb7564c10f, (CHARACTER)_Character, (ITEM)FUR_GEN_House_SofaBench_Rich_A_000_e8562483-150d-416b-a3bd-a1a83b667165, 1, 0, "", (CHARACTER)_CitadelReinforcement_4)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)Undead_Skeleton_Ranger_AnimateDead_6c06cda2-6e13-4663-a6f6-c4bb7564c10f, (CHARACTER)_Character, (ITEM)FUR_GEN_House_SofaBench_Rich_A_000_e8562483-150d-416b-a3bd-a1a83b667165, 1, 0, "", (CHARACTER)_CitadelReinforcement_5)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)Undead_Skeleton_Ranger_AnimateDead_6c06cda2-6e13-4663-a6f6-c4bb7564c10f, (CHARACTER)_Character, (ITEM)TOOL_Ladder_Wood_7n5H_A_000_123ae196-dd9c-4061-8505-2f2dd8a3cc40, 1, 0, "", (CHARACTER)_CitadelReinforcement_6)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Zombie_Greater_239b827a-5843-4dd9-9355-0f2ffd75b638, (CHARACTER)_Character, (ITEM)FUR_GEN_House_SofaBench_Rich_A_000_e8562483-150d-416b-a3bd-a1a83b667165, 1, 0, "", (CHARACTER)_CitadelReinforcement_7)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Zombie_Greater_239b827a-5843-4dd9-9355-0f2ffd75b638, (CHARACTER)_Character, (ITEM)FUR_GEN_House_SofaBench_Rich_A_000_e8562483-150d-416b-a3bd-a1a83b667165, 1, 0, "", (CHARACTER)_CitadelReinforcement_8)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Zombie_Greater_239b827a-5843-4dd9-9355-0f2ffd75b638, (CHARACTER)_Character, (ITEM)FUR_GEN_House_SofaBench_Rich_A_000_e8562483-150d-416b-a3bd-a1a83b667165, 1, 0, "", (CHARACTER)_CitadelReinforcement_9)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Zombie_Greater_239b827a-5843-4dd9-9355-0f2ffd75b638, (CHARACTER)_Character, (ITEM)TOOL_Ladder_Wood_7n5H_A_000_123ae196-dd9c-4061-8505-2f2dd8a3cc40, 1, 0, "", (CHARACTER)_CitadelReinforcement_10)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Zombie_Greater_239b827a-5843-4dd9-9355-0f2ffd75b638, (CHARACTER)_Character, (ITEM)TOOL_Ladder_Wood_7n5H_A_000_123ae196-dd9c-4061-8505-2f2dd8a3cc40, 1, 0, "", (CHARACTER)_CitadelReinforcement_11)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Zombie_Greater_239b827a-5843-4dd9-9355-0f2ffd75b638, (CHARACTER)_Character, (ITEM)TOOL_Ladder_Wood_7n5H_A_000_123ae196-dd9c-4061-8505-2f2dd8a3cc40, 1, 0, "", (CHARACTER)_CitadelReinforcement_12)
+THEN
+DB_DreadOverlord_EndGame_Used("YES");
+PlaySoundResource((CHARACTER)_Character, SE_S_FOR_SchoolOgres_Horn_56fc68df-50e8-dd39-7f61-30c27c71c36c);
+ApplyStatus((CHARACTER)_CitadelReinforcement_1, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_1, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_2, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_2, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_3, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_3, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_4, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_4, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_5, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_5, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_6, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_6, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_7, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_7, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_8, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_8, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_9, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_9, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_10, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_10, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_11, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_11, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_12, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_12, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_13, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_13, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_CitadelReinforcement_14, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", -1.0, 1, (CHARACTER)_Character);
+SetFaction((CHARACTER)_CitadelReinforcement_14, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+//NOTE  -   Anubis override for reinforcements to force follow cultist after battle
+
+IF
+StatusApplied((CHARACTER)_Reinforcement, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_REINFORCEMENTS", (CHARACTER)_Character, _)
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+AND
+QRY_OverrideAnubisConfig(_Reinforcement, "GLO_DreadOverlordReinforcements")
+AND
+DB_QRYRTN_AnubisConfigOverrideIndex(_Index)
+THEN
+DB_DreadOverlord_Reinforcement(_Reinforcement, _Index);
+
+//REGION    -   CONSUME SOULS
+
+//SUBREGION -   Oncast SFX for Consume Souls
+
+IF
+UsingSpell((CHARACTER)_Aspect,"Shout_AspectOfTheDreadOverlord_ConsumeSouls",_,_,_)
+AND
+DB_PlayerSummons(_Aspect)
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Souls_d94a5061-6a42-43bd-bc09-d9020dbd9ee0);
+PlaySoundResource((CHARACTER)_Character, END_BrainBattle_Intro_DragonFire_Breath_5136d73f-02bf-40da-86cb-0d02eefe814d);
+PlaySoundResource((CHARACTER)_Character, END_BrainBattle_Intro_DragonFire_Vox_35505cb4-ae3b-4ad1-ab18-383f67d30c73);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+PROC_ShakeCameraForTime((CHARACTER)_Character, 10000, VFX_Script_Underdark_Earthquake_01_18bc69d9-c8f9-938d-7335-4d50f6782707, 1);
+
+IF
+UsingSpell((CHARACTER)_Aspect,"Shout_AspectOfTheDreadOverlord_ConsumeSouls_AOE",_,_,_)
+AND
+DB_PlayerSummons(_Aspect)
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Souls_d94a5061-6a42-43bd-bc09-d9020dbd9ee0);
+PlaySoundResource((CHARACTER)_Character, END_BrainBattle_Intro_DragonFire_Breath_5136d73f-02bf-40da-86cb-0d02eefe814d);
+PlaySoundResource((CHARACTER)_Character, END_BrainBattle_Intro_DragonFire_Vox_35505cb4-ae3b-4ad1-ab18-383f67d30c73);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+PROC_ShakeCameraForTime((CHARACTER)_Character, 10000, VFX_Script_Underdark_Earthquake_01_18bc69d9-c8f9-938d-7335-4d50f6782707, 1);
+
+IF
+UsingSpell((CHARACTER)_Aspect,"Target_AspectOfTheDreadOverlord_ConsumeSouls",_,_,_)
+AND
+DB_PlayerSummons(_Aspect)
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Souls_d94a5061-6a42-43bd-bc09-d9020dbd9ee0);
+PlaySoundResource((CHARACTER)_Character, END_BrainBattle_Intro_DragonFire_Breath_5136d73f-02bf-40da-86cb-0d02eefe814d);
+PlaySoundResource((CHARACTER)_Character, END_BrainBattle_Intro_DragonFire_Vox_35505cb4-ae3b-4ad1-ab18-383f67d30c73);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+PROC_ShakeCameraForTime((CHARACTER)_Character, 10000, VFX_Script_Underdark_Earthquake_01_18bc69d9-c8f9-938d-7335-4d50f6782707, 1);
+
+//SUBREGION -   Unsummon SFX for aspect
+
+IF
+StatusRemoved((CHARACTER)_Aspect, "ASPECTOFTHEDREADOVERLORD_AURA", _, _)
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_AtmosOut_38ef49a2-9179-4fb8-a036-e46a818598cf);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_HarshWindLoop_Stop_87a7e5cb-84e2-43a9-93a3-3c291bcc43b6);
+PlaySoundResource((CHARACTER)_Character, END_BrainBattle_FinalDecision_DragonFallingCryDistant_2d206be8-dd55-4626-b80c-7b1f744903e2);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+PROC_ShakeCameraForTime((CHARACTER)_Character, 3000, VFX_Script_Underdark_Earthquake_01_18bc69d9-c8f9-938d-7335-4d50f6782707, 1);
+
+//SUBREGION -   Turn started SFX for player if aspect is active
+
+IF
+TurnStarted((CHARACTER)_Character)
+AND
+DB_PlayerSummons(_Aspect)
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+AND
+HasActiveStatus((CHARACTER)_Aspect,"ASPECTOFTHEDREADOVERLORD_AURA",1)
+THEN
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_LighteningStartDragon_c2891b95-4a19-452d-8750-f8aa81d282f4);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_DragonRoarB_cafcf164-6b9a-4396-b812-c05d395bed5f);
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_OutroRoar_4a7ec758-d02d-40e2-b3a8-230ebbf5adc5);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Aspect_Lightning_Turn", 10000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Aspect_Lightning_Turn")
+AND
+DB_PlayerSummons(_Character)
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_LighteningE_0c5a3e08-6eff-485e-8f06-aff347bb89c4);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Aspect_Lightning_Turn_1", 7500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Aspect_Lightning_Turn_1")
+AND
+DB_PlayerSummons(_Character)
+AND
+DB_DreadOverlord_Cultist((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, WYR_AnsurGhost_HelmetPickup_LighteningD_16aca8ed-84a6-49c2-8da8-103dc129608e);
+PlaySoundResource((CHARACTER)_Character, LOW_SharGrotto_ConfrontViconia_OM_Shadowheart_AOM_OOM_Lightning_0a50d68c-3ea5-4b1f-a6ec-2c43a74983d1);
+
+//REGION    -   CONSUME SOULS KILLING BLOW
+
+//SUBREGION -  Randomized undead summons
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_CORPSE_1", _,_)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_NightOfTheLivingDead_Horde_13b2f3e3-355c-45c6-b575-00fe1677312c, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon)
+THEN
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_UNDEADSERVANT", 60.0);
+SetFaction((CHARACTER)_Summon, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_CORPSE_2", _,_)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_Zombie_Greater_239b827a-5843-4dd9-9355-0f2ffd75b638, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon)
+THEN
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_UNDEADSERVANT", 60.0);
+SetFaction((CHARACTER)_Summon, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_CORPSE_3", _,_)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_Ghast_e878d8c4-05fb-461c-8bdc-303faf42ef43, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon)
+THEN
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_UNDEADSERVANT", 60.0);
+SetFaction((CHARACTER)_Summon, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_CORPSE_4", _,_)
+AND
+CreateAtObject((CHARACTERROOT)Undead_DREAD_Crawling_Claw_Swarm_163a1f11-9dfe-4395-8e37-fc08a57e6d5f, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon_1)
+AND
+CreateAtObject((CHARACTERROOT)Undead_DREAD_Crawling_Claw_Swarm_163a1f11-9dfe-4395-8e37-fc08a57e6d5f, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon_2)
+THEN
+ApplyStatus((CHARACTER)_Summon_1, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_UNDEADSERVANT", 60.0);
+SetFaction((CHARACTER)_Summon_1, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+ApplyStatus((CHARACTER)_Summon_2, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_UNDEADSERVANT", 60.0);
+SetFaction((CHARACTER)_Summon_2, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_CORPSE_5", _,_)
+AND
+CreateAtObject((CHARACTERROOT)Undead_Skeleton_Ranger_AnimateDead_6c06cda2-6e13-4663-a6f6-c4bb7564c10f, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon)
+THEN
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_UNDEADSERVANT", 60.0);
+SetFaction((CHARACTER)_Summon, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_CORPSE_6", _,_)
+AND
+CreateAtObject((CHARACTERROOT)Undead_Mummy_CreateUndead_f424693b-13f4-4cce-987b-7d75748c87e0, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon)
+THEN
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_UNDEADSERVANT", 60.0);
+SetFaction((CHARACTER)_Summon, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+//NOTE  -   Removes all the summons that were raised by Aspect of the Dread Overlord after 10 turns
+
+IF
+StatusRemoved((CHARACTER)_Summon, "DREADOVERLORD_ASPECTOFTHEDREADOVERLORD_UNDEADSERVANT", _, _)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_CORPSE_DECAY_TIMER", 600.0);
+
+//REGION    -   PROFANE INTERVENTION: TOTEMS OF THE NECROMANCER
+
+//SUBREGION -  Summons totems / Grants attack order spell to player and adds cooldown
+
+IF
+UsingSpell((CHARACTER)_Character,"Target_DreadOverlord_SummonTotemsOfTheNecromancer",_,_,_)
+THEN
+ApplyStatus((CHARACTER)_Character,"DREADOVERLORD_TOTEMSPELL_BONUSSPELL",60.0);
+ApplyStatus((CHARACTER)_Character,"DREADOVERLORD_TOTEM_LIMIT_TECHNICAL",-1.0);
+PROC_CameraShakeAroundObject(_Character, 5000, 30.0);
+
+IF
+StatusApplied((ITEM)_TotemSpawned, "DREADOVERLORD_TOTEMSPELL_HELPER_MAYBE", (CHARACTER)_Character, _)
+THEN
+DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned);
+PlayBeamEffect((CHARACTER)_Character,(ITEM)_TotemSpawned,VFX_Script_Hag_SpawnDoubles_Beam_01_1b57f75e-e1ed-c838-3421-0b21422b2a0e,"","");
+
+//NOTE  -   Removes totems on duration end with beautiful death animation
+
+IF
+StatusRemoved((CHARACTER)_Character, "DREADOVERLORD_TOTEMSPELL_BONUSSPELL", _, _)
+AND
+DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned)
+THEN
+Die((ITEM)_TotemSpawned);
+PROC_DreadOverlord_TotemSpell_Ended();
+
+PROC
+PROC_DreadOverlord_TotemSpell_Ended()
+AND
+DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned)
+THEN
+NOT DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned);
+
+//REGION    -   Oncast SFX for Soul Magnet
+
+IF
+UsingSpell((CHARACTER)_Character,"Shout_DreadOverlord_HarvestSoul_SoulMagnet",_,_,_)
+AND
+DB_Players(_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Souls_d94a5061-6a42-43bd-bc09-d9020dbd9ee0);
+
+//REGION    -   PROFANE BOMBARDMENT
+
+//SUBREGION -   Staggered to allow casting animation to finish before letting loose projectiles
+
+IF
+UsingSpellOnTarget((CHARACTER)_Character, (CHARACTER)_Enemy, "Target_DreadOverlord_SummonTotemsOfTheNecromancer_Bonus", _, _, _)
+AND
+DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned)
+THEN
+DB_DreadOverlord_TotemsSpawned_Target((CHARACTER)_Enemy);
+PlaySoundResource((CHARACTER)_Character, SE_NB_ProjectileStrike_65313085-7a2a-4449-bf3e-a908115e77ae);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Begin", 700);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Begin")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned)
+AND
+DB_DreadOverlord_TotemsSpawned_Target((CHARACTER)_Enemy)
+THEN
+PlayBeamEffect((ITEM)_TotemSpawned,(CHARACTER)_Enemy,VFX_Script_Hag_SpawnDoubles_Beam_01_1b57f75e-e1ed-c838-3421-0b21422b2a0e,"","");
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer", 300);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned)
+AND
+DB_DreadOverlord_TotemsSpawned_Target((CHARACTER)_Enemy)
+THEN
+UseSpell((ITEM)_TotemSpawned, "Projectile_DreadOverlord_TotemBombardSpell", (CHARACTER)_Enemy, NULL_00000000-0000-0000-0000-000000000000);
+PlayBeamEffect((ITEM)_TotemSpawned,(CHARACTER)_Enemy,VFX_Script_Hag_SpawnDoubles_Beam_01_1b57f75e-e1ed-c838-3421-0b21422b2a0e,"","");
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_2", 300);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_2")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned)
+AND
+DB_DreadOverlord_TotemsSpawned_Target((CHARACTER)_Enemy)
+THEN
+UseSpell((ITEM)_TotemSpawned, "Projectile_DreadOverlord_TotemBombardSpell", (CHARACTER)_Enemy, NULL_00000000-0000-0000-0000-000000000000);
+PlayBeamEffect((ITEM)_TotemSpawned,(CHARACTER)_Enemy,VFX_Script_Hag_SpawnDoubles_Beam_01_1b57f75e-e1ed-c838-3421-0b21422b2a0e,"","");
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_3", 300);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_3")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned)
+AND
+DB_DreadOverlord_TotemsSpawned_Target((CHARACTER)_Enemy)
+THEN
+UseSpell((ITEM)_TotemSpawned, "Projectile_DreadOverlord_TotemBombardSpell", (CHARACTER)_Enemy, NULL_00000000-0000-0000-0000-000000000000);
+PlayBeamEffect((ITEM)_TotemSpawned,(CHARACTER)_Enemy,VFX_Script_Hag_SpawnDoubles_Beam_01_1b57f75e-e1ed-c838-3421-0b21422b2a0e,"","");
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_4", 300);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_4")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned)
+AND
+DB_DreadOverlord_TotemsSpawned_Target((CHARACTER)_Enemy)
+THEN
+UseSpell((ITEM)_TotemSpawned, "Projectile_DreadOverlord_TotemBombardSpell", (CHARACTER)_Enemy, NULL_00000000-0000-0000-0000-000000000000);
+PlayBeamEffect((ITEM)_TotemSpawned,(CHARACTER)_Enemy,VFX_Script_Hag_SpawnDoubles_Beam_01_1b57f75e-e1ed-c838-3421-0b21422b2a0e,"","");
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_5", 300);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_5")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned)
+AND
+DB_DreadOverlord_TotemsSpawned_Target((CHARACTER)_Enemy)
+THEN
+UseSpell((ITEM)_TotemSpawned, "Projectile_DreadOverlord_TotemBombardSpell", (CHARACTER)_Enemy, NULL_00000000-0000-0000-0000-000000000000);
+PlayBeamEffect((ITEM)_TotemSpawned,(CHARACTER)_Enemy,VFX_Script_Hag_SpawnDoubles_Beam_01_1b57f75e-e1ed-c838-3421-0b21422b2a0e,"","");
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_HIT", 300);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_HIT")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+DB_DreadOverlord_TotemsSpawned((ITEM)_TotemSpawned)
+AND
+DB_DreadOverlord_TotemsSpawned_Target((CHARACTER)_Enemy)
+THEN
+UseSpell((ITEM)_TotemSpawned, "Projectile_DreadOverlord_TotemBombardSpell", (CHARACTER)_Enemy, NULL_00000000-0000-0000-0000-000000000000);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_CLEAR", 500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_BombardSpell_VFX_Timer_HIT")
+THEN
+PROC_DreadOverlord_TotemAttack_Complete();
+
+PROC
+PROC_DreadOverlord_TotemAttack_Complete()
+AND
+DB_DreadOverlord_TotemsSpawned_Target((CHARACTER)_Enemy)
+THEN
+NOT DB_DreadOverlord_TotemsSpawned_Target((CHARACTER)_Enemy);
+
+//SUBREGION -   Grants spell in hotbar if focus is in inventory
+
+IF
+TemplateAddedTo((ITEMROOT)DreadOverlord_UnholySymbol_d8b5480f-7e05-422b-895a-e02af4e187fb,_,_Character,_)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+THEN
+AddSpell(_Character,"Target_DreadOverlord_SummonTotemsOfTheNecromancer",1,1);
+
+IF
+TemplateRemovedFrom(DreadOverlord_UnholySymbol_d8b5480f-7e05-422b-895a-e02af4e187fb,_,_Character)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+THEN
+RemoveSpell(_Character,"Target_DreadOverlord_SummonTotemsOfTheNecromancer",1);
+
+IF
+TagSet((CHARACTER)_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+TemplateIsInInventory((ITEMROOT)DreadOverlord_UnholySymbol_d8b5480f-7e05-422b-895a-e02af4e187fb,_Character, 1)
+THEN
+AddSpell(_Character,"Target_DreadOverlord_SummonTotemsOfTheNecromancer",1,1);
+
+IF
+TagCleared((CHARACTER)_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 0)
+AND
+TemplateIsInInventory((ITEMROOT)DreadOverlord_UnholySymbol_d8b5480f-7e05-422b-895a-e02af4e187fb,_Character, 1)
+THEN
+RemoveSpell(_Character,"Target_DreadOverlord_SummonTotemsOfTheNecromancer",1);
+
+//REGION    -   MARCHING ORDERS FROM THE DREAD CITADEL
+
+//SUBREGION -   Tutorial level loaded and Libor Mortis granted
+
+PROC
+PROC_TUT_JournalStart()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+NOT DB_QuestIsAccepted("QUEST_DreadOverlord_MarchingOrders")
+THEN
+ObjectTimerLaunch(_Character, "TUT_Start_DreadOverlord", 10000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "TUT_Start_DreadOverlord")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QRY_OnlyOnce("TUT_Start_DreadOverlord_Done")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+QuestUpdate(_Character, "HIDDENQUEST_DreadOverlord_Boosters", "HIDDENSTEP_DreadOverlord_BookReceive");
+ObjectTimerLaunch(_Character, "TUT_Start_DreadOverlord_QuestNotification", 10000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "TUT_Start_DreadOverlord_QuestNotification")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookReceived_Notification");
+DB_TUT_DO("YES");
+
+//SUB-REGION    -   Libor Mortis copy found in the Thayan Cellar ('THAYCOPY')
+
+IF
+GameBookInterfaceClosed((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3, (CHARACTER)_Character)
+AND
+IsInInventoryOf((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,_Character, 0)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 0)
+AND
+GetPosition((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3, _CursedBookX, _CursedBookY, _CursedBookZ)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb,(ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,0,1,"",1,_BookReject)
+AND
+NOT DB_QuestIsAccepted("QUEST_DreadOverlord_MarchingOrders")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+RequestDelete((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3);
+CreateSurfaceAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ, "SurfacePoisonCloud", 3.0, 60.0, NULL_00000000-0000-0000-0000-000000000000);
+CreateExplosionAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ,"Projectile_DreadOverlord_LiborMortis_Explosion",1,_BookReject);
+DB_DreadOverlord_CursedBook(_BookReject);
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_Curse1", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "BOOK_LiborMortis_Timer_Curse1")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+OpenMessageBox(_Character, "MB_DreadOverlord_LiborMortis_Reject");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_LiborMortis_Reject")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_CURSEDTOME_REJECTION",60.0);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_RejectRead");
+
+//NOTE  -   Libor Mortis curses non-DO if not inventory
+
+IF
+GameBookInterfaceClosed((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3, (CHARACTER)_Character)
+AND
+IsInInventoryOf((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,_Character, 0)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 0)
+AND
+GetPosition((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3, _CursedBookX, _CursedBookY, _CursedBookZ)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb,(ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,0,1,"",1,_BookReject)
+AND
+DB_QuestIsAccepted("QUEST_DreadOverlord_MarchingOrders")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+RequestDelete((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3);
+CreateSurfaceAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ, "SurfacePoisonCloud", 3.0, 60.0, NULL_00000000-0000-0000-0000-000000000000);
+CreateExplosionAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ,"Projectile_DreadOverlord_LiborMortis_Explosion",1,_BookReject);
+DB_DreadOverlord_CursedBook(_BookReject);
+OpenMessageBox(_Character, "MB_DreadOverlord_LiborMortis_Reject");
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_Curse2", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "BOOK_LiborMortis_Timer_Curse2")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+OpenMessageBox(_Character, "MB_DreadOverlord_LiborMortis_Reject");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_LiborMortis_Reject")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_CURSEDTOME_REJECTION",60.0);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_RejectRead");
+
+//NOTE  -   DO respecs with Libor Mortis in inventory
+
+IF
+TagCleared((CHARACTER)_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0)
+AND
+IsInInventoryOf((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,_Character, 1)
+AND
+DB_QuestIsAccepted("QUEST_DreadOverlord_MarchingOrders")
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb,(ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,0,1,"",1,_BookReject)
+THEN
+RequestDelete((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3);
+ToInventory(_BookReject, _Character, 1, 0, 0);
+DB_DreadOverlord_CursedBook(_BookReject);
+
+//NOTE  -   Non-DO picks up Libor Mortis copy
+
+IF
+AddedTo((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3, (CHARACTER)_Character, _)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 0)
+AND
+DB_QuestIsAccepted("QUEST_DreadOverlord_MarchingOrders")
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb,(ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,0,1,"",1,_BookReject)
+THEN
+RequestDelete((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3);
+ToInventory(_BookReject, _Character, 1, 0, 0);
+DB_DreadOverlord_CursedBook(_BookReject);
+
+//NOTE  -   Libor Mortis curses non-DO and in inventory
+
+IF
+GameBookInterfaceClosed((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3, (CHARACTER)_Character)
+AND
+IsInInventoryOf((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,_Character, 1)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 0)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb,(ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,0,1,"",1,_BookReject)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641, _Character, 1, 0, "", 1, _BookRejectExplosion)
+AND
+GetPosition(_Character, _CursedBookX, _CursedBookY, _CursedBookZ)
+AND
+NOT DB_QuestIsAccepted("QUEST_DreadOverlord_MarchingOrders")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+RequestDelete((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3);
+CreateSurfaceAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ, "SurfacePoisonCloud", 3.0, 60.0, NULL_00000000-0000-0000-0000-000000000000);
+TeleportToPosition(_BookReject, _CursedBookX, _CursedBookY, _CursedBookZ, "", 0, 0, 0, 0, 1);
+CreateExplosionAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ,"Projectile_DreadOverlord_LiborMortis_Explosion",1,_BookRejectExplosion);
+DB_DreadOverlord_CursedBook(_BookReject);
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_Curse3", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "BOOK_LiborMortis_Timer_Curse3")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+OpenMessageBox(_Character, "MB_DreadOverlord_LiborMortis_Reject");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_LiborMortis_Reject")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_CURSEDTOME_REJECTION",60.0);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_RejectRead");
+
+//NOTE  -   Libor Mortis curses DO -> non-DO respecs if in inventory
+
+IF
+GameBookInterfaceClosed((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3, (CHARACTER)_Character)
+AND
+IsInInventoryOf((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,_Character, 1)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 0)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb,(ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,0,1,"",1,_BookReject)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641, _Character, 1, 0, "", 1, _BookRejectExplosion)
+AND
+GetPosition(_Character, _CursedBookX, _CursedBookY, _CursedBookZ)
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_LIBORMORTIS_0",1)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+RequestDelete((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3);
+CreateSurfaceAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ, "SurfacePoisonCloud", 3.0, 60.0, NULL_00000000-0000-0000-0000-000000000000);
+TeleportToPosition(_BookReject, _CursedBookX, _CursedBookY, _CursedBookZ, "", 0, 0, 0, 0, 1);
+CreateExplosionAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ,"Projectile_DreadOverlord_LiborMortis_Explosion",1,_BookRejectExplosion);
+DB_DreadOverlord_CursedBook(_BookReject);
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_Curse3", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "BOOK_LiborMortis_Timer_Curse3")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+OpenMessageBox(_Character, "MB_DreadOverlord_LiborMortis_Reject");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_LiborMortis_Reject")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_CURSEDTOME_REJECTION",60.0);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_RejectRead");
+
+//NOTE  -   Libor Mortis curses second time after opening by non-DO
+
+IF
+GameBookInterfaceClosed((ITEM)_BookReject, (CHARACTER)_Character)
+AND
+GetTemplate(_BookReject, BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 0)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PROC_DreadOverlord_BookExplosion();
+
+PROC
+PROC_DreadOverlord_BookExplosion()
+AND
+DB_DreadOverlord_CursedBook(_BookReject)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsInInventoryOf(_BookReject,_Character, 0)
+AND
+GetPosition(_BookReject, _CursedBookX, _CursedBookY, _CursedBookZ)
+THEN
+CreateSurfaceAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ, "SurfacePoisonCloud", 3.0, 60.0, NULL_00000000-0000-0000-0000-000000000000);
+CreateExplosionAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ,"Projectile_DreadOverlord_LiborMortis_Explosion",1,_BookReject);
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_CursedBook", 2000);
+
+PROC
+PROC_DreadOverlord_BookExplosion()
+AND
+DB_DreadOverlord_CursedBook(_BookReject)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsInInventoryOf(_BookReject,_Character, 1)
+AND
+GetPosition(_Character, _CursedBookX, _CursedBookY, _CursedBookZ)
+AND
+CreateAtObject((ITEMROOT)Helper_Invisible_A_4cc75168-a81e-4a5c-85cd-1bab8d7bb641, _Character, 1, 0, "", 1, _BookRejectExplosion)
+THEN
+CreateSurfaceAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ, "SurfacePoisonCloud", 3.0, 60.0, NULL_00000000-0000-0000-0000-000000000000);
+CreateExplosionAtPosition(_CursedBookX, _CursedBookY, _CursedBookZ,"Projectile_DreadOverlord_LiborMortis_Explosion",1,_BookRejectExplosion);
+TeleportToPosition(_BookReject, _CursedBookX, _CursedBookY, _CursedBookZ, "", 0, 0, 0, 0, 1);
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_CursedBook", 2000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "BOOK_LiborMortis_Timer_CursedBook")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_CURSEDTOME_REJECTION",60.0);
+
+//NOTE  -   Libor Mortis activated for respecced DO with Libor Mortis in inventory on respec
+
+IF
+TagSet((CHARACTER)_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0)
+AND
+TemplateIsInInventory((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb,_Character, 1)
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_LIBORMORTIS_0",1)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000000_8bd8168b-29ff-4ac0-b537-821a3ae4db39, _Character, 1, 0, "", 1, _LiborMortis)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+TemplateRemoveFrom((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb,_Character,1);
+ToInventory(_LiborMortis, _Character, 1, 0, 0);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_RejectRespecced");
+
+//NOTE  -   Libor Mortis replace if respec DOs pick up cursed book
+
+IF
+AddedTo((ITEM)_Book, (CHARACTER)_Character, _)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+GetTemplate(_Book, BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb)
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_LIBORMORTIS_0",0)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000000_8bd8168b-29ff-4ac0-b537-821a3ae4db39, _Character, 1, 0, "", 1, _LiborMortis)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+TemplateRemoveFrom((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb,_Character,1);
+ToInventory(_LiborMortis, _Character, 1, 0, 0);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_RejectRespecced");
+
+//NOTE  -   Libor Mortis quest unlock for respecced DOs reading book on the ground
+
+IF
+GameBookInterfaceClosed((ITEM)_BookRejectItem, (CHARACTER)_Character)
+AND
+GetTemplate(_BookRejectItem, BOOK_DreadOverlord_LiborMortis_Starter_Reject_252d2bc3-4398-4327-8d99-70a3902855bb)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+DB_DreadOverlord_CursedBook(_BookReject)
+AND
+IsInInventoryOf(_BookReject,_Character, 0)
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_LIBORMORTIS_0",0)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000001_e77ee07b-088a-4846-b19b-e5fbf74f41e1,(ITEM)_BookReject,0,1,"",1,_LiborMortis)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+RequestDelete((ITEM)_BookReject);
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_Unlock0", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "BOOK_LiborMortis_Timer_Unlock0")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+OpenMessageBox(_Character, "MB_DreadOverlord_LiborMortis_0");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_LiborMortis_0")
+AND
+NOT DB_TUT_DO("YES")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_LIBORMORTIS_0",-1.0);
+AddExplorationExperience(_Character, 10);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_RejectRespecced");
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_ForbiddenKnowledge");
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif");
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_OrdersGiven");
+
+//NOTE  -   Libor Mortis unlock for DOs and respecced DOs who read Thayan copy on ground
+
+IF
+GameBookInterfaceClosed((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3, (CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+IsInInventoryOf((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,_Character, 0)
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_LIBORMORTIS_0",0)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000001_e77ee07b-088a-4846-b19b-e5fbf74f41e1,(ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,0,1,"",1,_LiborMortis)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+RequestDelete((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3);
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_Unlock0", 1000);
+DB_THAY_DO("YES");
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "BOOK_LiborMortis_Timer_Unlock0")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+OpenMessageBox(_Character, "MB_DreadOverlord_LiborMortis_0");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_LiborMortis_0")
+AND
+DB_THAY_DO("YES")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_LIBORMORTIS_0",-1.0);
+AddExplorationExperience(_Character, 10);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_ForbiddenKnowledge");
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_OrdersGiven");
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif");
+PROC_LiborMortis_Thay_Unlock();
+
+PROC
+PROC_LiborMortis_Thay_Unlock()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookReceived_Notification", 0)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_RejectRespecced");
+
+//NOTE  -   Libor Mortis unlock for respecced DOs who have unread Thay copy in inventory
+
+IF
+TagSet((CHARACTER)_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0)
+AND
+IsInInventoryOf((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3,_Character, 1)
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_LIBORMORTIS_0",0)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000000_8bd8168b-29ff-4ac0-b537-821a3ae4db39,_Character,0,1,"",1,_LiborMortis)
+THEN
+RequestDelete((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3);
+ToInventory(_LiborMortis, _Character, 1, 0, 0);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookReceived_RespecInventory");
+
+//NOTE  -   Libor Mortis unlock for respecced DOs who pickups unread Thay copy
+
+IF
+AddedTo((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3, (CHARACTER)_Character, _)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_LIBORMORTIS_0",0)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000000_8bd8168b-29ff-4ac0-b537-821a3ae4db39,_Character,0,1,"",1,_LiborMortis)
+THEN
+RequestDelete((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3);
+ToInventory(_LiborMortis, _Character, 1, 0, 0);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookReceived_Respec");
+
+//NOTE  -   Libor Mortis unlock for DOs who have both unread original Libor Mortis and Thay copy
+
+IF
+AddedTo((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3, (CHARACTER)_Character, _)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+DB_QuestIsAccepted("QUEST_DreadOverlord_MarchingOrders")
+AND
+HasActiveStatus(_Character,"DREADOVERLORD_LIBORMORTIS_0",0)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000000_8bd8168b-29ff-4ac0-b537-821a3ae4db39,_Character,0,1,"",1,_LiborMortis)
+THEN
+RequestDelete((ITEM)BOOK_DreadOverlord_LiborMortis_Starter_00000A_dc557750-f0ae-407c-aa5f-7c48625449f3);
+ToInventory(_LiborMortis, _Character, 1, 0, 0);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookReceived_Respec");
+
+//NOTE  -   Libor Mortis read the first time and grants second version of Libor Mortis
+
+IF
+GameBookInterfaceClosed((ITEM)_Book, (CHARACTER)_Character)
+AND
+GetTemplate(_Book, BOOK_DreadOverlord_LiborMortis_Starter_000000_8bd8168b-29ff-4ac0-b537-821a3ae4db39)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_ForbiddenKnowledge", 0)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000001_e77ee07b-088a-4846-b19b-e5fbf74f41e1,_Character,0,1,"",1,_LiborMortis)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_Unlock1", 1000);
+DB_DreadOverlord_LiborMortis1(_LiborMortis);
+ToInventory((ITEM)_LiborMortis, (CHARACTER)_Character, 1, 0, 0);
+PROC_DreadOverlord_LM1_Return((ITEM)_Book);
+DB_THAY_DO("NO");
+
+PROC
+PROC_DreadOverlord_LM1_Return((ITEM)_BookUID)
+AND
+DB_DreadOverlord_LiborMortis1(_LiborMortis)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsInInventoryOf(_BookUID, _Character, 1)
+THEN
+ToInventory(_LiborMortis, _Character, 1, 0, 0);
+TemplateRemoveFrom((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000000_8bd8168b-29ff-4ac0-b537-821a3ae4db39,_Character,1);
+
+PROC
+PROC_DreadOverlord_LM1_Return((ITEM)_BookUID)
+AND
+DB_DreadOverlord_LiborMortis1(_LiborMortis)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsInInventoryOf(_BookUID, _Character, 0)
+THEN
+RequestDelete((ITEM)_BookUID);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "BOOK_LiborMortis_Timer_Unlock1")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+OpenMessageBox(_Character, "MB_DreadOverlord_LiborMortis_0");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_LiborMortis_0")
+AND
+DB_THAY_DO("NO")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_LIBORMORTIS_0",-1.0);
+AddExplorationExperience(_Character, 10);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_ForbiddenKnowledge");
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_OrdersGiven");
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif");
+
+//NOTE  -   Libor Mortis listens for Skeletal Warlock summoning before allowing second reading of Libor Mortis
+
+IF
+UsingSpell((CHARACTER)_Character, "Target_DreadOverlord_Animate_SkeletalMage", _, _, _)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+DB_QuestIsAccepted("QUEST_DreadOverlord_MarchingOrders")
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_SkeletalWarlockSummoned", 0)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_SkeletalWarlockSummoned");
+
+//NOTE  -   Libor Mortis read the second time and grants third version of Libor Mortis
+
+IF
+GameBookInterfaceClosed((ITEM)_Book, (CHARACTER)_Character)
+AND
+GetTemplate(_Book, BOOK_DreadOverlord_LiborMortis_Starter_000001_e77ee07b-088a-4846-b19b-e5fbf74f41e1)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_SkeletalWarlockSummoned", 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_ForbiddenJudgment", 0)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000002_2ca411a4-e82f-4ade-901b-ac49e930fa5b,_Character,0,1,"",1,_LiborMortis)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+ToInventory((ITEM)_LiborMortis, (CHARACTER)_Character, 1, 0, 0);
+RequestDelete((ITEM)_Book);
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_Unlock2", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "BOOK_LiborMortis_Timer_Unlock2")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+OpenMessageBox(_Character, "MB_DreadOverlord_LiborMortis_1");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_LiborMortis_1")
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_ForbiddenJudgment");
+ApplyStatus(_Character, "DREADOVERLORD_LIBORMORTIS_1",-1.0);
+AddExplorationExperience(_Character, 300);
+
+//NOTE  -   Libor Mortis unlock after Aeternusvitae is first used before allowing third reading of Libor Mortis
+
+IF
+UsingSpell((CHARACTER)_Character, "Shout_DreadOverlord_ShroudDeAeternusVitae", _, _, _)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+DB_QuestIsAccepted("QUEST_DreadOverlord_MarchingOrders")
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_AeternusvitaeUsed", 0)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_AeternusvitaeUsed");
+
+//NOTE  -   Libor Mortis read the third time
+
+IF
+GameBookInterfaceClosed((ITEM)_Book, (CHARACTER)_Character)
+AND
+GetTemplate(_Book, BOOK_DreadOverlord_LiborMortis_Starter_000002_2ca411a4-e82f-4ade-901b-ac49e930fa5b)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_AeternusvitaeUsed", 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_ForbiddenMagnetism", 0)
+AND
+CreateAtObject((ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000003_7cc4b8ea-f7e9-44c2-9175-4437879ec482,_Character,0,1,"",1,_LiborMortis)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+ToInventory((ITEM)_LiborMortis, (CHARACTER)_Character, 1, 0, 0);
+RequestDelete((ITEM)_Book);
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_Unlock3", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "BOOK_LiborMortis_Timer_Unlock3")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+OpenMessageBox(_Character, "MB_DreadOverlord_LiborMortis_2");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_LiborMortis_2")
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_ForbiddenMagnetism");
+ApplyStatus(_Character, "DREADOVERLORD_LIBORMORTIS_2",-1.0);
+AddExplorationExperience(_Character, 600);
+
+//REGION    -   COVENANTS OF THE PROFANE
+
+//SUBREGION -   Listens for all version of Libor Mortis if all Act 2 totems are found and grants Improved Convenants
+
+IF
+GameBookInterfaceClosed((ITEM)_Book, (CHARACTER)_Character)
+AND
+GetTemplate(_Book, (ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000000_8bd8168b-29ff-4ac0-b537-821a3ae4db39)
+THEN
+PROC_CovenantsOfTheProfane_Unlock();
+
+IF
+GameBookInterfaceClosed((ITEM)_Book, (CHARACTER)_Character)
+AND
+GetTemplate(_Book, (ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000001_e77ee07b-088a-4846-b19b-e5fbf74f41e1)
+THEN
+PROC_CovenantsOfTheProfane_Unlock();
+
+IF
+GameBookInterfaceClosed((ITEM)_Book, (CHARACTER)_Character)
+AND
+GetTemplate(_Book, (ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000002_2ca411a4-e82f-4ade-901b-ac49e930fa5b)
+THEN
+PROC_CovenantsOfTheProfane_Unlock();
+
+IF
+GameBookInterfaceClosed((ITEM)_Book, (CHARACTER)_Character)
+AND
+GetTemplate(_Book, (ITEMROOT)BOOK_DreadOverlord_LiborMortis_Starter_000003_7cc4b8ea-f7e9-44c2-9175-4437879ec482)
+THEN
+PROC_CovenantsOfTheProfane_Unlock();
+
+PROC
+PROC_CovenantsOfTheProfane_Unlock()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_FoundAllTotemAct2", 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_AllCovenantsUnlocked", 0)
+THEN
+ObjectTimerLaunch(_Character, "BOOK_LiborMortis_Timer_UnlockCovenants", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "BOOK_LiborMortis_Timer_UnlockCovenants")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+OpenMessageBox(_Character, "MB_DreadOverlord_LiborMortis_3");
+
+IF
+MessageBoxClosed((CHARACTER)_Character, "MB_DreadOverlord_LiborMortis_3")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_LIBORMORTIS_IMPROVEDCOVENANTS",-1.0);
+AddExplorationExperience(_Character, 600);
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_AllCovenantsUnlocked");
+
+//NOTE  -   Auntie Ethel's act 1 lair interaction - doesn't work
+
+IF
+EnteredTrigger((CHARACTER)_Character, (TRIGGER)TRIGGERGUID_S_HAG_WaypointPos_4c92d6c3-055f-40f1-b76b-a3540ffe32ee)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_HagMeet");
+
+//NOTE  -   Picking up the Staff of Crones to represent ransacking of Auntie Ethel's lair
+
+IF
+AddedTo(S_HAG_GaleMagicItem_f2aac5a4-6449-4c6c-af18-7dd334b76d73, (CHARACTER)_Character, _)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_SubQuestNotif", 1)
+THEN
+QuestUpdate(_Character, "QUEST_DreadOverlord_MarchingOrders", "STEP_DreadOverlord_BookRead_HagLoot");
+
+//REGION    -   BELLS OF THE DEAD SEVEN
+
+//SUBREGION -   Azardon / Breaks silence and snaps players out of most conditions, dispels silence, creates undead from all corpses within 18 radius, and summons hostile undead from the halls of Death
+
+IF
+UsingSpell((CHARACTER)_Character, "Shout_DreadOverlord_Azardon", _, _, _)
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+CloseUI(_Character,"Inventory");
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_Character);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Azardon_Begin", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Azardon_Begin")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+TemplateIsInInventory(DreadOverlord_Bell_Azardon_f57b02f8-d7b1-41ef-ae02-814887e6d832, _Character, 1)
+AND
+GetItemByTemplateInInventory(DreadOverlord_Bell_Azardon_f57b02f8-d7b1-41ef-ae02-814887e6d832, (CHARACTER)_Character, _AzardonBell)
+THEN
+PlaySoundResource((CHARACTER)_Character, GEN_Tower_Bell_A_aef8a3e0-1ede-487c-9483-65881022c49e);
+UseSpell((ITEM)_AzardonBell, "Shout_DreadOverlord_Azardon_Wake", (CHARACTER)_Character, NULL_00000000-0000-0000-0000-000000000000, 1);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Azardon_2", 500);
+PROC_DreadOverlord_Delete_Silence();
+
+PROC
+PROC_DreadOverlord_Delete_Silence()
+AND
+DB_DreadOverlord_Silence((ITEM)_SilenceAura)
+THEN
+RequestDelete((ITEM)_SilenceAura);
+NOT DB_DreadOverlord_Silence((ITEM)_SilenceAura);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Azardon_2")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, GEN_Tower_Bell_A_aef8a3e0-1ede-487c-9483-65881022c49e);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Azardon_3", 500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Azardon_3")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, GEN_Tower_Bell_A_aef8a3e0-1ede-487c-9483-65881022c49e);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Azardon_4", 500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Azardon_4")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, GEN_Tower_Bell_A_aef8a3e0-1ede-487c-9483-65881022c49e);
+
+//NOTE  -   Registers silence for Azardon to break for both players and enemies
+
+IF
+StatusApplied((ITEM)_SilenceAura, "SILENCED_AURA", (CHARACTER)_Character,_)
+THEN
+DB_DreadOverlord_Silence((ITEM)_SilenceAura);
+
+//NOTE  -   Randomized hostile undead
+
+IF
+StatusApplied((CHARACTER)_Character, "DREADOVERLORD_AZARDON_1", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_BellWielder)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Skeletal_Giant_49375457-1cd9-4b8e-bd2a-7a2cc8c8d480, (CHARACTER)_BellWielder, (CHARACTER)_Character, 1, 0, "", (CHARACTER)_HostileSummon_1)
+THEN
+ApplyStatus((CHARACTER)_HostileSummon_1, "DREADOVERLORD_AZARDON_FREEUNDEAD", -1.0);
+SetFaction((CHARACTER)_HostileSummon_1, (FACTION)Evil_4be9261a-e481-8d9d-3528-f36956a19b17);
+
+IF
+StatusApplied((CHARACTER)_Character, "DREADOVERLORD_AZARDON_2", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_BellWielder)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)Undead_Skeleton_Ranger_AnimateDead_6c06cda2-6e13-4663-a6f6-c4bb7564c10f, (CHARACTER)_BellWielder, (CHARACTER)_Character, 1, 0, "", (CHARACTER)_HostileSummon_1)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)Undead_Skeleton_Ranger_AnimateDead_6c06cda2-6e13-4663-a6f6-c4bb7564c10f, (CHARACTER)_BellWielder, (CHARACTER)_Character, 1, 0, "", (CHARACTER)_HostileSummon_2)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)Undead_Skeleton_Ranger_AnimateDead_6c06cda2-6e13-4663-a6f6-c4bb7564c10f, (CHARACTER)_BellWielder, (CHARACTER)_Character, 1, 0, "", (CHARACTER)_HostileSummon_3)
+THEN
+ApplyStatus((CHARACTER)_HostileSummon_1, "DREADOVERLORD_AZARDON_FREEUNDEAD", -1.0);
+SetFaction((CHARACTER)_HostileSummon_1, (FACTION)Evil_4be9261a-e481-8d9d-3528-f36956a19b17);
+ApplyStatus((CHARACTER)_HostileSummon_2, "DREADOVERLORD_AZARDON_FREEUNDEAD", -1.0);
+SetFaction((CHARACTER)_HostileSummon_2, (FACTION)Evil_4be9261a-e481-8d9d-3528-f36956a19b17);
+ApplyStatus((CHARACTER)_HostileSummon_3, "DREADOVERLORD_AZARDON_FREEUNDEAD", -1.0);
+SetFaction((CHARACTER)_HostileSummon_3, (FACTION)Evil_4be9261a-e481-8d9d-3528-f36956a19b17);
+
+IF
+StatusApplied((CHARACTER)_Character, "DREADOVERLORD_AZARDON_3", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_BellWielder)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)Undead_Mummy_CreateUndead_f424693b-13f4-4cce-987b-7d75748c87e0, (CHARACTER)_BellWielder, (CHARACTER)_Character, 1, 0, "", (CHARACTER)_HostileSummon_1)
+THEN
+ApplyStatus((CHARACTER)_HostileSummon_1, "DREADOVERLORD_AZARDON_FREEUNDEAD", -1.0);
+SetFaction((CHARACTER)_HostileSummon_1, (FACTION)Evil_4be9261a-e481-8d9d-3528-f36956a19b17);
+
+IF
+StatusApplied((CHARACTER)_Character, "DREADOVERLORD_AZARDON_4", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_BellWielder)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)Undead_Skeleton_Giant_Myrkul_f05367f6-78f2-4631-996e-7e21912bbb78, (CHARACTER)_BellWielder, (CHARACTER)_Character, 1, 0, "", (CHARACTER)_HostileSummon_1)
+THEN
+ApplyStatus((CHARACTER)_HostileSummon_1, "DREADOVERLORD_AZARDON_FREEUNDEAD", -1.0);
+SetFaction((CHARACTER)_HostileSummon_1, (FACTION)Evil_4be9261a-e481-8d9d-3528-f36956a19b17);
+
+IF
+StatusApplied((CHARACTER)_Character, "DREADOVERLORD_AZARDON_5", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_BellWielder)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)Shadow_Wraith_A_066133a8-5dce-4636-8ba1-13efb1140c54, (CHARACTER)_BellWielder, (CHARACTER)_Character, 1, 0, "", (CHARACTER)_HostileSummon_1)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)Shadow_Wraith_A_066133a8-5dce-4636-8ba1-13efb1140c54, (CHARACTER)_BellWielder, (CHARACTER)_Character, 1, 0, "", (CHARACTER)_HostileSummon_2)
+THEN
+ApplyStatus((CHARACTER)_HostileSummon_1, "DREADOVERLORD_AZARDON_FREEUNDEAD", -1.0);
+SetFaction((CHARACTER)_HostileSummon_1, (FACTION)Evil_4be9261a-e481-8d9d-3528-f36956a19b17);
+ApplyStatus((CHARACTER)_HostileSummon_2, "DREADOVERLORD_AZARDON_FREEUNDEAD", -1.0);
+SetFaction((CHARACTER)_HostileSummon_2, (FACTION)Evil_4be9261a-e481-8d9d-3528-f36956a19b17);
+
+IF
+StatusApplied((CHARACTER)_Character, "DREADOVERLORD_AZARDON_6", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_BellWielder)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)DreadOverlord_Skeletal_Warlock_ca227f36-0a94-4b51-b93b-b3cfaa65e19c, (CHARACTER)_BellWielder, (CHARACTER)_Character, 1, 0, "", (CHARACTER)_HostileSummon_1)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)QUEST_CHA_EntombedScribe_fc2ae129-75d9-4021-b6b9-6422ef050faf, (CHARACTER)_BellWielder, (CHARACTER)_Character, 1, 0, "", (CHARACTER)_HostileSummon_2)
+AND
+CreateOutOfSightAtDirectionFromObject((CHARACTERROOT)QUEST_CHA_EntombedScribe_fc2ae129-75d9-4021-b6b9-6422ef050faf, (CHARACTER)_BellWielder, (CHARACTER)_Character, 1, 0, "", (CHARACTER)_HostileSummon_3)
+THEN
+ApplyStatus((CHARACTER)_HostileSummon_1, "DREADOVERLORD_AZARDON_FREEUNDEAD", -1.0);
+SetFaction((CHARACTER)_HostileSummon_1, (FACTION)Evil_4be9261a-e481-8d9d-3528-f36956a19b17);
+ApplyStatus((CHARACTER)_HostileSummon_2, "DREADOVERLORD_AZARDON_FREEUNDEAD", -1.0);
+SetFaction((CHARACTER)_HostileSummon_2, (FACTION)Evil_4be9261a-e481-8d9d-3528-f36956a19b17);
+ApplyStatus((CHARACTER)_HostileSummon_3, "DREADOVERLORD_AZARDON_FREEUNDEAD", -1.0);
+SetFaction((CHARACTER)_HostileSummon_3, (FACTION)Evil_4be9261a-e481-8d9d-3528-f36956a19b17);
+
+//NOTE  -   Anubis override for hostile undead to give patrol behavior
+
+IF
+StatusApplied((CHARACTER)_FreeSummon, "DREADOVERLORD_AZARDON_FREEUNDEAD", _, _)
+AND
+QRY_OverrideAnubisConfig(_FreeSummon, "GLO_DreadOverlord_FreeSummon")
+AND
+DB_QRYRTN_AnubisConfigOverrideIndex(_Index)
+THEN
+DB_DreadOverlord_FreeSummon(_FreeSummon, _Index);
+
+//NOTE  -   Randomized undead summons
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_AZARDON_CORPSE_1", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_Character)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_NightOfTheLivingDead_Horde_13b2f3e3-355c-45c6-b575-00fe1677312c, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon)
+THEN
+DB_DreadOverlord_Azardon_Summons((CHARACTER)_Summon);
+AddPartyFollower((CHARACTER)_Summon, (CHARACTER)_Character);
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_AZARDON_AI", -1.0);
+SetFaction((CHARACTER)_Summon, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_AZARDON_CORPSE_2", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_Character)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_Zombie_Greater_239b827a-5843-4dd9-9355-0f2ffd75b638, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon)
+THEN
+DB_DreadOverlord_Azardon_Summons((CHARACTER)_Summon);
+AddPartyFollower((CHARACTER)_Summon, (CHARACTER)_Character);
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_AZARDON_AI", -1.0);
+SetFaction((CHARACTER)_Summon, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_AZARDON_CORPSE_3", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_Character)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_Ghast_e878d8c4-05fb-461c-8bdc-303faf42ef43, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon)
+THEN
+DB_DreadOverlord_Azardon_Summons((CHARACTER)_Summon);
+AddPartyFollower((CHARACTER)_Summon, (CHARACTER)_Character);
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_AZARDON_AI", -1.0);
+SetFaction((CHARACTER)_Summon, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_AZARDON_CORPSE_4", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_Character)
+AND
+CreateAtObject((CHARACTERROOT)Undead_DREAD_Crawling_Claw_Swarm_163a1f11-9dfe-4395-8e37-fc08a57e6d5f, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon_1)
+AND
+CreateAtObject((CHARACTERROOT)Undead_DREAD_Crawling_Claw_Swarm_163a1f11-9dfe-4395-8e37-fc08a57e6d5f, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon_2)
+THEN
+DB_DreadOverlord_Azardon_Summons((CHARACTER)_Summon_1);
+AddPartyFollower((CHARACTER)_Summon_1, (CHARACTER)_Character);
+ApplyStatus((CHARACTER)_Summon_1, "DREADOVERLORD_AZARDON_AI", -1.0);
+SetFaction((CHARACTER)_Summon_1, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+DB_DreadOverlord_Azardon_Summons((CHARACTER)_Summon_2);
+AddPartyFollower((CHARACTER)_Summon_2, (CHARACTER)_Character);
+ApplyStatus((CHARACTER)_Summon_2, "DREADOVERLORD_AZARDON_AI", -1.0);
+SetFaction((CHARACTER)_Summon_2, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_AZARDON_CORPSE_5", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_Character)
+AND
+CreateAtObject((CHARACTERROOT)Undead_Skeleton_Ranger_AnimateDead_6c06cda2-6e13-4663-a6f6-c4bb7564c10f, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon)
+THEN
+DB_DreadOverlord_Azardon_Summons((CHARACTER)_Summon);
+AddPartyFollower((CHARACTER)_Summon, (CHARACTER)_Character);
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_AZARDON_AI", -1.0);
+SetFaction((CHARACTER)_Summon, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+IF
+StatusApplied((CHARACTER)_Corpse, "DREADOVERLORD_AZARDON_CORPSE_6", _,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_Character)
+AND
+CreateAtObject((CHARACTERROOT)Undead_Mummy_CreateUndead_f424693b-13f4-4cce-987b-7d75748c87e0, (CHARACTER)_Corpse, 0, 1, "", 0, (CHARACTER)_Summon)
+THEN
+DB_DreadOverlord_Azardon_Summons((CHARACTER)_Summon);
+AddPartyFollower((CHARACTER)_Summon, (CHARACTER)_Character);
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_AZARDON_AI", -1.0);
+SetFaction((CHARACTER)_Summon, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+//NOTE  -   Removes all the summons raised by Azardon after Long Rest with Corpse Decay timer
+
+IF
+StatusRemoved((CHARACTER)_Summon, "DREADOVERLORD_AZARDON_AI", _, _)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_Character)
+THEN
+RemovePartyFollower((CHARACTER)_Summon, (CHARACTER)_Character);
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 1);
+ApplyStatus((CHARACTER)_Summon, "DREADOVERLORD_CORPSE_DECAY_TIMER", 600.0);
+
+IF
+StatusApplied((CHARACTER)_Follower, "DREADOVERLORD_AZARDON_PARTY_RELEASE", (CHARACTER)_Character,_)
+AND
+DB_DreadOverlord_Azardon_Wielder((CHARACTER)_Character)
+THEN
+RemovePartyFollower((CHARACTER)_Follower, (CHARACTER)_Character);
+
+//SUBREGION -   Savoy / Flee, approach, halt, and dance for everyone
+
+IF
+UsingSpell((CHARACTER)_Character, "Shout_DreadOverlord_Savoy", _, _, _)
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+CloseUI(_Character,"Inventory");
+DB_DreadOverlord_Savoy_Wielder((CHARACTER)_Character);
+PlaySoundResource((CHARACTER)_Character, SHA_Necromancer_Chosen_BellRing_679214fc-ef85-461c-8843-174a621d8e75);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Savoy_Begin", 1500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Savoy_Begin")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+TemplateIsInInventory(DreadOverlord_Bell_Savoy_1f42915b-1eb9-4825-97f0-a7cf1883fdeb, _Character, 1)
+AND
+GetItemByTemplateInInventory(DreadOverlord_Bell_Savoy_1f42915b-1eb9-4825-97f0-a7cf1883fdeb, (CHARACTER)_Character, _SavoyBell)
+THEN
+DB_DreadOverlord_SavoyBell_Item((ITEM)_SavoyBell);
+UseSpell((ITEM)_SavoyBell, "Shout_DreadOverlord_Savoy_Walk", (CHARACTER)_Character, NULL_00000000-0000-0000-0000-000000000000, 1);
+PlaySoundResource((CHARACTER)_Character, II_Gong_5b71cdc9-29b7-405d-9c4b-aa259484ecea);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Savoy_2", 1500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Savoy_2")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, GEN_Tower_Bell_A_aef8a3e0-1ede-487c-9483-65881022c49e);
+PlaySoundResource((CHARACTER)_Character, SHA_Necromancer_Chosen_BellRing_679214fc-ef85-461c-8843-174a621d8e75);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Savoy_3", 1500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Savoy_3")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, SHA_Necromancer_Chosen_BellRing_679214fc-ef85-461c-8843-174a621d8e75);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Savoy_4", 1500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Savoy_4")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, SHA_Necromancer_Chosen_BellRing_679214fc-ef85-461c-8843-174a621d8e75);
+PlaySoundResource((CHARACTER)_Character, II_Gong_5b71cdc9-29b7-405d-9c4b-aa259484ecea);
+
+//SUBREGION -   Thy / Deep Slumber, short duration for allies, 5 turns for enemies and death timer for undead
+
+IF
+UsingSpell((CHARACTER)_Character, "Shout_DreadOverlord_Thy", _, _, _)
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+CloseUI(_Character,"Inventory");
+DB_DreadOverlord_Thy_Wielder((CHARACTER)_Character);
+PlaySoundResource((CHARACTER)_Character, SE_SCL_MausoleumPuzzle_Loop_d0b5dea4-dab3-4dce-9b23-f9b88ca6c8b6);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Thy_Begin", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Thy_Begin")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+TemplateIsInInventory(DreadOverlord_Bell_Thy_47647566-b86d-4deb-9c2c-3a759b4ab45f, _Character, 1)
+AND
+GetItemByTemplateInInventory(DreadOverlord_Bell_Thy_47647566-b86d-4deb-9c2c-3a759b4ab45f, (CHARACTER)_Character, _ThyBell)
+THEN
+UseSpell((ITEM)_ThyBell, "Shout_DreadOverlord_Thy_DeepSleep", (CHARACTER)_Character, NULL_00000000-0000-0000-0000-000000000000, 1);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Thy_Stop", 30000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Thy_Stop")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, SE_SCL_MausoleumPuzzle_Loop_Stop_93c45f76-d0e0-45bf-a4bc-9ac13d6cf37c);
+
+//SUBREGION -   Siael / Hymne Funeste for allies, silences enemies
+
+IF
+UsingSpell((CHARACTER)_Character, "Shout_DreadOverlord_Siael", _, _, _)
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+CloseUI(_Character,"Inventory");
+DB_DreadOverlord_Siael_Wielder((CHARACTER)_Character);
+PlaySoundResource((CHARACTER)_Character, SCL_PixieBell_FlutteringMO_558722ce-b264-4f23-a865-6d46ccec601e);
+PlaySoundResource((CHARACTER)_Character, SE_SCL_MausoleumPuzzle_Loop_d0b5dea4-dab3-4dce-9b23-f9b88ca6c8b6);
+PlaySoundResource((CHARACTER)_Character, END_GameFinale_SequeToElfsong_Bell_LoopStart_436c7f2f-3d37-43e7-933c-8d2068a5cd51);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Siael_Begin", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Siael_Begin")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+TemplateIsInInventory(DreadOverlord_Bell_Siael_cd4d5549-6f5b-455c-b543-bbcd3cabc912, _Character, 1)
+AND
+GetItemByTemplateInInventory(DreadOverlord_Bell_Siael_cd4d5549-6f5b-455c-b543-bbcd3cabc912, (CHARACTER)_Character, _SiaelBell)
+THEN
+UseSpell((ITEM)_SiaelBell, "Shout_DreadOverlord_Siael_Performance", (CHARACTER)_Character, NULL_00000000-0000-0000-0000-000000000000, 1);
+
+IF
+StatusApplied((CHARACTER)_SiaelMusicBox,"DREADOVERLORD_SIAEL_HYMNE_MUSIC",_,_)
+AND
+DB_PlayerSummons(_SiaelMusicBox)
+THEN
+DB_DreadOverlord_Siael_MusicBox((CHARACTER)_SiaelMusicBox);
+UseSpell((CHARACTER)_SiaelMusicBox, "Shout_Bard_Perform_ThePower_Lyre", (CHARACTER)_SiaelMusicBox, NULL_00000000-0000-0000-0000-000000000000, 1);
+
+IF
+TurnStarted((CHARACTER)_Character)
+AND
+DB_DreadOverlord_Siael_Wielder((CHARACTER)_Character)
+AND
+DB_DreadOverlord_Siael_MusicBox((CHARACTER)_SiaelMusicBox)
+AND
+HasActiveStatus((CHARACTER)_SiaelMusicBox,"PERFORM_POSITIVE_THEPOWER",0)
+THEN
+UseSpell((CHARACTER)_SiaelMusicBox, "Shout_Bard_Perform_ThePower_Lyre", (CHARACTER)_SiaelMusicBox, NULL_00000000-0000-0000-0000-000000000000, 1);
+
+IF
+StatusRemoved((CHARACTER)_SiaelMusicBox, "DREADOVERLORD_SIAEL_HYMNE_MUSIC", _, _)
+AND
+DB_DreadOverlord_Siael_MusicBox((CHARACTER)_SiaelMusicBox)
+AND
+DB_DreadOverlord_Siael_Wielder((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, SCL_PixieBell_FlutteringMOStop_fb3abd91-58d9-41e4-a071-ad3e9a9899ed);
+PlaySoundResource((CHARACTER)_Character, SE_SCL_MausoleumPuzzle_Loop_Stop_93c45f76-d0e0-45bf-a4bc-9ac13d6cf37c);
+PlaySoundResource((CHARACTER)_Character, END_GameFinale_SequeToElfsong_Bell_LoopStop_986670f1-b0bc-40c1-9887-610b558dc040);
+
+//SUBREGION -   Enigma / Freethought for undead summons, confusion for everyone else
+
+IF
+UsingSpell((CHARACTER)_Character, "Shout_DreadOverlord_Enigma", _, _, _)
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+CloseUI(_Character,"Inventory");
+DB_DreadOverlord_Enigma_Wielder((CHARACTER)_Character);
+PlaySoundResource((CHARACTER)_Character, SHA_Necromancer_Chosen_BellRing_679214fc-ef85-461c-8843-174a621d8e75);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Enigma_Begin", 1500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Enigma_Begin")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+TemplateIsInInventory(DreadOverlord_Bell_Enigma_c2f08239-8265-4022-892a-3e1adfd9facb, _Character, 1)
+AND
+GetItemByTemplateInInventory(DreadOverlord_Bell_Enigma_c2f08239-8265-4022-892a-3e1adfd9facb, (CHARACTER)_Character, _EnigmaBell)
+THEN
+DB_DreadOverlord_EnigmaBell_Item((ITEM)_EnigmaBell);
+UseSpell((ITEM)_EnigmaBell, "Shout_DreadOverlord_Enigma_Freethought", (CHARACTER)_Character, NULL_00000000-0000-0000-0000-000000000000, 1);
+PlaySoundResource((CHARACTER)_Character, SHA_Necromancer_Chosen_BellRing_679214fc-ef85-461c-8843-174a621d8e75);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Enigma_2", 1500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Enigma_2")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, SHA_Necromancer_Chosen_BellRing_679214fc-ef85-461c-8843-174a621d8e75);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Enigma_3", 1500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Enigma_3")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, SHA_Necromancer_Chosen_BellRing_679214fc-ef85-461c-8843-174a621d8e75);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Enigma_4", 1500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Enigma_4")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, SHA_Necromancer_Chosen_BellRing_679214fc-ef85-461c-8843-174a621d8e75);
+
+IF
+StatusApplied((CHARACTER)_Summon,"DREADOVERLORD_ENIGMA_FREETHOUGHT",_,_)
+AND
+GetTemplate(_Summon, _SummonTemplate)
+AND
+DB_PlayerSummons(_Summon)
+AND
+CreateAtObject((CHARACTERROOT)_SummonTemplate, (CHARACTER)_Summon, 0, 0, "", 1, (CHARACTER)_FreeSummon)
+THEN
+RequestDeleteTemporary((CHARACTER)_Summon);
+CreateExplosion((CHARACTER)_FreeSummon, "Projectile_DreadOverlord_Enigma_Explosion", 1, (CHARACTER)_FreeSummon);
+ApplyStatus((CHARACTER)_FreeSummon, "DREADOVERLORD_ENIGMA_MADNESS", -1.0);
+
+IF
+StatusApplied((CHARACTER)_FreeSummon,"DREADOVERLORD_ENIGMA_MADNESS",_,_)
+THEN
+DB_DreadOverlord_Enigma_FreeSummon_Spawned((CHARACTER)_FreeSummon);
+PROC_DreadOverlord_Enigma_Faction();
+
+//NOTE  -   Neutral faction / Skeletal warlock and an assortment of NotLD summons
+
+PROC
+PROC_DreadOverlord_Enigma_Faction()
+AND
+DB_DreadOverlord_Enigma_FreeSummon_Spawned((CHARACTER)_FreeSummon)
+AND
+HasActiveStatus((CHARACTER)_FreeSummon,"DREADOVERLORD_ENIGMA_NEUTRAL",1)
+THEN
+SetFaction((CHARACTER)_FreeSummon, (FACTION)DreadOverlord_Enigma_Freethought_Undead_32a2e3d9-99b4-45f1-a137-80b56807ad73);
+
+//NOTE  -   Hostile undead faction / Non-neutral NotLD and shadows from soulshield
+
+PROC
+PROC_DreadOverlord_Enigma_Faction()
+AND
+DB_DreadOverlord_Enigma_FreeSummon_Spawned((CHARACTER)_FreeSummon)
+AND
+HasActiveStatus((CHARACTER)_FreeSummon,"DREADOVERLORD_ENIGMA_NEUTRAL",0)
+AND
+HasActiveStatus((CHARACTER)_FreeSummon,"DREADOVERLORD_GIANT_DAT",0)
+AND
+IsTagged((CHARACTER)_FreeSummon, (TAG)DREADOVERLORD_MINOR_UNDEAD_d36989d1-9542-4b7b-8b72-d9422715634f, 1)
+THEN
+SetFaction((CHARACTER)_FreeSummon, (FACTION)DreadOverlord_Enigma_Freethought_Undead_Hostile_b8fb168b-1a94-4b41-9a70-f064275a93a8);
+
+//NOTE  -   Mad undead / Animate Dead undead, mummies, spectral horror, and Nere
+
+PROC
+PROC_DreadOverlord_Enigma_Faction()
+AND
+DB_DreadOverlord_Enigma_FreeSummon_Spawned((CHARACTER)_FreeSummon)
+AND
+HasActiveStatus((CHARACTER)_FreeSummon,"DREADOVERLORD_ENIGMA_NEUTRAL",0)
+AND
+HasActiveStatus((CHARACTER)_FreeSummon,"DREADOVERLORD_GIANT_DAT",0)
+AND
+IsTagged((CHARACTER)_FreeSummon, (TAG)DREADOVERLORD_MINOR_UNDEAD_d36989d1-9542-4b7b-8b72-d9422715634f, 0)
+THEN
+ApplyStatus((CHARACTER)_FreeSummon, "MADNESS", -1.0);
+
+//NOTE  -   Skeletal giant giant faction / Neutral with neutral, fights hostile undead, fights players
+
+PROC
+PROC_DreadOverlord_Enigma_Faction()
+AND
+DB_DreadOverlord_Enigma_FreeSummon_Spawned((CHARACTER)_FreeSummon)
+AND
+HasActiveStatus((CHARACTER)_FreeSummon,"DREADOVERLORD_GIANT_DAT",1)
+THEN
+SetFaction((CHARACTER)_FreeSummon, (FACTION)DreadOverlord_Enigma_Freethought_Giant_Hostile_d8ab89ff-8b7e-4c3e-8d3f-aabb78140667);
+
+//NOTE  -   Anubis override for all free thought undead
+
+IF
+StatusApplied((CHARACTER)_FreeSummon, "DREADOVERLORD_ENIGMA_MADNESS", _, _)
+AND
+QRY_OverrideAnubisConfig(_FreeSummon, "GLO_DreadOverlord_FreeSummon")
+AND
+DB_QRYRTN_AnubisConfigOverrideIndex(_Index)
+THEN
+DB_DreadOverlord_FreeSummon(_FreeSummon, _Index);
+
+//SUBREGION -   Valkrana / Full domination and can order weaker undead and fiends to kill themselves, Greater Undead and powerful fiends can be ordered to banish themselve
+
+IF
+UsingSpell((CHARACTER)_Character, "Shout_DreadOverlord_Valkrana", _, _, _)
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+CloseUI(_Character,"Inventory");
+DB_DreadOverlord_Valkrana_Wielder((CHARACTER)_Character);
+PlaySoundResource((CHARACTER)_Character, GEN_Tower_Bell_A_aef8a3e0-1ede-487c-9483-65881022c49e);
+PlaySoundResource((CHARACTER)_Character, II_Gong_5b71cdc9-29b7-405d-9c4b-aa259484ecea);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Valkrana_Begin", 1000);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Valkrana_Begin")
+AND
+DB_Players((CHARACTER)_Character)
+AND
+TemplateIsInInventory(DreadOverlord_Bell_Valkrana_406e5847-75aa-4a70-b91b-ede61bafb512, _Character, 1)
+AND
+GetItemByTemplateInInventory(DreadOverlord_Bell_Valkrana_406e5847-75aa-4a70-b91b-ede61bafb512, (CHARACTER)_Character, _ValkranaBell)
+THEN
+UseSpell((ITEM)_ValkranaBell, "Shout_DreadOverlord_Valkrana_Dominate", (CHARACTER)_Character, NULL_00000000-0000-0000-0000-000000000000, 1);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Valkrana_2", 2500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Valkrana_2")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, GEN_Tower_Bell_A_aef8a3e0-1ede-487c-9483-65881022c49e);
+PlaySoundResource((CHARACTER)_Character, II_Gong_5b71cdc9-29b7-405d-9c4b-aa259484ecea);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Valkrana_3", 2500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Valkrana_3")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, GEN_Tower_Bell_A_aef8a3e0-1ede-487c-9483-65881022c49e);
+PlaySoundResource((CHARACTER)_Character, II_Gong_5b71cdc9-29b7-405d-9c4b-aa259484ecea);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Valkrana_4", 2500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Valkrana_4")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PlaySoundResource((CHARACTER)_Character, GEN_Tower_Bell_A_aef8a3e0-1ede-487c-9483-65881022c49e);
+PlaySoundResource((CHARACTER)_Character, II_Gong_5b71cdc9-29b7-405d-9c4b-aa259484ecea);
+
+IF
+StatusApplied((CHARACTER)_Enemy,"DREADOVERLORD_VALKRANA_DOMINATE_ALL",_,_)
+AND
+DB_DreadOverlord_Valkrana_Wielder((CHARACTER)_Character)
+THEN
+DB_DreadOverlord_Valkrana_Dominated((CHARACTER)_Enemy);
+AddPartyFollower((CHARACTER)_Enemy, (CHARACTER)_Character);
+
+IF
+StatusRemoved((CHARACTER)_Enemy, "DREADOVERLORD_VALKRANA_DOMINATE_ALL", _, _)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+DB_DreadOverlord_Valkrana_Dominated((CHARACTER)_Enemy)
+THEN
+RemovePartyFollower((CHARACTER)_Enemy, (CHARACTER)_Character);
+
+IF
+StatusApplied((CHARACTER)_Enemy,"DREADOVERLORD_VALKRANA_DOMINATE_ALL_UNDEAD",_,_)
+AND
+DB_DreadOverlord_Valkrana_Wielder((CHARACTER)_Character)
+THEN
+DB_DreadOverlord_Valkrana_Dominated((CHARACTER)_Enemy);
+AddPartyFollower((CHARACTER)_Enemy, (CHARACTER)_Character);
+
+IF
+StatusRemoved((CHARACTER)_Enemy, "DREADOVERLORD_VALKRANA_DOMINATE_ALL_UNDEAD", _, _)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+DB_DreadOverlord_Valkrana_Dominated((CHARACTER)_Enemy)
+THEN
+RemovePartyFollower((CHARACTER)_Enemy, (CHARACTER)_Character);
+
+IF
+StatusApplied((CHARACTER)_Enemy,"DREADOVERLORD_VALKRANA_DOMINATE_ALL_UNDEAD_GREATER",_,_)
+AND
+DB_DreadOverlord_Valkrana_Wielder((CHARACTER)_Character)
+THEN
+DB_DreadOverlord_Valkrana_Dominated((CHARACTER)_Enemy);
+AddPartyFollower((CHARACTER)_Enemy, (CHARACTER)_Character);
+
+IF
+StatusRemoved((CHARACTER)_Enemy, "DREADOVERLORD_VALKRANA_DOMINATE_ALL_UNDEAD_GREATER", _, _)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+DB_DreadOverlord_Valkrana_Dominated((CHARACTER)_Enemy)
+THEN
+RemovePartyFollower((CHARACTER)_Enemy, (CHARACTER)_Character);
+
+IF
+StatusRemoved((CHARACTER)_Character, "DREADOVERLORD_VALKRANA_DOMINATE_ALL_TECHNICAL", _, _)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+DB_DreadOverlord_Valkrana_Dominated((CHARACTER)_Enemy)
+THEN
+NOT DB_DreadOverlord_Valkrana_Dominated((CHARACTER)_Enemy);
+
+//SUBREGION -   Vrall / Brings all closer to death
+
+IF
+UsingSpell((CHARACTER)_Character, "Shout_DreadOverlord_Vrall", _, _, _)
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+CloseUI(_Character,"Inventory");
+PlaySoundResource((CHARACTER)_Character, GEN_Tower_Bell_A_aef8a3e0-1ede-487c-9483-65881022c49e);
+PlaySoundResource((CHARACTER)_Character, II_Gong_5b71cdc9-29b7-405d-9c4b-aa259484ecea);
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_SFX_Vrall_Begin", 1000);
+PROC_CameraShakeAroundObject((CHARACTER)_Character, 4000, 60.0);
+CreateExplosion((CHARACTER)_Character, "Projectile_DreadOverlord_Vrall_Explosion", 1, (CHARACTER)_Character);
+
+//NOTE  -   Checks for Cull the Weak and turns it off if present
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_SFX_Vrall_Begin")
+AND
+DB_Players((CHARACTER)_Character)
+THEN
+PROC_DreadOverlord_Vrall_CullTheWeak();
+
+PROC
+PROC_DreadOverlord_Vrall_CullTheWeak()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+HasPassive((CHARACTER)_Character, "TAD_CullTheWeak", 0)
+AND
+TemplateIsInInventory(DreadOverlord_Bell_Vrall_c4aacdd2-e59c-46fa-aa3b-1935c484f53b, _Character, 1)
+AND
+GetItemByTemplateInInventory(DreadOverlord_Bell_Vrall_c4aacdd2-e59c-46fa-aa3b-1935c484f53b, (CHARACTER)_Character, _VrallBell)
+THEN
+UseSpell((ITEM)_VrallBell, "Shout_DreadOverlord_Vrall_Damage", (CHARACTER)_Character, NULL_00000000-0000-0000-0000-000000000000, 1);
+
+PROC
+PROC_DreadOverlord_Vrall_CullTheWeak()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+HasPassive((CHARACTER)_Character, "TAD_CullTheWeak", 1)
+AND
+IsTagged((CHARACTER)_Character, (TAG)TADPOLE_POWERS_BLOCKED_dbbb5a43-a45f-4d6e-b6dd-eba372e8f294, 1)
+AND
+TemplateIsInInventory(DreadOverlord_Bell_Vrall_c4aacdd2-e59c-46fa-aa3b-1935c484f53b, _Character, 1)
+AND
+GetItemByTemplateInInventory(DreadOverlord_Bell_Vrall_c4aacdd2-e59c-46fa-aa3b-1935c484f53b, (CHARACTER)_Character, _VrallBell)
+THEN
+UseSpell((ITEM)_VrallBell, "Shout_DreadOverlord_Vrall_Damage", (CHARACTER)_Character, NULL_00000000-0000-0000-0000-000000000000, 1);
+
+PROC
+PROC_DreadOverlord_Vrall_CullTheWeak()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+HasPassive((CHARACTER)_Character, "TAD_CullTheWeak", 1)
+AND
+IsTagged((CHARACTER)_Character, (TAG)TADPOLE_POWERS_BLOCKED_dbbb5a43-a45f-4d6e-b6dd-eba372e8f294, 0)
+THEN
+SetTag((CHARACTER)_Character, (TAG)TADPOLE_POWERS_BLOCKED_dbbb5a43-a45f-4d6e-b6dd-eba372e8f294);
+PROC_DreadOverlord_Vrall_UseSpell();
+
+PROC
+PROC_DreadOverlord_Vrall_UseSpell()
+AND
+DB_Players((CHARACTER)_Character)
+AND
+TemplateIsInInventory(DreadOverlord_Bell_Vrall_c4aacdd2-e59c-46fa-aa3b-1935c484f53b, _Character, 1)
+AND
+GetItemByTemplateInInventory(DreadOverlord_Bell_Vrall_c4aacdd2-e59c-46fa-aa3b-1935c484f53b, (CHARACTER)_Character, _VrallBell)
+THEN
+UseSpell((ITEM)_VrallBell, "Shout_DreadOverlord_Vrall_Damage", (CHARACTER)_Character, NULL_00000000-0000-0000-0000-000000000000, 1);
+ClearTag((CHARACTER)_Character, (TAG)TADPOLE_POWERS_BLOCKED_dbbb5a43-a45f-4d6e-b6dd-eba372e8f294);
+
+//REGION    -   CORPSES
+
+IF
+StatusRemoved((CHARACTER)_Corpse, "DREADOVERLORD_CORPSE_DECAY_TIMER", _, _)
+THEN
+RequestDeleteTemporary((CHARACTER)_Corpse);
+
+//SUBREGION -   Greater undead
+
+IF
+Dying((CHARACTER)_Character)
+AND
+GetTemplate(_Character, (CHARACTERROOT)DreadOverlord_Skeletal_Giant_49375457-1cd9-4b8e-bd2a-7a2cc8c8d480)
+AND
+DB_PlayerSummons(_Character)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_Skeletal_Giant_49375457-1cd9-4b8e-bd2a-7a2cc8c8d480, _Character, 1, 0, "", 1, (CHARACTER)_Corpse)
+THEN
+Die((CHARACTER)_Corpse, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 1);
+ApplyStatus((CHARACTER)_Corpse, "DREADOVERLORD_CORPSE_DECAY_TIMER", 600.0);
+
+IF
+Dying((CHARACTER)_Character)
+AND
+GetTemplate(_Character, (CHARACTERROOT)DreadOverlord_Skeletal_Warlock_ca227f36-0a94-4b51-b93b-b3cfaa65e19c)
+AND
+DB_PlayerSummons(_Character)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_Skeletal_Warlock_ca227f36-0a94-4b51-b93b-b3cfaa65e19c, _Character, 1, 0, "", 1, (CHARACTER)_Corpse)
+THEN
+Die((CHARACTER)_Corpse, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 1);
+ApplyStatus((CHARACTER)_Corpse, "DREADOVERLORD_CORPSE_DECAY_TIMER", 600.0);
+
+//SUBREGION -   Zombies
+
+IF
+Dying((CHARACTER)_Character)
+AND
+GetTemplate(_Character, (CHARACTERROOT)DreadOverlord_NightOfTheLivingDead_Horde_13b2f3e3-355c-45c6-b575-00fe1677312c)
+AND
+DB_PlayerSummons(_Character)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_NightOfTheLivingDead_Horde_13b2f3e3-355c-45c6-b575-00fe1677312c, _Character, 1, 0, "", 1, (CHARACTER)_Corpse)
+THEN
+Die((CHARACTER)_Corpse, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 1);
+ApplyStatus((CHARACTER)_Corpse, "DREADOVERLORD_CORPSE_DECAY_TIMER", 600.0);
+
+IF
+Dying((CHARACTER)_Character)
+AND
+GetTemplate(_Character, (CHARACTERROOT)DreadOverlord_NightOfTheLivingDead_Horde_Giant_16b11c25-ad56-468f-9124-c50f656e4ea4)
+AND
+DB_PlayerSummons(_Character)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_NightOfTheLivingDead_Horde_Giant_16b11c25-ad56-468f-9124-c50f656e4ea4, _Character, 1, 0, "", 1, (CHARACTER)_Corpse)
+THEN
+Die((CHARACTER)_Corpse, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 1);
+ApplyStatus((CHARACTER)_Corpse, "DREADOVERLORD_CORPSE_DECAY_TIMER", 600.0);
+
+//SUBREGION -   Greater zombies
+
+IF
+Dying((CHARACTER)_Character)
+AND
+GetTemplate(_Character, (CHARACTERROOT)DreadOverlord_Zombie_Greater_239b827a-5843-4dd9-9355-0f2ffd75b638)
+AND
+DB_PlayerSummons(_Character)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_Zombie_Greater_239b827a-5843-4dd9-9355-0f2ffd75b638, _Character, 1, 0, "", 1, (CHARACTER)_Corpse)
+THEN
+Die((CHARACTER)_Corpse, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 1);
+ApplyStatus((CHARACTER)_Corpse, "DREADOVERLORD_CORPSE_DECAY_TIMER", 600.0);
+
+IF
+Dying((CHARACTER)_Character)
+AND
+GetTemplate(_Character, (CHARACTERROOT)DreadOverlord_Zombie_Greater_Giant_6fb62a5e-3b16-4048-a6e2-8607cfe9c806)
+AND
+DB_PlayerSummons(_Character)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_Zombie_Greater_Giant_6fb62a5e-3b16-4048-a6e2-8607cfe9c806, _Character, 1, 0, "", 1, (CHARACTER)_Corpse)
+THEN
+Die((CHARACTER)_Corpse, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 1);
+ApplyStatus((CHARACTER)_Corpse, "DREADOVERLORD_CORPSE_DECAY_TIMER", 600.0);
+
+//SUBREGION -   Ghasts
+
+IF
+Dying((CHARACTER)_Character)
+AND
+GetTemplate(_Character, (CHARACTERROOT)DreadOverlord_Ghast_e878d8c4-05fb-461c-8bdc-303faf42ef43)
+AND
+DB_PlayerSummons(_Character)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_Ghast_e878d8c4-05fb-461c-8bdc-303faf42ef43, _Character, 1, 0, "", 1, (CHARACTER)_Corpse)
+THEN
+Die((CHARACTER)_Corpse, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 1);
+ApplyStatus((CHARACTER)_Corpse, "DREADOVERLORD_CORPSE_DECAY_TIMER", 600.0);
+
+IF
+Dying((CHARACTER)_Character)
+AND
+GetTemplate(_Character, (CHARACTERROOT)DreadOverlord_Ghast_Giant_f6a1fd3d-7c77-496b-a57b-b5f4a4fb0376)
+AND
+DB_PlayerSummons(_Character)
+AND
+CreateAtObject((CHARACTERROOT)DreadOverlord_Ghast_Giant_f6a1fd3d-7c77-496b-a57b-b5f4a4fb0376, _Character, 1, 0, "", 1, (CHARACTER)_Corpse)
+THEN
+Die((CHARACTER)_Corpse, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 1);
+ApplyStatus((CHARACTER)_Corpse, "DREADOVERLORD_CORPSE_DECAY_TIMER", 600.0);
+
+//REGION    -   HORN OF THE DREAD CITADEL ACTIVATION
+
+IF
+UseStarted(_Character,(ITEM)_Horn)
+AND
+GetTemplate(_Horn, OBJ_DreadOverlord_Horn_86696ebf-84b8-4d5e-9b91-51912af3d720)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_BATTLEHORN_AUTOMATION_OWNER",0)
+THEN
+CloseUI(_Character,"Inventory");
+PlayAnimation(_Character,(ANIMATION)CUST_PlayingHorn_01_6a141d35-effe-4c7f-9585-bb153e4c1230,"");
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Horn_Timer", 3400);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Horn_Timer")
+AND
+DB_PlayerSummons(_DreadOverlordSummons)
+AND
+HasActiveStatus(_DreadOverlordSummons, "DREADOVERLORD_BELLS_DEAFENED",0)
+AND
+HasActiveStatus(_DreadOverlordSummons, "SWARM_WAKETHEDEAD_GHOUL",0)
+AND
+HasActiveStatus(_DreadOverlordSummons, "SWARM_WAKETHEDEAD_UNDEADTHRALL_GHOUL",0)
+THEN
+ApplyStatus(_DreadOverlordSummons, "DREADOVERLORD_BATTLEHORN_AUTOMATION",-1.0);
+ApplyStatus(_Character, "DREADOVERLORD_BATTLEHORN_AUTOMATION_OWNER",-1.0);
+
+//REGION    -   HORN OF THE DREAD CITADEL TURN OFF
+
+IF
+UseStarted(_Character,(ITEM)_Horn)
+AND
+GetTemplate(_Horn, OBJ_DreadOverlord_Horn_86696ebf-84b8-4d5e-9b91-51912af3d720)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_BATTLEHORN_AUTOMATION_OWNER",1)
+THEN
+CloseUI(_Character,"Inventory");
+PlayAnimation(_Character,(ANIMATION)CUST_PlayingHorn_01_6a141d35-effe-4c7f-9585-bb153e4c1230,"");
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Horn_Timer_Off", 3400);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Horn_Timer_Off")
+AND
+DB_PlayerSummons(_DreadOverlordSummons)
+THEN
+RemoveStatus(_DreadOverlordSummons, "DREADOVERLORD_BATTLEHORN_AUTOMATION");
+RemoveStatus(_Character, "DREADOVERLORD_BATTLEHORN_AUTOMATION_OWNER");
+
+//SUBREGION -   GRANTS HORN TO FOLKS WHO DON'T HAVE IT
+
+IF
+UserCharacterLongRested(_Character,1)
+AND
+DB_PlayerInCamp(_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasPassive((CHARACTER)_Character, "DreadOverlord_SummonerOfTheDamned", 1)
+AND
+TemplateIsInInventory((ITEMROOT)OBJ_DreadOverlord_Horn_86696ebf-84b8-4d5e-9b91-51912af3d720,_Character, 0)
+AND
+QuestUpdateIsUnlocked(_Character, "HIDDENQUEST_DreadOverlord_Boosters", "HIDDENSTEP_DreadOverlord_HornReceive", 0)
+AND
+NOT DB_DreadOverlordHornGranted("YES")
+THEN
+RealtimeObjectTimerLaunch((CHARACTER)_Character, "DreadOverlord_Horn_QuestTimer", 3500);
+
+IF
+ObjectTimerFinished((CHARACTER)_Character, "DreadOverlord_Horn_QuestTimer")
+THEN
+ApplyStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_SOUNDLOOP",1.0);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_01_ed0034ce-ff3c-43e9-ba35-83eb95a40323);
+PlaySoundResource((CHARACTER)_Character, COL_KethericShowdown_KethericApostle_FX_Whisper_02_8b709454-c0db-4e8d-aedf-9ba513650327);
+DB_DreadOverlordHornGranted("YES");
+QuestUpdate(_Character, "HIDDENQUEST_DreadOverlord_Boosters", "HIDDENSTEP_DreadOverlord_HornReceive");
+
+//REGION    -   ONE-TIME REWARDS FIX
+
+IF
+LevelGameplayStarted(_, _)
+AND
+DB_Players(_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_2_CHECK",1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem2_Found", 0)
+AND
+TemplateIsInInventory((ITEMROOT)BOOK_DreadOverlord_Blueprints_ArmorOfSoul_2b861b56-801b-4443-9f2e-028a377f8f18,_Character, 0)
+AND
+NOT DB_OneTimeRewards_RewardGiven_DreadOverlord(2)
+THEN
+DB_OneTimeRewards_RewardGiven_DreadOverlord(2);
+TemplateAddTo((ITEMROOT)BOOK_DreadOverlord_Blueprints_ArmorOfSoul_2b861b56-801b-4443-9f2e-028a377f8f18,_Character,1,1);
+
+IF
+LevelGameplayStarted(_, _)
+AND
+DB_Players(_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_4_CHECK",1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem4_Found", 0)
+AND
+TemplateIsInInventory((ITEMROOT)BOOK_DreadOverlord_Blueprints_FungalInfestation_0e5cca03-2c39-4f39-a913-ac9c7c2100a2,_Character, 0)
+AND
+NOT DB_OneTimeRewards_RewardGiven_DreadOverlord(3)
+THEN
+DB_OneTimeRewards_RewardGiven_DreadOverlord(3);
+TemplateAddTo((ITEMROOT)BOOK_DreadOverlord_Blueprints_FungalInfestation_0e5cca03-2c39-4f39-a913-ac9c7c2100a2,_Character,1,1);
+
+IF
+LevelGameplayStarted(_, _)
+AND
+DB_Players(_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_8_CHECK",1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem8_Found", 0)
+AND
+TemplateIsInInventory((ITEMROOT)OBJ_THR_CauldronBoilingWater_DreadOverlord_5701c813-45b5-4d03-adae-f51d9376de60,_Character, 0)
+AND
+NOT DB_OneTimeRewards_RewardGiven_DreadOverlord(4)
+THEN
+DB_OneTimeRewards_RewardGiven_DreadOverlord(4);
+TemplateAddTo((ITEMROOT)OBJ_THR_CauldronBoilingWater_DreadOverlord_5701c813-45b5-4d03-adae-f51d9376de60,_Character,1,1);
+
+IF
+LevelGameplayStarted(_, _)
+AND
+DB_Players(_Character)
+AND
+IsTagged(_Character, (TAG)WARLOCK_DREAD_OVERLORD_a17dbd40-15f7-4212-a57b-263f3ff53fc0, 1)
+AND
+HasActiveStatus(_Character, "DREADOVERLORD_PROFANEBLESSING_BONESCULPTURE_9_CHECK",1)
+AND
+QuestUpdateIsUnlocked(_Character, "QUEST_DreadOverlord_TotemsOfTheNecromancer", "STEP_DreadOverlord_Totem9_Found", 0)
+AND
+TemplateIsInInventory((ITEMROOT)WPN_Scythe_Wrath_DreadOverlord_fe3b59d2-220c-4dba-98f5-7bdbb1cc6ce2,_Character, 0)
+AND
+NOT DB_OneTimeRewards_RewardGiven_DreadOverlord(5)
+THEN
+DB_OneTimeRewards_RewardGiven_DreadOverlord(5);
+TemplateAddTo((ITEMROOT)WPN_Scythe_Wrath_DreadOverlord_fe3b59d2-220c-4dba-98f5-7bdbb1cc6ce2,_Character,1,1);
+
+//REGION - Party Follower
+
+IF
+StatusApplied((CHARACTER)_Follower, "DREADOVERLORD_PARTY_FOLLOWER", (CHARACTER)_Character,_)
+AND
+DB_Players(_Character)
+AND
+QRY_OverrideAnubisConfig(_Follower, "GLO_AndrasFamiliar")
+AND
+DB_QRYRTN_AnubisConfigOverrideIndex(_Index)
+THEN
+AddPartyFollower((CHARACTER)_Follower, (CHARACTER)_Character);
+DB_DreadOverlord_FreeSummon(_Follower, _Index);
+SetFaction((CHARACTER)_Follower, (FACTION)Hero_a1542c81-6895-929e-4522-10ce218bb360);
+
+IF
+StatusApplied((CHARACTER)_Follower, "DREADOVERLORD_PARTY_RELEASE", (CHARACTER)_Character,_)
+AND
+DB_Players(_Character)
+THEN
+RemovePartyFollower((CHARACTER)_Follower, (CHARACTER)_Character);
+Die((CHARACTER)_Follower, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+
+//REGION    - Profane Power: Gloomsworn
+
+IF
+StatusApplied((CHARACTER)_NPC, "DREADOVERLORD_SHADOWARMY_TECHNICAL",(CHARACTER)_SummonOwner,_)
+AND
+DB_Players(_SummonOwner)
+AND
+NOT DB_DreadOverlord_SoloLevel_Base(_NPC)
+THEN
+DB_DreadOverlord_SoloLevel_Base(_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon,"DREADOVERLORD_SHADOWARMY_VFX",(CHARACTER)_SummonOwner,_)
+AND
+DB_Players(_SummonOwner)
+AND
+DB_PlayerSummons(_Summon)
+AND
+DB_DreadOverlord_SoloLevel_Base(_NPC)
+THEN
+Transform(_Summon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+NOT DB_DreadOverlord_SoloLevel_Base(_NPC);
+
+//REGION        - Gloomsworn Storage and Resummon
+
+//SUBREGION     - Storage
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_1", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_1(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_2", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_2(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_3", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_3(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_4", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_4(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_5", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_5(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_6", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_6(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_7", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_7(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_8", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_8(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_9", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_9(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_10", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_10(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_11", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_11(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_Summon, "DREADOVERLORD_SHADOWARMY_SLOT_12", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC)
+THEN
+Die((CHARACTER)_Summon, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000, 0, 0);
+DB_DreadOverlord_SoloLevel_Stored_Slot_12(_NPC);
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Shadow(_Summon,_SummonOwner,_NPC);
+
+//SUBREGION     - Resummon
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_1", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_1(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_1(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_2", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_2(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_2(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_3", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_3(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_3(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_4", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_4(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_4(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_5", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_5(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_5(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_6", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_6(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_6(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_7", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_7(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_7(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_8", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_8(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_8(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_9", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_9(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_9(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_10", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_10(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_10(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_11", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_11(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_11(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, "DREADOVERLORD_SHADOWARMY_RESUMMONED_VFX_12", (CHARACTER)_SummonOwner,_)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_12(_NPC)
+THEN
+Transform(_NewSummon, _NPC, (SHAPESHIFTRULE)DreadOverlord_ShadowArmy_Rule_81e86d43-0a5f-4cff-aa9c-fd4db19f62b5);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_12(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+//REGION        -   Delete live gloomsworn, transfer base corpses, removes blocker when changing regions
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, "WaypointTravel_RegionSwap", _Force)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC)
+AND
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC)
+THEN
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12");
+RequestDeleteTemporary((CHARACTER)_NewSummon);
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED");
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED_SHADOWARMY");
+NOT DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+PROC_DreadOverlord_SoloLevel_CleanDatabases(_NewSummon,_SummonOwner,_NPC);
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, (STRING)_ReadyCheckID, _Force)
+AND
+DB_GLO_LevelSwap_Location(_ReadyCheckID, _, _, _, _RecommendedPlayerLevel, _ReadyCheckTranslationID_LowLevelVariant,_DestinationLevel)
+AND
+DB_LevelLoadedOnce(_DestinationLevel)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC)
+AND
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC)
+THEN
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12");
+RequestDeleteTemporary((CHARACTER)_NewSummon);
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED");
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED_SHADOWARMY");
+NOT DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+PROC_DreadOverlord_SoloLevel_CleanDatabases(_NewSummon,_SummonOwner,_NPC);
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, (STRING)_ReadyCheckID, _Force)
+AND
+DB_GLO_LevelSwap_Location(_ReadyCheckID, _, _, _, _RecommendedPlayerLevel, _ReadyCheckTranslationID_LowLevelVariant,_DestinationLevel)
+AND
+NOT DB_LevelLoadedOnce(_DestinationLevel)
+AND
+QRY_LevelSwap_PlayerLevelIsTooLow(_SummonOwner, _RecommendedPlayerLevel)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC)
+AND
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC)
+THEN
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12");
+RequestDeleteTemporary((CHARACTER)_NewSummon);
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED");
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED_SHADOWARMY");
+NOT DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+PROC_DreadOverlord_SoloLevel_CleanDatabases(_NewSummon,_SummonOwner,_NPC);
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, (STRING)_ReadyCheckID, _Force)
+AND
+DB_GLO_LevelSwap_Location(_ReadyCheckID, _, _, _ReadyCheckTranslationID, _RecommendedPlayerLevel, _,_DestinationLevel)
+AND
+NOT DB_LevelLoadedOnce(_DestinationLevel)
+AND
+NOT QRY_LevelSwap_PlayerLevelIsTooLow(_SummonOwner, _RecommendedPlayerLevel)
+AND
+DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC)
+AND
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC)
+THEN
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11");
+RemoveStatus((CHARACTER)_SummonOwner, "DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12");
+RequestDeleteTemporary((CHARACTER)_NewSummon);
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED");
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED_SHADOWARMY");
+NOT DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+PROC_DreadOverlord_SoloLevel_CleanDatabases(_NewSummon,_SummonOwner,_NPC);
+
+//SUBREGION     - Gloomsworn live summons database clean redundancy
+
+PROC
+PROC_DreadOverlord_SoloLevel_CleanDatabases((CHARACTER)_NewSummon,(CHARACTER)_SummonOwner,(CHARACTER)_NPC)
+THEN
+NOT DB_DreadOverlord_SoloLevel_Shadow(_NewSummon,_SummonOwner,_NPC);
+
+//REGION        -   Gloomsworn transfer base corpses of stored gloomsworn, removes blocker when changing regions
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, "WaypointTravel_RegionSwap", _Force)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC)
+THEN
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED");
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED_SHADOWARMY");
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+PROC_DreadOverlord_SoloLevel_CleanDatabases_Storage(_NPC);
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, (STRING)_ReadyCheckID, _Force)
+AND
+DB_GLO_LevelSwap_Location(_ReadyCheckID, _, _, _, _RecommendedPlayerLevel, _ReadyCheckTranslationID_LowLevelVariant,_DestinationLevel)
+AND
+DB_LevelLoadedOnce(_DestinationLevel)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC)
+THEN
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED");
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED_SHADOWARMY");
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+PROC_DreadOverlord_SoloLevel_CleanDatabases_Storage(_NPC);
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, (STRING)_ReadyCheckID, _Force)
+AND
+DB_GLO_LevelSwap_Location(_ReadyCheckID, _, _, _, _RecommendedPlayerLevel, _ReadyCheckTranslationID_LowLevelVariant,_DestinationLevel)
+AND
+NOT DB_LevelLoadedOnce(_DestinationLevel)
+AND
+QRY_LevelSwap_PlayerLevelIsTooLow(_SummonOwner, _RecommendedPlayerLevel)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC)
+THEN
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED");
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED_SHADOWARMY");
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+PROC_DreadOverlord_SoloLevel_CleanDatabases_Storage(_NPC);
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, (STRING)_ReadyCheckID, _Force)
+AND
+DB_GLO_LevelSwap_Location(_ReadyCheckID, _, _, _ReadyCheckTranslationID, _RecommendedPlayerLevel, _,_DestinationLevel)
+AND
+NOT DB_LevelLoadedOnce(_DestinationLevel)
+AND
+NOT QRY_LevelSwap_PlayerLevelIsTooLow(_SummonOwner, _RecommendedPlayerLevel)
+AND
+DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC)
+THEN
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED");
+RemoveStatus((CHARACTER)_NPC, "DREADOVERLORD_HARVESTED_SHADOWARMY");
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+PROC_DreadOverlord_SoloLevel_CleanDatabases_Storage(_NPC);
+
+//SUBREGION     -   Gloomsworn clean storage databases redundancy
+
+PROC
+PROC_DreadOverlord_SoloLevel_CleanDatabases_Storage((CHARACTER)_NPC)
+THEN
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_Index(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_1(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_2(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_3(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_4(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_5(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_6(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_7(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_8(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_9(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_10(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_11(_NPC);
+NOT DB_DreadOverlord_SoloLevel_Stored_Slot_12(_NPC);
+
+//REGION        -   Gloomsworn owner statuses removal redundancy
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, "WaypointTravel_RegionSwap", _Force)
+AND
+DB_Players(_SummonOwner)
+AND
+DB_DreadOverlord_Gloomsworn_Statuses_Owner(_Statuses)
+AND
+HasActiveStatus(_SummonOwner, _Statuses, 1)
+THEN
+RemoveStatus((CHARACTER)_SummonOwner, _Statuses);
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, (STRING)_ReadyCheckID, _Force)
+AND
+DB_GLO_LevelSwap_Location(_ReadyCheckID, _, _, _, _RecommendedPlayerLevel, _ReadyCheckTranslationID_LowLevelVariant,_DestinationLevel)
+AND
+DB_LevelLoadedOnce(_DestinationLevel)
+AND
+DB_Players(_SummonOwner)
+AND
+DB_DreadOverlord_Gloomsworn_Statuses_Owner(_Statuses)
+AND
+HasActiveStatus(_SummonOwner, _Statuses, 1)
+THEN
+RemoveStatus((CHARACTER)_SummonOwner, _Statuses);
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, (STRING)_ReadyCheckID, _Force)
+AND
+DB_GLO_LevelSwap_Location(_ReadyCheckID, _, _, _, _RecommendedPlayerLevel, _ReadyCheckTranslationID_LowLevelVariant,_DestinationLevel)
+AND
+NOT DB_LevelLoadedOnce(_DestinationLevel)
+AND
+QRY_LevelSwap_PlayerLevelIsTooLow(_SummonOwner, _RecommendedPlayerLevel)
+AND
+DB_Players(_SummonOwner)
+AND
+DB_DreadOverlord_Gloomsworn_Statuses_Owner(_Statuses)
+AND
+HasActiveStatus(_SummonOwner, _Statuses, 1)
+THEN
+RemoveStatus((CHARACTER)_SummonOwner, _Statuses);
+
+PROC
+PROC_RegionSwapReadyCheck((CHARACTER)_SummonOwner, (STRING)_ReadyCheckID, _Force)
+AND
+DB_GLO_LevelSwap_Location(_ReadyCheckID, _, _, _ReadyCheckTranslationID, _RecommendedPlayerLevel, _,_DestinationLevel)
+AND
+NOT DB_LevelLoadedOnce(_DestinationLevel)
+AND
+NOT QRY_LevelSwap_PlayerLevelIsTooLow(_SummonOwner, _RecommendedPlayerLevel)
+AND
+DB_Players(_SummonOwner)
+AND
+DB_DreadOverlord_Gloomsworn_Statuses_Owner(_Statuses)
+AND
+HasActiveStatus(_SummonOwner, _Statuses, 1)
+THEN
+RemoveStatus((CHARACTER)_SummonOwner, _Statuses);
+
+//REGION        -   Gloomsworn abilities replacement
+
+//SUBREGION     -   Doppelgangers
+
+IF
+StatusApplied((CHARACTER)_NewSummon, (STRING)_Statuses, (CHARACTER)_SummonOwner,_)
+AND
+DB_PlayerSummons(_NewSummon)
+AND
+DB_DreadOverlord_Gloomsworn_Statuses(_Statuses)
+AND
+HasSpell(_NewSummon, "Shout_Shapechanger_Doppelganger_Dismiss_Urgent", 1)
+THEN
+RemoveSpell(_NewSummon,"Shout_Shapechanger_Doppelganger_Dismiss_Urgent",1);
+AddSpell(_NewSummon,"DreadOverlord_Shout_Shapechanger_Doppelganger_Dismiss_Urgent",1,1);
+
+//SUBREGION     -   Spectator
+
+IF
+StatusApplied((CHARACTER)_NewSummon, (STRING)_Statuses, (CHARACTER)_SummonOwner,_)
+AND
+DB_PlayerSummons(_NewSummon)
+AND
+DB_DreadOverlord_Gloomsworn_Statuses(_Statuses)
+AND
+HasSpell(_NewSummon, "Target_ParalyzingRay_Spectator", 1)
+THEN
+RemoveSpell(_NewSummon,"Target_ParalyzingRay_Spectator",1);
+AddSpell(_NewSummon,"Target_ParalyzingRay_Spectator",1,1);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, (STRING)_Statuses, (CHARACTER)_SummonOwner,_)
+AND
+DB_PlayerSummons(_NewSummon)
+AND
+DB_DreadOverlord_Gloomsworn_Statuses(_Statuses)
+AND
+HasSpell(_NewSummon, "Target_WoundingRay_Spectator", 1)
+THEN
+RemoveSpell(_NewSummon,"Target_WoundingRay_Spectator",1);
+AddSpell(_NewSummon,"DreadOverlord_Target_WoundingRay_Spectator",1,1);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, (STRING)_Statuses, (CHARACTER)_SummonOwner,_)
+AND
+DB_PlayerSummons(_NewSummon)
+AND
+DB_DreadOverlord_Gloomsworn_Statuses(_Statuses)
+AND
+HasSpell(_NewSummon, "Target_ConfusionRay_Spectator", 1)
+THEN
+RemoveSpell(_NewSummon,"Target_ConfusionRay_Spectator",1);
+AddSpell(_NewSummon,"DreadOverlord_Target_ConfusionRay_Spectator",1,1);
+
+IF
+StatusApplied((CHARACTER)_NewSummon, (STRING)_Statuses, (CHARACTER)_SummonOwner,_)
+AND
+DB_PlayerSummons(_NewSummon)
+AND
+DB_DreadOverlord_Gloomsworn_Statuses(_Statuses)
+AND
+HasSpell(_NewSummon, "Target_FearRay_Spectator", 1)
+THEN
+RemoveSpell(_NewSummon,"Target_FearRay_Spectator",1);
+AddSpell(_NewSummon,"DreadOverlord_Target_FearRay_Spectator",1,1);
+
+//NOTE      -   Unused
+
+PROC
+PROC_OneTimeReward_GiveReward_DreadOverlord((INTEGER)_RewardNo,(INTEGER)_Amount,(INTEGER)_Notification,(GUIDSTRING)_Character)
+AND
+NOT DB_OneTimeRewards_RewardGiven_DreadOverlord(_RewardNo)
+AND
+DB_OneTimeRewards_DreadOverlord(_RewardNo,_Reward)
+THEN
+DB_OneTimeRewards_RewardGiven_DreadOverlord(_RewardNo);
+TemplateAddTo(_Reward,_Character,_Amount,_Notification);
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__Start"

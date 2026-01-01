@@ -1,0 +1,301 @@
+function DreadWeaponDamageCheck()
+    return HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack')
+end
+
+function NecromancyCombatSpellCheck()
+	return SpellId('Shout_DreadOverlord_NecroticBlade') | SpellId('Target_ChillTouch') | SpellId('Target_InflictWounds') | SpellId('Target_InflictWounds_2') | SpellId('Target_InflictWounds_3') | SpellId('Target_InflictWounds_4') | SpellId('Target_InflictWounds_5') | SpellId('Target_InflictWounds_6') | SpellId('Target_InflictWounds_7') | SpellId('Target_InflictWounds_8') | SpellId('Target_InflictWounds_9') | SpellId('Shout_DreadOverlord_HarvestSoul_Dying') | SpellId('Projectile_DreadOverlord_SoulSpear') | SpellId('Projectile_DreadOverlord_SoulSpear_Improved') | SpellId('Projectile_DreadOverlord_SoulSpear_Greater') | SpellId('Target_Hex') | SpellId('Target_Hex_2') | SpellId('Target_Hex_3') | SpellId('Target_Hex_4') | SpellId('Target_Hex_5') | SpellId('Target_Hex_6') | SpellId('Target_Hex_Strength') | SpellId('Target_Hex_Strength_2') | SpellId('Target_Hex_Strength_3') | SpellId('Target_Hex_Strength_4') | SpellId('Target_Hex_Strength_5') | SpellId('Target_Hex_Strength_6') | SpellId('Target_Hex_Charisma') | SpellId('Target_Hex_Charisma_2') | SpellId('Target_Hex_Charisma_3') | SpellId('Target_Hex_Charisma_4') | SpellId('Target_Hex_Charisma_5') | SpellId('Target_Hex_Charisma_6') | SpellId('Target_Hex_Wisdom') | SpellId('Target_Hex_Wisdom_2') | SpellId('Target_Hex_Wisdom_3') | SpellId('Target_Hex_Wisdom_4') | SpellId('Target_Hex_Wisdom_5') | SpellId('Target_Hex_Wisdom_6') | SpellId('Target_Hex_Constitution') | SpellId('Target_Hex_Constitution_2') | SpellId('Target_Hex_Constitution_3') | SpellId('Target_Hex_Constitution_4') | SpellId('Target_Hex_Constitution_5') | SpellId('Target_Hex_Constitution_6') | SpellId('Target_Hex_Intelligence') | SpellId('Target_Hex_Intelligence_2') | SpellId('Target_Hex_Intelligence_3') | SpellId('Target_Hex_Intelligence_4') | SpellId('Target_Hex_Intelligence_5') | SpellId('Target_Hex_Intelligence_6') | SpellId('Target_Hex_Dexterity') | SpellId('Target_Hex_Dexterity_2') | SpellId('Target_Hex_Dexterity_3') | SpellId('Target_Hex_Dexterity_4') | SpellId('Target_Hex_Dexterity_5') | SpellId('Target_Hex_Dexterity_6') | SpellId('Projectile_CursedTome_Dethrone') | SpellId('Target_Blight') | SpellId('Target_Blight_5') | SpellId('Target_Blight_7') | SpellId('Target_Blight_6') | SpellId('Target_Blight_8') | SpellId('Target_Blight_9') | SpellId('Target_MAG_Myrkulites_GhoulTouch') | SpellId('Target_MAG_Vampiric_Touch') | SpellId('Target_MAG_Blight') | SpellId('Target_LOW_Astarion_VampireAscendant') | SpellId('Target_MAG_Spectator_WoundingRay') | SpellId('Target_MAG_InflictWounds_DK') | SpellId('Target_VampiricTouch') | SpellId('Target_VampiricTouch_4') | SpellId('Target_VampiricTouch_5') | SpellId('Target_VampiricTouch_6') | SpellId('Target_VampiricTouch_7') | SpellId('Target_VampiricTouch_8') | SpellId('Target_VampiricTouch_9') | SpellId('Target_VampiricTouch_Free') | SpellId('Target_VampiricTouch_Free_4') | SpellId('Target_VampiricTouch_Free_5') | SpellId('Target_VampiricTouch_Free_6') | SpellId('Target_VampiricTouch_Free_7') | SpellId('Target_VampiricTouch_Free_8') | SpellId('Target_VampiricTouch_Free_9') | SpellId('Target_BestowCurse_ExtraDamage') | SpellId('Target_BestowCurse_ExtraDamage_4') | SpellId('Target_BestowCurse_ExtraDamage_5') | SpellId('Target_BestowCurse_ExtraDamage_6') | SpellId('Target_BestowCurse_ExtraDamage_7') | SpellId('Target_BestowCurse_ExtraDamage_8') | SpellId('Target_BestowCurse_ExtraDamage_9') | SpellId('Shout_ArmsOfHadar') | SpellId('Shout_ArmsOfHadar_2') | SpellId('Shout_ArmsOfHadar_3') | SpellId('Shout_ArmsOfHadar_4') | SpellId('Shout_ArmsOfHadar_5') | SpellId('Shout_ArmsOfHadar_6') | SpellId('Shout_ArmsOfHadar_7') | SpellId('Shout_ArmsOfHadar_8') | SpellId('Shout_ArmsOfHadar_9') | SpellId('Shout_MAG_ArmsOfHadar_3') | SpellId('Target_HaloOfSpores') | SpellId('Target_SpitefulSuffering') | SpellId('Target_StaffOfNecromancy') | SpellId('Target_AstrasSpellbook_Claws_Necrotic') | SpellId('Target_AstrasSpellbook_Bite_Necrotic') | SpellId('Target_TollTheDead') | SpellId('Target_CircleOfDeath') | SpellId('Target_CircleOfDeath_7') | SpellId('Target_CircleOfDeath_8') | SpellId('Target_CircleOfDeath_9') | SpellId('Target_Harm') | SpellId('Target_Harm_7') | SpellId('Target_Harm_8') | SpellId('Target_Harm_9') | SpellId('Shout_DestructiveWave_Necrotic') | SpellId('Shout_DestructiveWave_Necrotic_6') | SpellId('Shout_DestructiveWave_Necrotic_7') | SpellId('Shout_DestructiveWave_Necrotic_8') | SpellId('Shout_DestructiveWave_Necrotic_9') | SpellId('Target_DivineStrike_Death_Container') | SpellId('Shout_DreadOverlord_ShroudDeAeternusVitae') | SpellId('Shout_SpiritGuardians_Necrotic') | SpellId('Shout_SpiritGuardians_Necrotic_4') | SpellId('Shout_SpiritGuardians_Necrotic_5') | SpellId('Shout_SpiritGuardians_Necrotic_6') | SpellId('Shout_SpiritGuardians_Necrotic_7') | SpellId('Shout_SpiritGuardians_Necrotic_8') | SpellId('Shout_SpiritGuardians_Necrotic_9') | SpellId('Target_SHA_Justiciar_BeckoningDarkness') | SpellId('Projectile_CursedTome_CurriculumofStrategy') | SpellId('Target_BurstingSinew') | SpellId('Zone_ValkranaArcVivisector') | SpellId('Zone_ValkranaArcVivisector') | SpellId('Zone_ValkranaArcVivisector_7') | SpellId('Zone_ValkranaArcVivisector_8') | SpellId('Zone_ValkranaArcVivisector_9') | SpellId('Shout_ValkranaNegativeEnergyField') | SpellId('Shout_ValkranaNegativeEnergyField_5') | SpellId('Shout_ValkranaNegativeEnergyField_6') | SpellId('Shout_ValkranaNegativeEnergyField_7') | SpellId('Shout_ValkranaNegativeEnergyField_8') | SpellId('Shout_ValkranaNegativeEnergyField_9') | SpellId('Target_ValkranaSoulSecret') | SpellId('Target_ValkranaSoulSecret_3') | SpellId('Target_ValkranaSoulSecret_4') | SpellId('Target_ValkranaSoulSecret_5') | SpellId('Target_ValkranaSoulSecret_6') | SpellId('Target_ValkranaSoulSecret_7') | SpellId('Target_ValkranaSoulSecret_8') | SpellId('Target_ValkranaSoulSecret_9') | SpellId('Projectile_ValkranaShadowfellSalvo') | SpellId('Projectile_ValkranaShadowfellSalvo_2') | SpellId('Projectile_ValkranaShadowfellSalvo_3') | SpellId('Projectile_ValkranaShadowfellSalvo_4') | SpellId('Projectile_ValkranaShadowfellSalvo_5') | SpellId('Projectile_ValkranaShadowfellSalvo_6') | SpellId('Projectile_ValkranaShadowfellSalvo_7') | SpellId('Projectile_ValkranaShadowfellSalvo_8') | SpellId('Projectile_ValkranaShadowfellSalvo_9') | SpellId('Target_ValkranaCorpseGrenade') | SpellId('Target_ValkranaCorpseGrenade_3') | SpellId('Target_ValkranaCorpseGrenade_4') | SpellId('Target_ValkranaCorpseGrenade_5') | SpellId('Target_ValkranaCorpseGrenade_6') | SpellId('Target_ValkranaCorpseGrenade_7') | SpellId('Target_ValkranaCorpseGrenade_8') | SpellId('Target_ValkranaCorpseGrenade_9') | SpellId('Target_Gaze_Apostle_Sailor') | SpellId('Projectile_FingerOfDeath_Sailor') | SpellId('Target_Gaze_Apostle_Sailor') | SpellId('Target_Gaze_Apostle_Sailor') | SpellId('Target_Gaze_Apostle_Sailor') |SpellId('Projectile_EldritchBlast_Necrotic_Spell') | SpellId('Projectile_EldritchBlast_Necrotic_Container') | SpellId('Projectile_EldritchBlast_Necrotic_Ring') | SpellId('Projectile_EldritchBlast_Necrotic_WarCaster') | SpellId('Projectile_EldritchBlast_Blood_Spell') | SpellId('Projectile_EldritchBlast_Blood_Container') | SpellId('Projectile_EldritchBlast_Blood_Ring') | SpellId('Projectile_EldritchBlast_Blood_WarCaster')
+end
+
+function ProfaneBlessingArmorCheck()
+	return SpellId('Shout_DreadOverlord_HarvestSoul_Dying') | SpellId('Shout_DreadOverlord_HarvestSoul_Reap') | SpellId('Shout_DreadOverlord_HarvestSoul_Dying') | SpellId('Shout_DreadOverlord_Soulshield')
+end
+
+function ProfaneBlessingDeathsongSetCheck()
+    return HasStatus('SIAEL_DEATHSONG_SET_LEGENDARY_9',context.Source)
+end
+
+function ProfaneBlessingDeathsongSwordCheck()
+    return HasStatus('SIAEL_DEATHSONG_SWORD_1',context.Source) |
+    HasStatus('SIAEL_DEATHSONG_SWORD_2',context.Source) |
+    HasStatus('SIAEL_DEATHSONG_SWORD_3',context.Source) |
+    HasStatus('SIAEL_DEATHSONG_STAFF_1',context.Source) |
+    HasStatus('SIAEL_DEATHSONG_STAFF_2',context.Source) |
+    HasStatus('SIAEL_DEATHSONG_STAFF_3',context.Source) |
+    HasStatus('SIAEL_DEATHSONG_TWOHANDED_1',context.Source) |
+    HasStatus('SIAEL_DEATHSONG_TWOHANDED_2',context.Source) |
+    HasStatus('SIAEL_DEATHSONG_TWOHANDED_3',context.Source)
+end
+
+function UndeadCommanderHasHigherPriorityExtraAttackQueued(status, entity)
+    local entity = entity or context.Target
+    local eaQueuedStatuses = {'DREADOVERLORD_UNDEADCOMMANDERS_STRIKE_Q'
+		, 'EXTRA_ATTACK_2_Q'
+        , 'EXTRA_ATTACK_Q'
+        , 'EXTRA_ATTACK_WAR_MAGIC_Q'
+        , 'EXTRA_ATTACK_WAR_PRIEST_Q'
+        , 'MAG_MARTIAL_EXERTION_Q'
+        , 'WILDSTRIKE_EXTRA_ATTACK_Q'
+        , 'STALKERS_FLURRY_Q'
+        , 'EXTRA_ATTACK_THIRSTING_BLADE_Q'
+        , 'COMMANDERS_STRIKE_Q_D10'
+        , 'COMMANDERS_STRIKE_Q_D8'
+        , 'WILDSTRIKE_2_EXTRA_ATTACK_Q'
+    }
+    for i,v in ipairs(eaQueuedStatuses) do
+        if (v == status) then
+            return ConditionResult(false)
+        end
+        if HasStatus(v, entity, context.Source, false).Result then
+            return ConditionResult(true)
+        end
+    end
+
+    return ConditionResult(false)
+end
+
+function DreadOverlord_Curses_All()
+	return SpellId('Target_Hex') | SpellId('Target_Hex_2') | SpellId('Target_Hex_3') | SpellId('Target_Hex_4') | SpellId('Target_Hex_5') | SpellId('Target_Hex_6') | SpellId('Target_Hex_Strength') | SpellId('Target_Hex_Strength_2') | SpellId('Target_Hex_Strength_3') | SpellId('Target_Hex_Strength_4') | SpellId('Target_Hex_Strength_5') | SpellId('Target_Hex_Strength_6') | SpellId('Target_Hex_Charisma') | SpellId('Target_Hex_Charisma_2') | SpellId('Target_Hex_Charisma_3') | SpellId('Target_Hex_Charisma_4') | SpellId('Target_Hex_Charisma_5') | SpellId('Target_Hex_Charisma_6') | SpellId('Target_Hex_Wisdom') | SpellId('Target_Hex_Wisdom_2') | SpellId('Target_Hex_Wisdom_3') | SpellId('Target_Hex_Wisdom_4') | SpellId('Target_Hex_Wisdom_5') | SpellId('Target_Hex_Wisdom_6') | SpellId('Target_Hex_Constitution') | SpellId('Target_Hex_Constitution_2') | SpellId('Target_Hex_Constitution_3') | SpellId('Target_Hex_Constitution_4') | SpellId('Target_Hex_Constitution_5') | SpellId('Target_Hex_Constitution_6') | SpellId('Target_Hex_Intelligence') | SpellId('Target_Hex_Intelligence_2') | SpellId('Target_Hex_Intelligence_3') | SpellId('Target_Hex_Intelligence_4') | SpellId('Target_Hex_Intelligence_5') | SpellId('Target_Hex_Intelligence_6') | SpellId('Target_Hex_Dexterity') | SpellId('Target_Hex_Dexterity_2') | SpellId('Target_Hex_Dexterity_3') | SpellId('Target_Hex_Dexterity_4') | SpellId('Target_Hex_Dexterity_5') | SpellId('Target_Hex_Dexterity_6') | SpellId('Target_BestowCurse') | SpellId('Target_BestowCurse_4') | SpellId('Target_BestowCurse_5') | SpellId('Target_BestowCurse_6') | SpellId('Target_BestowCurse_Ability_Strength') | SpellId('Target_BestowCurse_Ability_Strength_4') | SpellId('Target_BestowCurse_Ability_Strength_5') | SpellId('Target_BestowCurse_Ability_Strength_6') | SpellId('Target_BestowCurse_Ability_Dexterity') | SpellId('Target_BestowCurse_Ability_Dexterity_4') | SpellId('Target_BestowCurse_Ability_Dexterity_5') | SpellId('Target_BestowCurse_Ability_Dexterity_6') | SpellId('Target_BestowCurse_Ability_Constitution') | SpellId('Target_BestowCurse_Ability_Constitution_4') | SpellId('Target_BestowCurse_Ability_Constitution_5') | SpellId('Target_BestowCurse_Ability_Constitution_6') | SpellId('Target_BestowCurse_Ability_Intelligence') | SpellId('Target_BestowCurse_Ability_Intelligence_4') | SpellId('Target_BestowCurse_Ability_Intelligence_5') | SpellId('Target_BestowCurse_Ability_Intelligence_6') | SpellId('Target_BestowCurse_Ability_Wisdom') | SpellId('Target_BestowCurse_Ability_Wisdom_4') | SpellId('Target_BestowCurse_Ability_Wisdom_5') | SpellId('Target_BestowCurse_Ability_Wisdom_6') | SpellId('Target_BestowCurse_Ability_Charisma') | SpellId('Target_BestowCurse_Ability_Charisma_4') | SpellId('Target_BestowCurse_Ability_Charisma_5') | SpellId('Target_BestowCurse_Ability_Charisma_6') | SpellId('Target_BestowCurse_Attack') | SpellId('Target_BestowCurse_Attack_4') | SpellId('Target_BestowCurse_Attack_5') | SpellId('Target_BestowCurse_Attack_6') | SpellId('Target_BestowCurse_ExtraDamage') | SpellId('Target_BestowCurse_ExtraDamage_4') | SpellId('Target_BestowCurse_ExtraDamage_5') | SpellId('Target_BestowCurse_ExtraDamage_6') | SpellId('Target_BestowCurse_SkipTurn') | SpellId('Target_BestowCurse_SkipTurn_4') | SpellId('Target_BestowCurse_SkipTurn_5') | SpellId('Target_BestowCurse_SkipTurn_6') | SpellId('Target_Contagion') | SpellId('Target_Contagion_BlindingSickness') | SpellId('Target_Contagion_FilthFever') | SpellId('Target_Contagion_FleshRot') | SpellId('Target_Contagion_Mindfire') | SpellId('Target_Contagion_Seizure') | SpellId('Target_Contagion_SlimyDoom') | SpellId('Target_Contagion_BlindingSickness_6') | SpellId('Target_Contagion_FilthFever_6') | SpellId('Target_Contagion_FleshRot_6') | SpellId('Target_Contagion_Mindfire_6') | SpellId('Target_Contagion_Seizure_6') | SpellId('Target_Contagion_SlimyDoom_6')
+end
+
+function DreadOverlord_Empowered_Hex()
+	return SpellId('Target_Hex') | SpellId('Target_Hex_2') | SpellId('Target_Hex_3') | SpellId('Target_Hex_4') | SpellId('Target_Hex_5') | SpellId('Target_Hex_6') | SpellId('Target_Hex_Strength') | SpellId('Target_Hex_Strength_2') | SpellId('Target_Hex_Strength_3') | SpellId('Target_Hex_Strength_4') | SpellId('Target_Hex_Strength_5') | SpellId('Target_Hex_Strength_6') | SpellId('Target_Hex_Charisma') | SpellId('Target_Hex_Charisma_2') | SpellId('Target_Hex_Charisma_3') | SpellId('Target_Hex_Charisma_4') | SpellId('Target_Hex_Charisma_5') | SpellId('Target_Hex_Charisma_6') | SpellId('Target_Hex_Wisdom') | SpellId('Target_Hex_Wisdom_2') | SpellId('Target_Hex_Wisdom_3') | SpellId('Target_Hex_Wisdom_4') | SpellId('Target_Hex_Wisdom_5') | SpellId('Target_Hex_Wisdom_6') | SpellId('Target_Hex_Constitution') | SpellId('Target_Hex_Constitution_2') | SpellId('Target_Hex_Constitution_3') | SpellId('Target_Hex_Constitution_4') | SpellId('Target_Hex_Constitution_5') | SpellId('Target_Hex_Constitution_6') | SpellId('Target_Hex_Intelligence') | SpellId('Target_Hex_Intelligence_2') | SpellId('Target_Hex_Intelligence_3') | SpellId('Target_Hex_Intelligence_4') | SpellId('Target_Hex_Intelligence_5') | SpellId('Target_Hex_Intelligence_6') | SpellId('Target_Hex_Dexterity') | SpellId('Target_Hex_Dexterity_2') | SpellId('Target_Hex_Dexterity_3') | SpellId('Target_Hex_Dexterity_4') | SpellId('Target_Hex_Dexterity_5') | SpellId('Target_Hex_Dexterity_6')
+end
+
+function DreadOverlord_Empowered_Contagion()
+	return SpellId('Target_Contagion') | SpellId('Target_Contagion_BlindingSickness') | SpellId('Target_Contagion_FilthFever') | SpellId('Target_Contagion_FleshRot') | SpellId('Target_Contagion_Mindfire') | SpellId('Target_Contagion_Seizure') | SpellId('Target_Contagion_SlimyDoom') | SpellId('Target_Contagion_BlindingSickness_6') | SpellId('Target_Contagion_FilthFever_6') | SpellId('Target_Contagion_FleshRot_6') | SpellId('Target_Contagion_Mindfire_6') | SpellId('Target_Contagion_Seizure_6') | SpellId('Target_Contagion_SlimyDoom_6')
+end
+
+function DreadOverlord_Empowered_BestowCurse()
+	return SpellId('Target_BestowCurse') | SpellId('Target_BestowCurse_4') | SpellId('Target_BestowCurse_5') | SpellId('Target_BestowCurse_6') | SpellId('Target_BestowCurse_Ability_Strength') | SpellId('Target_BestowCurse_Ability_Strength_4') | SpellId('Target_BestowCurse_Ability_Strength_5') | SpellId('Target_BestowCurse_Ability_Strength_6') | SpellId('Target_BestowCurse_Ability_Dexterity') | SpellId('Target_BestowCurse_Ability_Dexterity_4') | SpellId('Target_BestowCurse_Ability_Dexterity_5') | SpellId('Target_BestowCurse_Ability_Dexterity_6') | SpellId('Target_BestowCurse_Ability_Constitution') | SpellId('Target_BestowCurse_Ability_Constitution_4') | SpellId('Target_BestowCurse_Ability_Constitution_5') | SpellId('Target_BestowCurse_Ability_Constitution_6') | SpellId('Target_BestowCurse_Ability_Intelligence') | SpellId('Target_BestowCurse_Ability_Intelligence_4') | SpellId('Target_BestowCurse_Ability_Intelligence_5') | SpellId('Target_BestowCurse_Ability_Intelligence_6') | SpellId('Target_BestowCurse_Ability_Wisdom') | SpellId('Target_BestowCurse_Ability_Wisdom_4') | SpellId('Target_BestowCurse_Ability_Wisdom_5') | SpellId('Target_BestowCurse_Ability_Wisdom_6') | SpellId('Target_BestowCurse_Ability_Charisma') | SpellId('Target_BestowCurse_Ability_Charisma_4') | SpellId('Target_BestowCurse_Ability_Charisma_5') | SpellId('Target_BestowCurse_Ability_Charisma_6') | SpellId('Target_BestowCurse_Attack') | SpellId('Target_BestowCurse_Attack_4') | SpellId('Target_BestowCurse_Attack_5') | SpellId('Target_BestowCurse_Attack_6') | SpellId('Target_BestowCurse_ExtraDamage') | SpellId('Target_BestowCurse_ExtraDamage_4') | SpellId('Target_BestowCurse_ExtraDamage_5') | SpellId('Target_BestowCurse_ExtraDamage_6') | SpellId('Target_BestowCurse_SkipTurn') | SpellId('Target_BestowCurse_SkipTurn_4') | SpellId('Target_BestowCurse_SkipTurn_5') | SpellId('Target_BestowCurse_SkipTurn_6') | IsSpellChildOrVariantFromContext('Target_BestowCurse')
+end
+
+function DreadOverlord_Empowered_BestowCurse_Alternate()
+    return (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot')) & SpellSchoolFilter(SpellSchool.Necromancy) & ~HasCantripSpellLevel() & SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) & (HasStringInSpellRoll('SavingThrow') | HasStringInFunctorConditions('SavingThrow')) & ~DreadOverlord_EmpoweredCurses_ExclusionSpells()
+end
+
+function DreadOverlord_EmpoweredCurses_ExclusionSpells()
+    return SpellId('Target_Blight') | SpellId('Target_Blindness') | SpellId('Target_Harm') | SpellId('Target_Eyebite') | SpellId('Target_Eyebite_Asleep') | SpellId('Target_Eyebite_Panicked') | SpellId('Target_Eyebite_Sickened')
+end
+
+function DreadOverlord_CursedOrHexedTarget_Check()
+    return HasAnyStatus({'HEX_STRENGTH','HEX_DEXTERITY','HEX_CONSTITUTION','HEX_INTELLIGENCE','HEX_WISDOM','HEX_CHARISMA','CURSE_ABILITY_STRENGTH','CURSE_ABILITY_DEXTERITY','CURSE_ABILITY_CONSTITUTION','CURSE_ABILITY_INTELLIGENCE','CURSE_ABILITY_WISDOM','CURSE_ABILITY_CHARISMA','CURSE_ATTACK','CURSE_EXTRA_DAMAGE','CURSE_SKIP_TURN','NIGHTOFTHELIVINGDEAD','NIGHTOFTHELIVINGDEAD_LEVEL5','NIGHTOFTHELIVINGDEAD_LEVEL9','NIGHTOFTHELIVINGDEAD_FORSPITEFULSUFFERING','NIGHTOFTHELIVINGDEAD_FORSPITEFULSUFFERING_LEVEL5','NIGHTOFTHELIVINGDEAD_FORSPITEFULSUFFERING_LEVEL9','SG_Cursed'}, {}, {},context.Target,GetSummoner(context.Source))
+end
+
+function DOCC_UT_M()
+    return HasPassive('UndeadThrall_BetterSummon',context.Source) & TargetSizeEqualOrSmaller(Size.Medium) & SizeEqualOrGreater(Size.Tiny) & ~HasStatus('ANIMATEDEAD_ZONE',context.Source) & ~HasStatus('BONE_ZONE',context.Source)
+end
+
+function DOCC_NOUT_M()
+    return ~HasPassive('UndeadThrall_BetterSummon',context.Source) & TargetSizeEqualOrSmaller(Size.Medium) & SizeEqualOrGreater(Size.Tiny) & ~HasStatus('ANIMATEDEAD_ZONE',context.Source) & ~HasStatus('BONE_ZONE',context.Source)
+end
+
+function DOCC_UT_L()
+    return HasPassive('UndeadThrall_BetterSummon',context.Source) & TargetSizeEqualOrSmaller(Size.Gargantuan) & SizeEqualOrGreater(Size.Large) & ~HasStatus('ANIMATEDEAD_ZONE',context.Source) & ~HasStatus('BONE_ZONE',context.Source)
+end
+
+function DOCC_NOUT_L()
+    return ~HasPassive('UndeadThrall_BetterSummon',context.Source) & TargetSizeEqualOrSmaller(Size.Gargantuan) & SizeEqualOrGreater(Size.Large) & ~HasStatus('ANIMATEDEAD_ZONE',context.Source) & ~HasStatus('BONE_ZONE',context.Source)
+end
+
+function DOCC_UT_NC()
+    return HasPassive('UndeadThrall_BetterSummon',context.Source) & (HasStatus('ANIMATEDEAD_ZONE',context.Source) | HasStatus('BONE_ZONE',context.Source))
+end
+
+function DOCC_NOUT_NC()
+    return ~HasPassive('UndeadThrall_BetterSummon',context.Source) & (HasStatus('ANIMATEDEAD_ZONE',context.Source) | HasStatus('BONE_ZONE',context.Source))
+end
+
+function DreadOverlord_HarvestSoul_Actions()
+    return SpellId('Shout_DreadOverlord_HarvestSoul') | SpellId('Shout_DreadOverlord_HarvestSoul_Reap') | SpellId('Shout_DreadOverlord_HarvestSoul_Dying') 
+end
+
+function DreadOverlord_NecroticArmaments_Spells()
+    return SpellId('Target_HaloOfSpores') | SpellId('Target_AstrasSpellbook_Claws_Necrotic') | SpellId('Target_AstrasSpellbook_Bite_Necrotic')
+end
+
+function IsTargetableCorpse_DreadOverlord(entity)
+    entity = entity or context.Target
+    result = Dead(entity) & ~Party() & ~Tagged('PLAYABLE') & ~Tagged('AVATAR') & ~Tagged('CONSTRUCT')  & ~Tagged('ELEMENTAL') & ~Tagged('PLANT') & ~Tagged('OOZE') & ~HasStatus('CRAWLING_GNAW_TECHNICAL')
+    return ConditionResult(result.Result, {ConditionError("IsNotTargetableCorpse")})
+end
+
+function NightOfTheLivingDead_DoT_Spells()
+    return SpellId('Target_SpitefulSuffering') | SpellId('Target_SHA_Justiciar_BeckoningDarkness') | SpellId('Projectile_CursedTome_CurriculumofStrategy') | SpellId('Target_BurstingSinew')
+end
+
+function NightOfTheLivingDead_DoT_Status()
+    return HasStatus('SPITEFUL_SUFFERING',context.Target) | HasStatus('SHA_JUSTICIAR_BECKONINGDARKNESS',context.Target)
+end
+
+function NightOfTheLivingDead_SpiritGuardians_Status()
+    return StatusId('SPIRIT_GUARDIANS_NECROTIC') | StatusId('SPIRIT_GUARDIANS_NECROTIC_5') | StatusId('SPIRIT_GUARDIANS_NECROTIC_6') | StatusId('SPIRIT_GUARDIANS_NECROTIC_7') | StatusId('SPIRIT_GUARDIANS_NECROTIC_8') | StatusId('SPIRIT_GUARDIANS_NECROTIC_9') | StatusId('AETERNUSVITAE_DRAIN') | StatusId('AETERNUSVITAE_DRAIN_DARKEMPATHY')
+end
+
+function DreadOverlord_CursedOrHexedTarget_Sabatons_Check()
+    return StatusId('HEX_STRENGTH')
+    | StatusId('HEX_DEXTERITY')
+    | StatusId('HEX_CONSTITUTION')
+    | StatusId('HEX_INTELLIGENCE')
+    | StatusId('HEX_WISDOM')
+    | StatusId('HEX_CHARISMA')
+    | StatusId('CURSE_ABILITY_STRENGTH')
+    | StatusId('CURSE_ABILITY_DEXTERITY')
+    | StatusId('CURSE_ABILITY_CONSTITUTION')
+    | StatusId('CURSE_ABILITY_INTELLIGENCE')
+    | StatusId('CURSE_ABILITY_WISDOM')
+    | StatusId('CURSE_ABILITY_CHARISMA')
+    | StatusId('CURSE_ATTACK')
+    | StatusId('CURSE_EXTRA_DAMAGE')
+    | StatusId('CURSE_SKIP_TURN')
+    | StatusId('NIGHTOFTHELIVINGDEAD')
+    | StatusId('NIGHTOFTHELIVINGDEAD_LEVEL5')
+    | StatusId('NIGHTOFTHELIVINGDEAD_LEVEL9')
+    | StatusId('NIGHTOFTHELIVINGDEAD_FORSPITEFULSUFFERING')
+    | StatusId('NIGHTOFTHELIVINGDEAD_FORSPITEFULSUFFERING_LEVEL5')
+    | StatusId('NIGHTOFTHELIVINGDEAD_FORSPITEFULSUFFERING_LEVEL9')
+    | StatusId('SG_Cursed')
+end
+
+function DreadOverlord_SoloLevel_Slot_1()
+    return ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DreadOverlord_SoloLevel_Slot_2()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DreadOverlord_SoloLevel_Slot_3()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DreadOverlord_SoloLevel_Slot_4()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DreadOverlord_SoloLevel_Slot_5()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DreadOverlord_SoloLevel_Slot_6()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DreadOverlord_SoloLevel_Slot_7()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DreadOverlord_SoloLevel_Slot_8()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DreadOverlord_SoloLevel_Slot_9()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DreadOverlord_SoloLevel_Slot_10()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DreadOverlord_SoloLevel_Slot_11()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DreadOverlord_SoloLevel_Slot_12()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source)
+end
+
+function DOSL1_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL1_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_1',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL2_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL2_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_2',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL3_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL3_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_3',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL4_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL4_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_4',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL5_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL5_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_5',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL6_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL6_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_6',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL7_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL7_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_7',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL8_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL8_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_8',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL9_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL9_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_9',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL10_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL10_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_10',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL11_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL11_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_11',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL12_UT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source) & HasPassive('UndeadThrall_BetterSummon',context.Source)
+end
+
+function DOSL12_NOUT()
+    return HasStatus('DREADOVERLORD_SHADOWARMY_SLOT_OWNER_12',context.Source) & ~HasPassive('UndeadThrall_BetterSummon',context.Source)
+end

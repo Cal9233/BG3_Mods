@@ -1,0 +1,4 @@
+USING melee_smart
+
+// Force Greater Undead to use their Main Hand Attack first if possible
+MULTIPLIER_FIRST_ACTION_BUFF 						50

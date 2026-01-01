@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h316a33b4g4354g4e67gbceeg59dcd0a2d90c" version="1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="6ce18dc8-e1df-45c6-b513-de9f9d3a953b" />
+					<attribute id="Name" type="LSString" value="DREADOVERLORD_BoneSculpture_8" />
+					<attribute id="TemplateName" type="FixedString" value="b1df87bd-3621-4a74-96f7-e719adb3d8e8" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="BookType" type="uint8" value="5" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h13b00e02g8c8eg4e0cga865g460b98f63b3a" version="1" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_BoneSculpture8Text" />
+											<attribute id="Conditions" type="LSString" value="Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_BoneSculptureHeretic" />
+											<attribute id="Conditions" type="LSString" value="not Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-2336.366 12.294922 -120.35355" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="2" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h316a33b4g4354g4e67gbceeg59dcd0a2d90c" version="1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="6b0a7416-7c77-4161-871e-2d9052311888" />
+					<attribute id="Name" type="LSString" value="DREADOVERLORD_BoneSculpture_9" />
+					<attribute id="TemplateName" type="FixedString" value="b1df87bd-3621-4a74-96f7-e719adb3d8e8" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="BookType" type="uint8" value="5" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h13b00e02g8c8eg4e0cga865g460b98f63b3a" version="1" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_BoneSculpture9Text" />
+											<attribute id="Conditions" type="LSString" value="Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_BoneSculptureHeretic" />
+											<attribute id="Conditions" type="LSString" value="not Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-1378.2958 0.510742 61.460896" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="2" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="77b67981-dc75-4194-b15e-aaf73c4d78fd" />
+					<attribute id="Name" type="LSString" value="UNI_DreadOverlord_Bell_Siael" />
+					<attribute id="TemplateName" type="FixedString" value="cd4d5549-6f5b-455c-b543-bbcd3cabc912" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274313" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-32.46672 44.92952 20.98608" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="d9dfedfe-5136-4149-a1c8-28249fc82769" />
+					<attribute id="Name" type="LSString" value="UNI_DreadOverlord_Bell_Enigma" />
+					<attribute id="TemplateName" type="FixedString" value="c2f08239-8265-4022-892a-3e1adfd9facb" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274313" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-400.89276 33.66608 -1590.1556" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="1.33" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="41b7efc0-31fd-48b4-8f39-97d2c532df51" />
+					<attribute id="Name" type="LSString" value="UNI_DreadOverlord_Bell_Vrall" />
+					<attribute id="TemplateName" type="FixedString" value="c4aacdd2-e59c-46fa-aa3b-1935c484f53b" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274313" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-1259.0159 -0.32875 448.98013" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="3" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="fa3680d7-6ff1-4fe9-b2c4-6b9578b67916" />
+					<attribute id="Name" type="LSString" value="UNI_DreadOverlord_GreatHelm" />
+					<attribute id="TemplateName" type="FixedString" value="df7cbec7-2afb-4d5a-aa78-ea07be9de2b6" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274313" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="57e10301-831b-f6cf-1258-a93ddbdfa8a0" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="768d583d-19b5-6224-9186-101e156924ec" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="5d956fba-258d-3d40-7e73-da35205ebffa" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-6486.924 14.076029 2938.903" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.83878 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="578bebb0-06cc-4fb9-9531-2e53d52d6a79" />
+					<attribute id="Name" type="LSString" value="UNI_DreadOverlord_Sabatons" />
+					<attribute id="TemplateName" type="FixedString" value="f1477acd-e4ec-44fe-ba63-644b5e8faf7f" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274313" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="76c2acb9-b6e1-3197-08fe-b49a09d4a6d5" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-42.122 32.26 778.463" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="d750ff9f-ff7f-4001-81e5-a64f2a85a079" />
+					<attribute id="Name" type="LSString" value="UNI_DreadOverlord_Talons" />
+					<attribute id="TemplateName" type="FixedString" value="13e0185b-4408-4b56-96a3-a77a83a606f2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274313" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="57e10301-831b-f6cf-1258-a93ddbdfa8a0" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="768d583d-19b5-6224-9186-101e156924ec" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="5d956fba-258d-3d40-7e73-da35205ebffa" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-6486.602 14.075 2939.431" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.1442 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

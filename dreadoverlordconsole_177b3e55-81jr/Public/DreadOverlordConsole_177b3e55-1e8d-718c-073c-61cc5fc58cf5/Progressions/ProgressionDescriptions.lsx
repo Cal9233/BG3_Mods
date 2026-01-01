@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="8" build="609"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" value="h3bd29efdg2b84g4463g8a18g829d62439d09"/>
+                    <attribute id="DisplayName" type="TranslatedString" value="h5be8a9a1g3e09g49c5gbb4ag9efe3ba9b246"/>
+                    <attribute id="ProgressionTableId" type="guid" value="2c3a1819-9eee-4938-a003-1e9e8591df74"/>
+                    <attribute id="Type" type="FixedString" value="DreadOverlord"/>
+                    <attribute id="UUID" type="guid" value="cb26024e-9eab-44bd-bdc6-756c4da8ab99"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h0dc6a173g7532g497dg8c42g2562a3f1433a" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="had52ff6ag4f82g4c40ga368g1d6120e4246c" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="2c3a1819-9eee-4938-a003-1e9e8591df74"/>
+                    <attribute id="SelectorId" type="FixedString" value="DreadOverlordStandardWeapons"/>
+                    <attribute id="UUID" type="guid" value="7eada8f3-8356-48d2-ac52-4297cb8eaaf5"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

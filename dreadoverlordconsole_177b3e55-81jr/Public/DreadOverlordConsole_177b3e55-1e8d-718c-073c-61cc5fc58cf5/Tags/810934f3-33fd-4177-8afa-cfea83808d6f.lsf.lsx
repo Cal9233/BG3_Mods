@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="58" lslib_meta="v1,bswap_guids" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Tag for Night of the Living Dead for Gravewalking." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h5e54becbg4e34g4a59g9353g8b24cec59593" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hfb758a44g7e3bg49c4gb089g1c918566cd7a" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="DREADOVERLORD_NOTLD_CURSED" />
+			<attribute id="UUID" type="guid" value="810934f3-33fd-4177-8afa-cfea83808d6f" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

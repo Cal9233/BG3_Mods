@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="he89aace2gf303g4cdcg95b7gdd95e16229fa" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CRE_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="068a7acb-deea-4497-9bb0-172ffc635cca" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Name" type="LSString" value="CORPSE_DreadOverlord_Skeleton_AssassinatedCultist_003" />
+					<attribute id="TemplateName" type="FixedString" value="e1d7e0fa-58fe-4d70-bf2e-d2f18d30e10e" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790666" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CORPSE_DreadOverlord_Skeleton_AssassinatedCultist_Items_003" />
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CRE_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="e98c019e-02ac-a69c-9503-5c6506de1e65" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="1345.8169 2.4907384 -834.6668" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.36697802 0 0.9302296" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

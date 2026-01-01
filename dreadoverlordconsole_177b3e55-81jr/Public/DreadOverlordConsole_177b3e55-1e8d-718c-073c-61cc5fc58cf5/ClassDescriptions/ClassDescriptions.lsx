@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="8" build="612"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h3bd29efdg2b84g4463g8a18g829d62439d09" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5be8a9a1g3e09g49c5gbb4ag9efe3ba9b246" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+					<attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Warlock_DreadCultist"/>
+                    <attribute id="Name" type="FixedString" value="DreadOverlord"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="2c3a1819-9eee-4938-a003-1e9e8591df74"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="41297931-500e-4179-93b9-8c9754de424a"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a17dbd40-15f7-4212-a57b-263f3ff53fc0"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="90d7fbd5-1264-4bd6-93ba-67c2116e6ab0"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

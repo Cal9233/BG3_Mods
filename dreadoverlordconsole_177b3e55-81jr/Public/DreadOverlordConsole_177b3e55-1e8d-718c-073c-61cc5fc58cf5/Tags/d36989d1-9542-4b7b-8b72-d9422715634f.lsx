@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="58" lslib_meta="v1,bswap_guids" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Type Tag for minor undead from the Dread Overlord subclass." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hccb0a904g5c89g47acga6a7gc37689b17cbe" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h2cb70e8bg6150g4533gac64g67e47b195e34" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="DREADOVERLORD_MINOR_UNDEAD" />
+			<attribute id="UUID" type="guid" value="d36989d1-9542-4b7b-8b72-d9422715634f" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

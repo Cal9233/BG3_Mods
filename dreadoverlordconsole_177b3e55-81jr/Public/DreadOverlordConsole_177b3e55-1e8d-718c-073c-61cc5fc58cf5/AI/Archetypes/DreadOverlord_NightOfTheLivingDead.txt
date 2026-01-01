@@ -1,0 +1,4 @@
+USING zombie
+
+//Zombies really like doing damage
+MULTIPLIER_DAMAGE_ENEMY_POS						3

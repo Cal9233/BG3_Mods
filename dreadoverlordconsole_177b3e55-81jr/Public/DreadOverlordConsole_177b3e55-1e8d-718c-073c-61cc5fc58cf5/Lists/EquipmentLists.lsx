@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="307"/>
+    <region id="EquipmentLists">
+        <node id="root">
+            <children>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="WPN_BoneStaff_DreadOverlord;WPN_SkullFlail_DreadOverlord;WPN_Sickle_DreadOverlord"/>
+                    <attribute id="UUID" type="guid" value="7c87d064-0808-4eb2-8bde-3c64de96ef93"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

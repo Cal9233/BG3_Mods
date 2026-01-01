@@ -8,6 +8,10 @@
     <content contentuid="hFB_KunaiPoint_DisplayName" version="0">Kunai Points</content>
     <content contentuid="hFB_KunaiPoint_Description" version="0">Mystical energy used to fuel your kunai abilities and teleportation techniques.</content>
 
+    <!-- ==================== WEAPON SELECTOR ==================== -->
+    <content contentuid="hFB_WeaponSelector_DisplayName" version="0">Starting Weapon</content>
+    <content contentuid="hFB_WeaponSelector_Description" version="0">Choose your starting weapon as a Flashblade.</content>
+
     <!-- ==================== SUBCLASS: WAY OF THE RICOCHET ==================== -->
     <content contentuid="hFB_Ricochet_DisplayName" version="0">Way of the Ricochet</content>
     <content contentuid="hFB_Ricochet_Description" version="0">Master bouncing kunai that strike multiple enemies in succession, chaining damage across the battlefield.</content>

@@ -1,0 +1,1351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="91a87d65-949d-44db-a952-d4ee4a9a4daf" />
+					<attribute id="Name" type="LSString" value="BOOK_GEN_Factions_SecretSocieties1_000_DreadOverlord" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="b954e489-a2f1-4607-8e36-23775fae30b1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="176.1 -12.186719 80.80392" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.5109201 0 0.8596282" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d1a963b3-b1da-4b01-b133-80ef3aeea472" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_TowerCase_000" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="975b459f-a129-425c-8212-7d8099e34a69" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-284.06198 18.705 -304.37973" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.60202485 0 0.7984774" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h6df73b11g568bg4d52gbc75ge842e11a37bf" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9d7a2510g5125g4b8agbadag71462ec9bd0a" version="1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="08a2f715-5da9-498f-bfb8-020a1e9ad75f" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_BloodyReport" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="28b098cd-2448-4193-881f-edaf67abd4e0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-455.07733 1.7658801 -23.4377" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.60202485 0 0.7984774" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_BloodyReportText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h7006c389g4390g4b29g8ea5gb83b0598f293" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1103ba43g811eg40bcgadbbg9b2fd715bb5c" version="1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="a9d160f1-07d9-45f7-813f-52ab37895656" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_DragonmageStory" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="d5ec3a05-e479-4ee4-9803-b17ff55bfa1d" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="89.17955 9.419922 75.62837" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_DragonmageStoryText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h5ba5aadbg769fg4b68gae0dg147ea80054e3" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc9bcc3edgcf1eg4282gb971g7749eb8c7d86" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Simple_D" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="fbbdd30d-dc76-4ca6-bbd1-15b999381561" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_BattleManualX" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="97423da0-582b-42e3-90ed-ee219afed495" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-666 -0.5628361 -361.8609" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.96908635 0 0.24672194" />
+							<attribute id="Scale" type="float" value="1.4000001" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_BattleManualX_Text" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="dc557750-f0ae-407c-aa5f-7c48625449f3" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_LiborMortis_Starter_00000A" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="69242e10-154d-473e-b488-25f433a2fe58" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-647.75287 -0.5156348 -362.837" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.7294411 0 0.6840436" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_LiborMortis_StarterText" />
+											<attribute id="Conditions" type="LSString" value="Tagged('WARLOCK_DREAD_OVERLORD', context.Source) and not HasStatus('DREADOVERLORD_LIBORMORTIS_0', context.Source)" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_LiborMortisHeretic_BookOpen" />
+											<attribute id="Conditions" type="LSString" value="not Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_LiborMortis_StarterText_AlreadyRead" />
+											<attribute id="Conditions" type="LSString" value="Tagged('WARLOCK_DREAD_OVERLORD', context.Source) and HasStatus('DREADOVERLORD_LIBORMORTIS_0', context.Source)" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="heedf7903g2898g4366gbedagc5ca5e93f8c5" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h235fa583g6e9eg4d0bg9ea4g1d11765912b3" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Simple_D" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="feab31ec-d97c-4a55-b7f3-6f6c9b3e5c3f" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_DarkRoseWar" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="97423da0-582b-42e3-90ed-ee219afed495" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-666.5766 -2.028321 -315.48965" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.06022688 0.31067768 0.0136905685 0.94850665" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_DarkRoseWarText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="ha668684cgca61g4f34g9ebcg322d0ef1c5fa" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h836754fbgef3ag4120gb6afg3a8e69715973" version="1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="63a10451-f4e1-4c8d-9079-670696bcdc34" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_IlynTothJournal" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="e7eb2a78-f98e-4aec-93b3-dc3deb690c6e" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-664.0773 -1.2384931 -320.33847" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.06022688 0.31067768 0.0136905685 0.94850665" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_IlynTothJournalText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h91f07de1g94dag430egac96gce5af6ac5569" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc1830785g42e2g4748ga44fgdbdc2f3e63d3" version="1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="17171c56-6fcc-4e5b-8d83-be08602d3b59" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_AndersDispatch" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="28b098cd-2448-4193-881f-edaf67abd4e0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="110.952194 39.77823 561.8426" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.8617676 0 0.5073033" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_AndersDispatchText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h545d99b8g3461g49e8g87f9g408c3a5ae7f9" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hfefb162cgb7e5g46dcgbfe0g015b373c9052" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Simple_D" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="45798590-b8f8-4fde-9c60-7bafae369e61" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_AzardonPowerSpeech" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="97423da0-582b-42e3-90ed-ee219afed495" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="114.24711 39.808296 556.1659" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.6487258 0 0.76102227" />
+							<attribute id="Scale" type="float" value="2" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_AzardonPowerSpeechText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hd14ca27cgae62g4d5bg929dge208b267d24d" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb816ab12ga97dg4232g85b4g62621cc13338" version="1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="71a28964-e69e-454a-b487-f6445c23959f" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_InitiateLetter" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="e027e262-3707-43c9-b023-d80778956f71" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="74.27062 22.283203 478.7017" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.6487258 0 0.76102227" />
+							<attribute id="Scale" type="float" value="1.5" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_InitiateLetterText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h62c91d89g7a35g46f6ga4f4g8fd8e189dcf4" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5125f727g3cc7g4ec2g9bdaga38b743e4800" version="1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="afec2e51-81a8-4c0d-b185-d4f209219962" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_RegretfulLetter" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="e027e262-3707-43c9-b023-d80778956f71" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="75.27062 22.283203 477.7017" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.2487258 0 0.76102227" />
+							<attribute id="Scale" type="float" value="1.5" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_RegretfulLetterText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="ha958bbb2g5af6g4e04gb08fgbf0ae2cff5ab" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hae055e9cg6e20g4575g8df6gd64ba9c7c614" version="1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="053676ee-13cf-4abd-8f90-f35267fea3d9" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_UnsentDispatch_000" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="4d69834f-af2a-4197-9454-789049667b23" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_UnsentDispatchText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h5d832fc4g3694g494fgaa3ag098fd27ac881" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc5549929g6850g43b4gab8dg5cacc8b19349" version="1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="057b497c-f8e3-4371-8b25-8896bc3f28ca" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_Thanatopsis_000" />
+					<attribute id="Stats" type="FixedString" value="BOOK_DreadOverlord_Lore_Thanatopsis" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="4d69834f-af2a-4197-9454-789049667b23" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_ThanatopsisText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="he89aace2gf303g4cdcg95b7gdd95e16229fa" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="9014b557-7d65-4674-b4e0-407e4e07a0e4" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Name" type="LSString" value="CORPSE_DreadOverlord_Skeleton_AssassinatedCultist" />
+					<attribute id="TemplateName" type="FixedString" value="e1d7e0fa-58fe-4d70-bf2e-d2f18d30e10e" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790666" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CORPSE_DreadOverlord_Skeleton_AssassinatedCultist_Items" />
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="d62f4a66-96fb-540e-6808-7a256f772043" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="36.432556 7.492187 -215.22046" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.12653142 0 0.8919626" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h61f04eadgdc8bg47a3g9d82g5a337d3a6a4e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h59224cfbg33cdg4e8eg86cagee0fdb4442b4" version="1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="eafce897-eee0-4822-96c8-a9ab2489a72d" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_NineFingersReport" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="b2f9489a-c539-4eb5-b77d-d365797d1a42" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_NineFingersReportText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="383.75 18.11914 -268.75" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.60202485 0 0.7984774" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h60ce37deg17aag457bg8e16g82c6ebda304d" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="heb36f37fg7674g4ef2g8d04gaa2de9d06b74" version="1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="9d43b712-6628-46a8-ac8e-7e1ddaa85bcc" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_Lore_InitiatesPrayer" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="b2f9489a-c539-4eb5-b77d-d365797d1a42" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_InitiatesPrayerText" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="312.25 4.299804 -167.75" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.60202485 0 0.7984774" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="he89aace2gf303g4cdcg95b7gdd95e16229fa" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="251e0f41-e2e3-423f-bc6e-d4215c22ac1c" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Name" type="LSString" value="CORPSE_DreadOverlord_Skeleton_AssassinatedCultist_002" />
+					<attribute id="TemplateName" type="FixedString" value="e1d7e0fa-58fe-4d70-bf2e-d2f18d30e10e" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790666" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CORPSE_DreadOverlord_Skeleton_AssassinatedCultist_Items_002" />
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="d62f4a66-96fb-540e-6808-7a256f772043" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="385.72876 34.375977 48.351204" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.12653142 0 0.8919626" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h316a33b4g4354g4e67gbceeg59dcd0a2d90c" version="1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="a9584c7e-d1a8-4095-a4af-91f0aa9545b8" />
+					<attribute id="Name" type="LSString" value="DREADOVERLORD_BoneSculpture_1" />
+					<attribute id="TemplateName" type="FixedString" value="b1df87bd-3621-4a74-96f7-e719adb3d8e8" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="BookType" type="uint8" value="5" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h13b00e02g8c8eg4e0cga865g460b98f63b3a" version="1" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<attribute id="DropSound" type="FixedString" value="102c6624-d306-90a2-fa2c-706e6b3c4374" />
+					<attribute id="LoopSound" type="FixedString" value="483ec72a-ad71-e784-b088-6b9592d8e17e" />
+					<attribute id="PickupSound" type="FixedString" value="3131b90f-c496-fbc8-0bcd-8a1d078f007d" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_BoneSculpture1Text" />
+											<attribute id="Conditions" type="LSString" value="Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_BoneSculptureHeretic" />
+											<attribute id="Conditions" type="LSString" value="not Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-285.75 17.466797 -233.75" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="2" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h316a33b4g4354g4e67gbceeg59dcd0a2d90c" version="1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="70ef8379-4214-4c44-9414-d2d74dec5d03" />
+					<attribute id="Name" type="LSString" value="DREADOVERLORD_BoneSculpture_2" />
+					<attribute id="TemplateName" type="FixedString" value="b1df87bd-3621-4a74-96f7-e719adb3d8e8" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="BookType" type="uint8" value="5" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h13b00e02g8c8eg4e0cga865g460b98f63b3a" version="1" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<attribute id="DropSound" type="FixedString" value="102c6624-d306-90a2-fa2c-706e6b3c4374" />
+					<attribute id="LoopSound" type="FixedString" value="483ec72a-ad71-e784-b088-6b9592d8e17e" />
+					<attribute id="PickupSound" type="FixedString" value="3131b90f-c496-fbc8-0bcd-8a1d078f007d" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_BoneSculpture2Text" />
+											<attribute id="Conditions" type="LSString" value="Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_BoneSculptureHeretic" />
+											<attribute id="Conditions" type="LSString" value="not Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-570.56445 25.548828 288.68997" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="2" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h316a33b4g4354g4e67gbceeg59dcd0a2d90c" version="1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="21a9724b-0d79-43b1-a63e-8d935aef1372" />
+					<attribute id="Name" type="LSString" value="DREADOVERLORD_BoneSculpture_3" />
+					<attribute id="TemplateName" type="FixedString" value="b1df87bd-3621-4a74-96f7-e719adb3d8e8" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="BookType" type="uint8" value="5" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h13b00e02g8c8eg4e0cga865g460b98f63b3a" version="1" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_BoneSculpture3Text" />
+											<attribute id="Conditions" type="LSString" value="Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_BoneSculptureHeretic" />
+											<attribute id="Conditions" type="LSString" value="not Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-671.75 -1.507813 -354.25" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="2" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h316a33b4g4354g4e67gbceeg59dcd0a2d90c" version="1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="008069b2-3b9c-4569-b4ca-687cfbd5d088" />
+					<attribute id="Name" type="LSString" value="DREADOVERLORD_BoneSculpture_4" />
+					<attribute id="TemplateName" type="FixedString" value="b1df87bd-3621-4a74-96f7-e719adb3d8e8" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="BookType" type="uint8" value="5" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h13b00e02g8c8eg4e0cga865g460b98f63b3a" version="1" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_Lore_BoneSculpture4Text" />
+											<attribute id="Conditions" type="LSString" value="Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_BoneSculptureHeretic" />
+											<attribute id="Conditions" type="LSString" value="not Tagged('WARLOCK_DREAD_OVERLORD', context.Source)" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="91.746086 55.123047 -99.5394" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="2" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hd6db51aegb88eg4361gb95bg5ed2e048240f" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h493ad3dfg461ag4121g8644g6ba009c3f523" version="1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="25e776a4-cf45-4164-a178-333db75d28ff" />
+					<attribute id="Name" type="LSString" value="BOOK_DreadOverlord_BattleManualVII" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="b2f9489a-c539-4eb5-b77d-d365797d1a42" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757760" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="BOOK_DreadOverlord_BattleManualVII_Text" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-32 42.28971 -296" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.60202485 0 0.7984774" />
+							<attribute id="Scale" type="float" value="2" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="6242415e-3d2c-4bce-89b5-10a18615e3d3" />
+					<attribute id="Name" type="LSString" value="UNI_DreadOverlord_Bell_Savoy" />
+					<attribute id="TemplateName" type="FixedString" value="1f42915b-1eb9-4825-97f0-a7cf1883fdeb" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274313" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="304.3899 6.042005 -166.54231" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="885a0495-3930-4703-bb96-d114c4260b91" />
+					<attribute id="Name" type="LSString" value="UNI_DreadOverlord_Bell_Thy" />
+					<attribute id="TemplateName" type="FixedString" value="47647566-b86d-4deb-9c2c-3a759b4ab45f" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274313" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eae0a27d-0418-aff3-18b5-065bcb2d01d0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="165.07858 4.60533 -420.78494" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="0.5" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

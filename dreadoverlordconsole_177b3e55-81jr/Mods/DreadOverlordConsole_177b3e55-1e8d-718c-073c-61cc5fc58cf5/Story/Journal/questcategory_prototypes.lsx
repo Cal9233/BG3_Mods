@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="QuestCategories">
+        <node id="root">
+            <children>
+                <node id="QuestCategory">
+                    <attribute id="CategoryID" type="FixedString" value="CATEGORY_DreadOverlord"/>
+                    <attribute id="Description" type="TranslatedString" handle="h72e52122g6b5cg4a4cga519ga95e15253003" version="1"/>
+                    <attribute id="QuestCategoryGuid" type="guid" value="055284a2-0419-4e56-ba32-132c21a45b24"/>
+                    <attribute id="SortingPriority" type="int32" value="11"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

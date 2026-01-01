@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328"/>
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d8"/>
+                    <attribute id="Level10" type="LSString" value="1d8"/>
+                    <attribute id="Level11" type="LSString" value="1d8"/>
+                    <attribute id="Level12" type="LSString" value="1d8"/>
+                    <attribute id="Level2" type="LSString" value="1d8"/>
+                    <attribute id="Level3" type="LSString" value="1d8"/>
+                    <attribute id="Level4" type="LSString" value="1d8"/>
+                    <attribute id="Level5" type="LSString" value="1d8"/>
+                    <attribute id="Level6" type="LSString" value="1d8"/>
+                    <attribute id="Level7" type="LSString" value="1d8"/>
+                    <attribute id="Level8" type="LSString" value="1d8"/>
+                    <attribute id="Level9" type="LSString" value="1d8"/>
+                    <attribute id="Name" type="FixedString" value="DreadOverlord_UndeadCommandersStrike_1d8"/>
+                    <attribute id="UUID" type="guid" value="aa35afbd-4f5c-4a23-833b-a3eacb429b84"/>
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d6"/>
+                    <attribute id="Level10" type="LSString" value="2d6"/>
+                    <attribute id="Level11" type="LSString" value="2d6"/>
+                    <attribute id="Level12" type="LSString" value="2d6"/>
+                    <attribute id="Level2" type="LSString" value="2d6"/>
+                    <attribute id="Level3" type="LSString" value="2d6"/>
+                    <attribute id="Level4" type="LSString" value="2d6"/>
+                    <attribute id="Level5" type="LSString" value="2d6"/>
+                    <attribute id="Level6" type="LSString" value="2d6"/>
+                    <attribute id="Level7" type="LSString" value="2d6"/>
+                    <attribute id="Level8" type="LSString" value="2d6"/>
+                    <attribute id="Level9" type="LSString" value="2d6"/>
+                    <attribute id="Name" type="FixedString" value="DreadOverlord_UndeadCommandersStrike_2d6"/>
+                    <attribute id="UUID" type="guid" value="b0683163-6f49-45af-8466-32ced58bf944"/>
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="3d6"/>
+                    <attribute id="Level10" type="LSString" value="3d6"/>
+                    <attribute id="Level11" type="LSString" value="3d6"/>
+                    <attribute id="Level12" type="LSString" value="3d6"/>
+                    <attribute id="Level2" type="LSString" value="3d6"/>
+                    <attribute id="Level3" type="LSString" value="3d6"/>
+                    <attribute id="Level4" type="LSString" value="3d6"/>
+                    <attribute id="Level5" type="LSString" value="3d6"/>
+                    <attribute id="Level6" type="LSString" value="3d6"/>
+                    <attribute id="Level7" type="LSString" value="3d6"/>
+                    <attribute id="Level8" type="LSString" value="3d6"/>
+                    <attribute id="Level9" type="LSString" value="3d6"/>
+                    <attribute id="Name" type="FixedString" value="DreadOverlord_UndeadCommandersStrike_3d6"/>
+                    <attribute id="UUID" type="guid" value="d228c734-ee6b-4d2a-896e-e741c3e9a079"/>
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d12"/>
+                    <attribute id="Level10" type="LSString" value="2d12"/>
+                    <attribute id="Level11" type="LSString" value="2d12"/>
+                    <attribute id="Level12" type="LSString" value="2d12"/>
+                    <attribute id="Level2" type="LSString" value="2d12"/>
+                    <attribute id="Level3" type="LSString" value="2d12"/>
+                    <attribute id="Level4" type="LSString" value="2d12"/>
+                    <attribute id="Level5" type="LSString" value="2d12"/>
+                    <attribute id="Level6" type="LSString" value="2d12"/>
+                    <attribute id="Level7" type="LSString" value="2d12"/>
+                    <attribute id="Level8" type="LSString" value="2d12"/>
+                    <attribute id="Level9" type="LSString" value="2d12"/>
+                    <attribute id="Name" type="FixedString" value="DreadOverlord_UndeadCommandersStrike_2d12"/>
+                    <attribute id="UUID" type="guid" value="429114ab-c736-42a2-b01d-51375637647e"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
