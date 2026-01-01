@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="307"/>
+    <region id="EquipmentLists">
+        <node id="root">
+            <children>
+                <node id="EquipmentList">
+                    <attribute id="UUID" type="guid" value="99059633-1460-4246-817f-723046755106"/>
+                    <attribute id="Items" type="LSString" value="WPN_Dagger;WPN_Dagger;WPN_Shortbow;OBJ_Arrow"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

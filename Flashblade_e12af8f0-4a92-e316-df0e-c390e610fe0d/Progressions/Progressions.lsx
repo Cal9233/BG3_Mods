@@ -13,7 +13,7 @@
                     <attribute id="Name" type="LSString" value="Flashblade"/>
                     <attribute id="PassivesAdded" type="LSString" value="UnarmoredDefense_Monk;MartialArts_BonusUnarmedStrike"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);AddSpells(c5fe1f73-e71f-4b03-87b0-6c28a5c67c2a,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);AddSpells(c5fe1f73-e71f-4b03-87b0-6c28a5c67c2a,,,,AlwaysPrepared);Equipment(99059633-1460-4246-817f-723046755106,1,FlashbladeGear)"/>
                     <attribute id="TableUUID" type="guid" value="ad1d81d7-be0b-4588-8e33-6eef835d8060"/>
                     <attribute id="UUID" type="guid" value="82547ba2-bc69-43d3-9a45-b3168c2c6636"/>
                 </node>
