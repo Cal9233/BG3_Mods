@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <!-- ========================================== -->
+                <!-- MAIN CLASS: Flashblade                     -->
+                <!-- Based on Jujutsu Kaisen working structure  -->
+                <!-- ========================================== -->
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="8"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Flashblade"/>
+                    <attribute id="ClassHotbarColumns" type="int32" value="5"/>
+                    <attribute id="CommonHotbarColumns" type="int32" value="9"/>
+                    <attribute id="Description" type="TranslatedString" handle="hFB_Class_Description" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hFB_Class_DisplayName" version="1"/>
+                    <attribute id="HpPerLevel" type="int32" value="5"/>
+                    <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Flashblade"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ad1d81d7-be0b-4588-8e33-6eef835d8060"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Monk"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="2"/>
+                    <attribute id="UUID" type="guid" value="5e3f0164-0424-4e43-87a1-a0cc45ee4454"/>
+                </node>
+
+                <!-- ========================================== -->
+                <!-- SUBCLASS: Way of the Ricochet              -->
+                <!-- ========================================== -->
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hFB_Ricochet_Description" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hFB_Ricochet_DisplayName" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Way of the Ricochet"/>
+                    <attribute id="ParentGuid" type="guid" value="5e3f0164-0424-4e43-87a1-a0cc45ee4454"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="d879c361-8e57-4a8f-a3b3-a365db1405fe"/>
+                    <attribute id="ShortName" type="TranslatedString" handle="hFB_Ricochet_ShortName" version="1"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Monk"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="2"/>
+                    <attribute id="UUID" type="guid" value="d879c361-8e57-4a8f-a3b3-a365db1405fe"/>
+                </node>
+
+                <!-- ========================================== -->
+                <!-- SUBCLASS: Way of the Explosive             -->
+                <!-- ========================================== -->
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hFB_Explosive_Description" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hFB_Explosive_DisplayName" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Way of the Explosive"/>
+                    <attribute id="ParentGuid" type="guid" value="5e3f0164-0424-4e43-87a1-a0cc45ee4454"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="bf5c2ccd-6615-4f1c-a4a7-8f4d459429ff"/>
+                    <attribute id="ShortName" type="TranslatedString" handle="hFB_Explosive_ShortName" version="1"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Monk"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="2"/>
+                    <attribute id="UUID" type="guid" value="bf5c2ccd-6615-4f1c-a4a7-8f4d459429ff"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
