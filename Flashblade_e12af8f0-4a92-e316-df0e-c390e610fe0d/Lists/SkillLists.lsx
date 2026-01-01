@@ -11,7 +11,7 @@
                 <!-- UUID: f974ebd6-3725-4b90-bb5c-2b647d41615d       -->
                 <!-- ================================================ -->
                 <node id="SkillList">
-                    <attribute id="Skills" type="LSString" value="Acrobatics;Athletics;Insight;Perception;Stealth;SleightOfHand"/>
+                    <attribute id="Skills" type="LSString" value="Acrobatics, Athletics, Insight, Perception, Stealth, SleightOfHand"/>
                     <attribute id="UUID" type="guid" value="f974ebd6-3725-4b90-bb5c-2b647d41615d"/>
                 </node>
             </children>

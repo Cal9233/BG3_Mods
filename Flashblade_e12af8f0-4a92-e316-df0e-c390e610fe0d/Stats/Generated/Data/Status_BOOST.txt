@@ -61,3 +61,15 @@ data "Icon" "Spell_Transmutation_Slow"
 data "StackId" "FLASHBLADE_SLOWED"
 data "StackType" "Overwrite"
 data "StatusGroups" "SG_Condition"
+
+// ------------------------------------------
+// CHAIN FLASH COOLDOWN
+// ------------------------------------------
+new entry "FLASHBLADE_CHAIN_FLASH_COOLDOWN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hFB_ChainFlashCooldown_DisplayName"
+data "Description" "hFB_ChainFlashCooldown_Description"
+data "Icon" "Spell_Transmutation_Haste"
+data "StackId" "FLASHBLADE_CHAIN_FLASH_COOLDOWN"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"

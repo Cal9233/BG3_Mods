@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp:*)",
+      "Bash(git add:*)",
+      "Bash(git restore:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nReorganize mod files into Flashblade folder structure\n\n- Replaced old Flash_Kunai folder with new Flashblade mod structure\n- Renamed Flash_Kunai_Mod_Guide.md to Mod_Guide.md\n- Updated Equipment, Spell_Projectile, Spell_Target, and Status_BOOST files\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(dir:*)"
+    ]
+  }
+}

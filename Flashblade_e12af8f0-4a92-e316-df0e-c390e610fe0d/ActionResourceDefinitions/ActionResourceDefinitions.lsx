@@ -9,8 +9,8 @@
                 <!-- Based on JJK CursedEnergy working template       -->
                 <!-- ================================================ -->
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="hFB_KunaiPoint_Description" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hFB_KunaiPoint_DisplayName" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hFB_KunaiPoint_Description" version="0"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hFB_KunaiPoint_DisplayName" version="0"/>
                     <attribute id="MaxLevel" type="uint32" value="0"/>
                     <attribute id="Name" type="FixedString" value="KunaiPoint"/>
                     <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>

@@ -10,7 +10,6 @@
 new entry "Projectile_MarkedKunai"
 type "SpellData"
 data "SpellType" "Projectile"
-using "Projectile_ThrowDagger"
 data "SpellProperties" "ApplyStatus(FLASHBLADE_MARK,100,-1)"
 data "SpellSuccess" "DealDamage(1d4+DexterityModifier,Piercing);ApplyStatus(FLASHBLADE_MARK,100,-1)"
 data "TargetConditions" "Character() and not Self() and not Dead()"

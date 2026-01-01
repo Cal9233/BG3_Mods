@@ -1,6 +1,10 @@
 new equipment "EQP_CC_Flashblade"
 add initialweaponset "Melee"
 add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
 add equipment entry "ARM_Leather_Body"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather"
