@@ -8,12 +8,12 @@ The mod uses XML localization files that must be converted to binary `.loca` for
 
 ### Source File
 ```
-Flashblade_e12af8f0-4a92-e316-df0e-c390e610fe0d\Localization\English\Flashblade.loca.xml
+Flashblade_b7ba1c69-c6be-e9a9-619c-f0a2d0080587\Localization\English\Flashblade.loca.xml
 ```
 
 ### Output Destination
 ```
-C:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3\Data\Mods\Flashblade_e12af8f0-4a92-e316-df0e-c390e610fe0d\Localization\English\Flashblade.loca
+C:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3\Data\Mods\Flashblade_b7ba1c69-c6be-e9a9-619c-f0a2d0080587\Localization\English\Flashblade.loca
 ```
 
 ### Conversion Tools
