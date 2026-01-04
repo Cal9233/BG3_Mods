@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 1"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_MarkedKunai;Target_FlashStep;Shout_RecoverKunai"/>
+                    <attribute id="UUID" type="guid" value="c5fe1f73-e71f-4b03-87b0-6c28a5c67c2a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 2"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SmokeBombEscape"/>
+                    <attribute id="UUID" type="guid" value="d6ef2f84-f82f-5c14-98c1-7d39b6d78d3b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Rush_Chidori;Rush_PhantomRush;Projectile_RicochetKunai"/>
+                    <attribute id="UUID" type="guid" value="c3d4e5f6-0718-4293-0415-263748596071"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_ShadowClone"/>
+                    <attribute id="UUID" type="guid" value="fb1a0001-0004-4000-8000-000000000004"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Zone_KunaiScatter;Projectile_ExplosiveKunai"/>
+                    <attribute id="UUID" type="guid" value="a1a2a3a4-b5b6-4c7c-8d8d-9e9e0f0f1a1a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 6"/>
+                    <attribute id="Spells" type="LSString" value="Rush_Rasengan;Projectile_KunaiBarrage"/>
+                    <attribute id="UUID" type="guid" value="e7f03f95-a93a-6d25-09d2-8e40c7e89e4c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 7"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ChainKunaiStrike;Shout_StillnessOfMind"/>
+                    <attribute id="UUID" type="guid" value="d7e8f901-2a3b-4c5d-6e7f-8091a2b3c4d5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 8"/>
+                    <attribute id="Spells" type="LSString" value="Target_MultiShadowClone"/>
+                    <attribute id="UUID" type="guid" value="fb1a0001-0008-4000-8000-000000000008"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SageMode"/>
+                    <attribute id="UUID" type="guid" value="f8014106-b04b-7e36-10e3-9f51d8f90f5d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 10"/>
+                    <attribute id="Spells" type="LSString" value="Target_MarkedForDeath"/>
+                    <attribute id="UUID" type="guid" value="e8f90123-4a5b-6c7d-8e9f-0a1b2c3d4e5f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 11"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="b2b3b4b5-c6c7-4d8d-9e9e-0f0f1a1a2b2b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Flashblade Level 12"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="a9125217-c15c-8f47-21f4-0a62e9a01a6e"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

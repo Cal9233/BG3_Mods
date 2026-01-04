@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList date="04/01/2026 00:00">
+	<content contentuid="hFB_Class_DisplayName" version="1">Flashblade</content>
+	<content contentuid="hFB_Class_Description" version="1">A lightning-fast warrior who marks enemies with kunai and teleports to strike them down.</content>
+	<content contentuid="hFB_KunaiPoint_DisplayName" version="1">Kunai Points</content>
+	<content contentuid="hFB_KunaiPoint_Description" version="1">Energy used to power teleportation and special kunai techniques.</content>
+	<content contentuid="hFB_MartialArts_DisplayName" version="1">Martial Arts</content>
+	<content contentuid="hFB_MartialArts_Description" version="1">Your unarmed strikes deal scaling damage based on your Flashblade level.</content>
+	<content contentuid="hFB_UnarmoredDefense_DisplayName" version="1">Unarmored Defense</content>
+	<content contentuid="hFB_UnarmoredDefense_Description" version="1">While not wearing armor, your AC equals 10 + Dexterity modifier + Wisdom modifier.</content>
+	<content contentuid="hFB_MasterOfTheFlash_DisplayName" version="1">Master of the Flash</content>
+	<content contentuid="hFB_MasterOfTheFlash_Description" version="1">Your marks become permanent and teleport abilities cost fewer Kunai Points.</content>
+	<content contentuid="hFB_DeflectMissiles_DisplayName" version="1">Deflect Missiles</content>
+	<content contentuid="hFB_DeflectMissiles_Description" version="1">When hit by a ranged weapon attack, reduce the damage.</content>
+	<content contentuid="hFB_Substitution_DisplayName" version="1">Substitution</content>
+	<content contentuid="hFB_Substitution_Description" version="1">When hit by an attack, use your reaction to force the attack to miss and gain a free teleport.</content>
+	<content contentuid="hFB_ChainFlashPassive_DisplayName" version="1">Chain Flash</content>
+	<content contentuid="hFB_ChainFlashPassive_Description" version="1">You can strike multiple marked targets in rapid succession.</content>
+	<content contentuid="hFB_RicochetBounceBack_DisplayName" version="1">Ricochet Bounce Back</content>
+	<content contentuid="hFB_RicochetBounceBack_Description" version="1">When your kunai ricochets, you deal additional damage.</content>
+	<content contentuid="hFB_RicochetMastery_DisplayName" version="1">Ricochet Mastery</content>
+	<content contentuid="hFB_RicochetMastery_Description" version="1">You have perfected the art of ricochet attacks.</content>
+	<content contentuid="hFB_ExplosiveChainReaction_DisplayName" version="1">Chain Reaction</content>
+	<content contentuid="hFB_ExplosiveChainReaction_Description" version="1">When a volatile mark detonates, it can trigger other nearby marks.</content>
+	<content contentuid="hFB_StillnessOfMind_DisplayName" version="1">Stillness of Mind</content>
+	<content contentuid="hFB_StillnessOfMind_Description" version="1">Clear your mind, removing Frightened and Charmed conditions.</content>
+	<content contentuid="hFB_Mark_DisplayName" version="1">Flashblade Mark</content>
+	<content contentuid="hFB_Mark_Description" version="1">Marked by a kunai. The Flashblade can teleport to this target.</content>
+	<content contentuid="hFB_Advantage_DisplayName" version="1">Flash Strike</content>
+	<content contentuid="hFB_Advantage_Description" version="1">You have Advantage on your next attack roll.</content>
+	<content contentuid="hFB_SubstitutionEscape_DisplayName" version="1">Substitution Escape</content>
+	<content contentuid="hFB_SubstitutionEscape_Description" version="1">Teleport to a nearby location after dodging an attack.</content>
+	<content contentuid="hFB_ChainFlashCooldown_DisplayName" version="1">Chain Flash Cooldown</content>
+	<content contentuid="hFB_ChainFlashCooldown_Description" version="1">Cannot use Chain Flash again until this expires.</content>
+	<content contentuid="hFB_SageModeStatus_Description" version="1">Heightened awareness grants &lt;LSTag Tooltip="ActionPoint"&gt;+2 Actions&lt;/LSTag&gt;, &lt;LSTag Tooltip="BonusActionPoint"&gt;+1 Bonus Action&lt;/LSTag&gt;, and &lt;LSTag Tooltip="Movement"&gt;+3m Movement&lt;/LSTag&gt; each turn.</content>
+	<content contentuid="hFB_RaijinReady_DisplayName" version="1">Raijin Ready</content>
+	<content contentuid="hFB_RaijinReady_Description" version="1">Your marks are set. You can use &lt;LSTag Tooltip="Rush_FlyingRaijin_Free"&gt;Flying Raijin&lt;/LSTag&gt; for free this turn.</content>
+	<content contentuid="hFB_MarkedKunai_DisplayName" version="1">Marked Kunai</content>
+	<content contentuid="hFB_MarkedKunai_Description" version="1">Throw a kunai that marks the target, allowing you to teleport to them.</content>
+	<content contentuid="hFB_Kunai_DisplayName" version="1">Kunai Throw</content>
+	<content contentuid="hFB_Kunai_Description" version="1">Throw a kunai at an enemy, dealing piercing damage.</content>
+	<content contentuid="hFB_RicochetKunai_DisplayName" version="1">Ricochet Kunai</content>
+	<content contentuid="hFB_RicochetKunai_Description" version="1">Throw a kunai that bounces between enemies, marking each target hit.</content>
+	<content contentuid="hFB_ExplosiveKunai_DisplayName" version="1">Explosive Kunai</content>
+	<content contentuid="hFB_ExplosiveKunai_Description" version="1">Throw a kunai that explodes on impact, dealing fire damage in an area.</content>
+	<content contentuid="hFB_KunaiBarrage_DisplayName" version="1">Kunai Barrage</content>
+	<content contentuid="hFB_KunaiBarrage_Description" version="1">Teleport to a location and unleash a barrage of kunai that ricochet between up to 5 enemies, marking each target.</content>
+	<content contentuid="hFB_ChainKunaiStrike_DisplayName" version="1">Chain Kunai Strike</content>
+	<content contentuid="hFB_ChainKunaiStrike_Description" version="1">Teleport rapidly between up to 6 enemies in a blink, striking each one with devastating speed.</content>
+	<content contentuid="hFB_FlashStep_DisplayName" version="1">Flash Step</content>
+	<content contentuid="hFB_FlashStep_Description" version="1">Instantly teleport to a marked enemy and strike with force energy.</content>
+	<content contentuid="hFB_Chidori_DisplayName" version="1">Chidori</content>
+	<content contentuid="hFB_Chidori_Description" version="1">Dash forward with lightning speed, dealing lightning damage and preventing the target from taking reactions.</content>
+	<content contentuid="hFB_Rasengan_DisplayName" version="1">Rasengan</content>
+	<content contentuid="hFB_RasenganRush_Description" version="1">Rush to a marked target and strike with a spiraling sphere of force energy, dealing damage and knocking them back.</content>
+	<content contentuid="hFB_CloneRasengan_DisplayName" version="1">Clone Rush</content>
+	<content contentuid="hFB_CloneRasengan_Description" version="1">Teleport to an enemy and strike with concentrated force energy.</content>
+	<content contentuid="hFB_PhantomRush_DisplayName" version="1">Phantom Rush</content>
+	<content contentuid="hFB_PhantomRush_Description" version="1">Move ghost-like through the battlefield, passing through enemies to &lt;LSTag Tooltip="FLASHBLADE_MARK"&gt;Mark&lt;/LSTag&gt; them. Unlocks a free &lt;LSTag Tooltip="Rush_FlyingRaijin_Free"&gt;Flying Raijin&lt;/LSTag&gt; this turn.</content>
+	<content contentuid="hFB_FlyingRaijin_DisplayName" version="1">Flying Raijin</content>
+	<content contentuid="hFB_FlyingRaijin_Description" version="1">Instantly teleport to a marked target at extreme range, striking with devastating force and lightning damage.</content>
+	<content contentuid="hFB_FlyingRaijinFree_DisplayName" version="1">Flying Raijin (Free)</content>
+	<content contentuid="hFB_FlyingRaijinFree_Description" version="1">Instantly teleport to a &lt;LSTag Tooltip="FLASHBLADE_MARK"&gt;Marked&lt;/LSTag&gt; target and strike with a Rasengan, dealing Force damage and knocking them back. This use is free after Phantom Rush.</content>
+	<content contentuid="hFB_KunaiScatter_DisplayName" version="1">Kunai Scatter</content>
+	<content contentuid="hFB_KunaiScatter_Description" version="1">Throw kunai in a wide arc, marking multiple enemies at once.</content>
+	<content contentuid="hFB_CloneShuriken_DisplayName" version="1">Shuriken Scatter</content>
+	<content contentuid="hFB_CloneShuriken_Description" version="1">Throw shuriken in a cone, hitting all enemies in the area.</content>
+	<content contentuid="hFB_RecoverKunai_DisplayName" version="1">Recover Kunai</content>
+	<content contentuid="hFB_RecoverKunai_Description" version="1">Recover spent kunai points by removing marks from all enemies.</content>
+	<content contentuid="hFB_SmokeBombEscape_DisplayName" version="1">Smoke Bomb Escape</content>
+	<content contentuid="hFB_SmokeBombEscape_Description" version="1">Throw a smoke bomb, dealing damage to nearby enemies and creating a fog cloud for cover.</content>
+	<content contentuid="hFB_SageMode_DisplayName" version="1">Sage Mode</content>
+	<content contentuid="hFB_SageMode_Description" version="1">Enter a heightened state of awareness. For 3 turns, gain &lt;LSTag Tooltip="ActionPoint"&gt;2 additional Actions&lt;/LSTag&gt; and &lt;LSTag Tooltip="BonusActionPoint"&gt;1 additional Bonus Action&lt;/LSTag&gt; each turn, plus increased movement speed.</content>
+	<content contentuid="hFB_ShadowClone_DisplayName" version="1">Shadow Clone</content>
+	<content contentuid="hFB_ShadowClone_Description" version="1">Create an illusory duplicate that can distract enemies and draw their attacks.</content>
+	<content contentuid="hFB_MultiShadowClone_DisplayName" version="1">Multi Shadow Clone</content>
+	<content contentuid="hFB_MultiShadowClone_Description" version="1">Create four illusory duplicates at once to overwhelm your enemies.</content>
+	<content contentuid="hFB_MarkedForDeath_DisplayName" version="1">Marked For Death</content>
+	<content contentuid="hFB_MarkedForDeath_Description" version="1">Execute a marked enemy, dealing massive damage based on their missing health.</content>
+</contentList>

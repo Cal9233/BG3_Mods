@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not the gitignore itself
+!.gitignore
+
+# And not the Teleporting_Kunai mod folder
+!Teleporting_Kunai_bf34c36e-3ec1-b62b-d7c1-a40be3f25528/
+!Teleporting_Kunai_bf34c36e-3ec1-b62b-d7c1-a40be3f25528/**

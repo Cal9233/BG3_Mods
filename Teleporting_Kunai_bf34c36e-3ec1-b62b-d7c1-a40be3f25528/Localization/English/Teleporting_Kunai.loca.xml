@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+    <!-- ================================================ -->
+    <!-- CLASS DESCRIPTIONS                               -->
+    <!-- ================================================ -->
+    <content contentuid="hFB_Class_DisplayName" version="0">Flashblade</content>
+    <content contentuid="hFB_Class_Description" version="0">Masters of space and time, Flashblades mark their targets with mystical kunai and teleport with blinding speed. Like the legendary Yellow Flash, they strike before their enemies can react.</content>
+
+    <!-- ================================================ -->
+    <!-- ACTION RESOURCE                                  -->
+    <!-- ================================================ -->
+    <content contentuid="hFB_KunaiPoint_DisplayName" version="0">Kunai Points</content>
+    <content contentuid="hFB_KunaiPoint_Description" version="0">Mystical energy used to power Flashblade techniques. Restored on Short Rest.</content>
+
+    <!-- ================================================ -->
+    <!-- TARGET SPELLS                                    -->
+    <!-- ================================================ -->
+    <content contentuid="hFB_FlashStep_DisplayName" version="0">Flash Step</content>
+    <content contentuid="hFB_FlashStep_Description" version="0">Teleport instantly to any marked target. Costs 1 Kunai Point.</content>
+
+    <content contentuid="hFB_FlashStrike_DisplayName" version="0">Flash Strike</content>
+    <content contentuid="hFB_FlashStrike_Description" version="0">Teleport to a marked target and immediately strike them with your melee weapon.</content>
+
+    <content contentuid="hFB_GravityWell_DisplayName" version="0">Gravity Well</content>
+    <content contentuid="hFB_GravityWell_Description" version="0">Create a gravity distortion in a 6m radius. All creatures must make a STR save or have their movement speed halved for 3 turns.</content>
+
+    <content contentuid="hFB_Rasengan_DisplayName" version="0">Rasengan</content>
+    <content contentuid="hFB_Rasengan_Description" version="0">Teleport to a marked target and slam them with a spiraling sphere of pure force, dealing [1] and pushing them back 5m.</content>
+
+    <content contentuid="hFB_Substitution_DisplayName" version="0">Substitution</content>
+    <content contentuid="hFB_Substitution_Description" version="0">When hit by an attack, swap places with a marked enemy, causing the attack to miss.</content>
+
+    <content contentuid="hFB_KunaiScatter_DisplayName" version="0">Kunai Scatter</content>
+    <content contentuid="hFB_KunaiScatter_Description" version="0">Throw a fan of kunai in a cone, dealing [1] and marking all enemies hit.</content>
+
+    <content contentuid="hFB_MarkedForDeath_DisplayName" version="0">Marked for Death</content>
+    <content contentuid="hFB_MarkedForDeath_Description" version="0">Execute a marked enemy below 25% HP with a devastating finishing blow, dealing [1].</content>
+
+    <!-- ================================================ -->
+    <!-- PROJECTILE SPELLS                                -->
+    <!-- ================================================ -->
+    <content contentuid="hFB_MarkedKunai_DisplayName" version="0">Marked Kunai</content>
+    <content contentuid="hFB_MarkedKunai_Description" version="0">Throw a kunai dealing [1] piercing damage and marking the target. You can teleport to marked targets with Flash Step.</content>
+
+    <content contentuid="hFB_RicochetKunai_DisplayName" version="0">Ricochet Kunai</content>
+    <content contentuid="hFB_RicochetKunai_Description" version="0">Throw a kunai that bounces between up to 3 enemies, dealing [1] piercing damage and marking each target hit.</content>
+
+    <content contentuid="hFB_ExplosiveKunai_DisplayName" version="0">Explosive Kunai</content>
+    <content contentuid="hFB_ExplosiveKunai_Description" version="0">Throw an explosive kunai that deals [1] fire damage in a 3m radius and marks all targets hit.</content>
+
+    <content contentuid="hFB_ChainKunaiStrike_DisplayName" version="0">Chain Kunai Strike</content>
+    <content contentuid="hFB_ChainKunaiStrike_Description" version="0">Throw kunai that chain between multiple marked targets, teleporting to strike each one.</content>
+
+    <!-- ================================================ -->
+    <!-- SHOUT SPELLS                                     -->
+    <!-- ================================================ -->
+    <content contentuid="hFB_FlurryOfStrikes_DisplayName" version="0">Flurry of Strikes</content>
+    <content contentuid="hFB_FlurryOfStrikes_Description" version="0">Make two rapid unarmed strikes as a bonus action.</content>
+
+    <content contentuid="hFB_RecoverKunai_DisplayName" version="0">Recover Kunai</content>
+    <content contentuid="hFB_RecoverKunai_Description" version="0">Focus your energy to recover 3 Kunai Points. Once per Short Rest.</content>
+
+    <content contentuid="hFB_KunaiClone_DisplayName" version="0">Kunai Clone</content>
+    <content contentuid="hFB_KunaiClone_Description" version="0">Create illusory copies of yourself that confuse enemies and absorb attacks.</content>
+
+    <content contentuid="hFB_StillnessOfMind_DisplayName" version="0">Stillness of Mind</content>
+    <content contentuid="hFB_StillnessOfMind_Description" version="0">Clear your mind of all distractions, removing charmed and frightened conditions.</content>
+
+    <content contentuid="hFB_VolatileDetonate_DisplayName" version="0">Volatile Detonate</content>
+    <content contentuid="hFB_VolatileDetonate_Description" version="0">Detonate your mark on a target, dealing [1] fire damage and removing the mark.</content>
+
+    <!-- ================================================ -->
+    <!-- RUSH SPELLS                                      -->
+    <!-- ================================================ -->
+    <content contentuid="hFB_PhantomRush_DisplayName" version="0">Phantom Rush</content>
+    <content contentuid="hFB_PhantomRush_Description" version="0">Dash through enemies in a blur, damaging all in your path and marking them.</content>
+
+    <!-- ================================================ -->
+    <!-- PASSIVES                                         -->
+    <!-- ================================================ -->
+    <content contentuid="hFB_MartialArts_DisplayName" version="0">Martial Arts</content>
+    <content contentuid="hFB_MartialArts_Description" version="0">Your unarmed strikes deal 1d4 damage and you can use Dexterity for attack and damage rolls.</content>
+
+    <content contentuid="hFB_UnarmoredDefense_DisplayName" version="0">Unarmored Defense</content>
+    <content contentuid="hFB_UnarmoredDefense_Description" version="0">While not wearing armor, your AC equals 10 + Dexterity modifier + Wisdom modifier.</content>
+
+    <content contentuid="hFB_DeflectMissiles_DisplayName" version="0">Deflect Missiles</content>
+    <content contentuid="hFB_DeflectMissiles_Description" version="0">Use your reaction to reduce incoming ranged weapon damage.</content>
+
+    <content contentuid="hFB_ExtraAttack_DisplayName" version="0">Extra Attack</content>
+    <content contentuid="hFB_ExtraAttack_Description" version="0">You can attack twice when you take the Attack action.</content>
+
+    <content contentuid="hFB_Evasion_DisplayName" version="0">Evasion</content>
+    <content contentuid="hFB_Evasion_Description" version="0">When you succeed on a Dexterity saving throw to take half damage, you take no damage instead.</content>
+
+    <content contentuid="hFB_MasterOfTheFlash_DisplayName" version="0">Master of the Flash</content>
+    <content contentuid="hFB_MasterOfTheFlash_Description" version="0">Your mastery of teleportation is complete. Flash Step and Flash Strike cost 1 less Kunai Point.</content>
+
+    <!-- ================================================ -->
+    <!-- STATUS EFFECTS                                   -->
+    <!-- ================================================ -->
+    <content contentuid="hFB_Mark_DisplayName" version="0">Kunai Mark</content>
+    <content contentuid="hFB_Mark_Description" version="0">Marked as a teleport destination for a Flashblade. This mark persists even through death.</content>
+
+    <content contentuid="hFB_VolatileMark_DisplayName" version="0">Volatile Mark</content>
+    <content contentuid="hFB_VolatileMark_Description" version="0">Marked with explosive energy. Can be detonated remotely.</content>
+
+    <content contentuid="hFB_Advantage_DisplayName" version="0">Flash Advantage</content>
+    <content contentuid="hFB_Advantage_Description" version="0">Your next attack has Advantage after teleporting.</content>
+
+    <content contentuid="hFB_Slowed_DisplayName" version="0">Gravity Slowed</content>
+    <content contentuid="hFB_Slowed_Description" version="0">Movement speed reduced by 50%.</content>
+
+    <!-- ================================================ -->
+    <!-- INTERRUPTS                                       -->
+    <!-- ================================================ -->
+    <content contentuid="hFB_SubstitutionInterrupt_DisplayName" version="0">Substitution</content>
+    <content contentuid="hFB_SubstitutionInterrupt_Description" version="0">When hit by an attack, swap places with a marked enemy.</content>
+</contentList>

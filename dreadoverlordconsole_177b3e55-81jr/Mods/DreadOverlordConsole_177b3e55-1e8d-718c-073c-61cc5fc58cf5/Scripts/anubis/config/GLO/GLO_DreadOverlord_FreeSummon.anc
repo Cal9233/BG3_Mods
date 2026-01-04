@@ -1,7 +1,0 @@
-game.configs.GLO_DreadOverlord_FreeSummon = Config{
-    root=StateRef{game.roots.DefaultCharacter,
-        genericBehaviours = StateRef{game.states.CrimesHumanoid},
-        idle = StateRef{game.states.GLO_DreadOverlord_FreeSummon},
-        partyMember = StateRef{game.states.GLO_DreadOverlord_FreeSummon},
-    }
-}
